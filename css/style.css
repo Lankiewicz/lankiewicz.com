@@ -54,7 +54,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 @media screen and (max-width: 767px){
   [class*="col-"]{
   float: left;
-  min-height: 300px;
+  min-height: 200px;
   padding: 0px;  
 }
 }
@@ -160,8 +160,7 @@ background-color: black;
   font-size: 18px;
 }
 @media screen and (max-width: 767px){
-.col-13 {
-  height: 500px;
+.col-8 {width: 60.66%;
 background-color: black;
 }
 }

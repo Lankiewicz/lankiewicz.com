@@ -54,10 +54,15 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 @media screen and (max-width: 767px){
   [class*="col-"]{
   float: left;
-  height: 800px;
+  height: 300px;
   padding: 0px;  
 }
 }
+@media screen and (max-width: 767px){
+  .none{
+   height: 100%;
+    }
+  }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 29%;}

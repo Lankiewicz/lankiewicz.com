@@ -54,7 +54,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 @media screen and (max-width: 767px){
   [class*="col-"]{
   float: left;
-  min-height: 200px;
+  min-height: 180px;
   padding: 0px;  
 }
 }

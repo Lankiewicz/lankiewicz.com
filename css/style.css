@@ -160,7 +160,8 @@ background-color: black;
   font-size: 18px;
 }
 @media screen and (max-width: 767px){
-.col-8 {width: 60.66%;
+.col-13 {
+  height: 500px;
 background-color: black;
 }
 }

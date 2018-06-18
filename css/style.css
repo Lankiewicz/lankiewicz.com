@@ -54,7 +54,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 @media screen and (max-width: 767px){
   [class*="col-"]{
   float: left;
-  min-height: 100px;
+  min-height: 275px;
   padding: 0px;  
 }
 }
@@ -125,11 +125,11 @@ background-color: black;
 }
 @media screen and (max-width: 767px){
 .col-8>.banner {
-   width: 170px;
-  height: 110px;
+   width: 195px;
+  height: 100px;
   float: left;
   position: relative;
-  top: 50px;
+  top: 30px;
   left: 30px;
 }
 
@@ -157,5 +157,10 @@ background-color: black;
 }
 @media screen and (max-width: 767px){
 .menu-navi ul li a{
-  font-size: 12px;
+  font-size: 18px;
+}
+@media screen and (max-width: 767px){
+.col-8 {width: 60.66%;
+background-color: black;
+}
 }

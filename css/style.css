@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,700");
 html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 
-.menu-container { margin: 0px 0px 0px 48px; width: auto; text-align: center; display: -ms-flexbox; display: flex; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; }
+.menu-container { margin: 23px 0px 0px 20px;
+    text-align: -webkit-center;
+    display: -ms-flexbox;
+    display: block;
+    cursor: pointer;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
 
 .menu-icon span { position: relative; display: block; width: 49px; height: 5.5px; background: black; border-radius: 2px; margin-bottom: 5px; transition: transform 0.4s ease-in-out, height 0.4s ease-in-out; }
 
@@ -13,7 +21,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 
 .opened span:nth-child(3) { transform: rotate(45deg); }
 
-.menu-navi { display: inline-block; margin-left: 35px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
+.menu-navi { display: inline-block; margin: 35px 0px 0px 40px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
 
 .menu-navi ul { text-align: left; }
 
@@ -23,7 +31,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 
 .menu-navi li a:hover { text-decoration: line-through;}
 
-.opened .menu-navi { width: 250px; transition: width 0.5s ease-in-out; }
+.opened .menu-navi { width: 150px; transition: width 0.5s ease-in-out; }
 
   box-sizing: border-box;
   font-family: sans-serif;
@@ -142,16 +150,17 @@ background-color: black;
 }
 @media screen and (max-width: 991px){
 .menu-container { 
-  margin: 30px 0px 0px 20px;
-  height: 120px;
-  width: auto; 
-  text-align: -webkit-center;
-  display: -webkit-box; 
-  cursor: pointer; 
-  -ms-flex-align: center; 
-  align-items: center; 
-  -ms-flex-pack: center; 
-  justify-content: center;
+    margin: 30px 0px 0px 95px;
+    height: 120px;
+    width: 100%;
+    text-align: -webkit-center;
+    display: block;
+    cursor: pointer;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
    }
 }
 @media screen and (max-width: 991px){
@@ -160,7 +169,7 @@ background-color: black;
 }
 }
 @media screen and (orientation:portrait){
-.col-8 {width: 80.66%;
+.col-8 {width: 65.66%;
 background-color: black;
 height: 480px;
 }
@@ -184,7 +193,7 @@ height: 480px;
 }
 }
 @media screen and (orientation:landscape){
-.col-8 {width: 80.66%;
+.col-8 {width: 65.66%;
 background-color: black;
 height: 85px;
 }

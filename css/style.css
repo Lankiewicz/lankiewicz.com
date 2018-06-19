@@ -161,13 +161,13 @@ background-color: black;
 }
 @media screen and (orientation:landscape){
 .col-8 {width: 60.66%;
-background-color: black;
+background-color: red;
 height: 100px;
 }
 }
 @media screen and (orientation:portrait){
 .col-8 {width: 60.66%;
-background-color: black;
+background-color: yellow;
 height: 500px;
 }
 }

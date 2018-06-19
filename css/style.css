@@ -167,7 +167,7 @@ height: 500px;
 }
 @media screen and (orientation:landscape){
 .col-8 {width: 60.66%;
-background-color: red;
+background-color: black;
 height: 102px;
 }
 }

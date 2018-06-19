@@ -176,19 +176,19 @@ height: 480px;
 }
 @media screen and (orientation:portrait){
 .col-8>.banner {
-   width: 500px;
-  height: 295px;
+   width: 530px;
+  height: 310px;
   float: left;
   position: relative;
-  top: 10px;
+  top: 25px;
 
   }
 }
 @media screen and (orientation:portrait){
 .col-8>.logo {
   float: left;
-  width: 150px;
-  height: 130px;
+  width: 160px;
+  height: 140px;
   margin: 60px 0px 0px 55px;
 }
 }

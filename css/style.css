@@ -51,7 +51,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
   padding: 0px;  
 }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 991px){
   [class*="col-"]{
   float: left;
   min-height: 180px;
@@ -123,7 +123,7 @@ background-color: black;
   height: 100px;
   margin: 55px 0px 0px 130px;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 991px){
 .col-8>.banner {
    width: 396px;
   height: 230px;
@@ -133,14 +133,14 @@ background-color: black;
   left: 30px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 991px){
 .col-8>.logo {
   float: left;
   width: 100px;
   height: 80px;
   margin: 100px 0px 0px 30px;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 991px){
 .menu-container { 
   margin: 0px;
   height: 98px;
@@ -155,11 +155,11 @@ background-color: black;
   justify-content: center;
    }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 991px){
 .menu-navi ul li a{
   font-size: 18px;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 991px){
 .col-8 {width: 60.66%;
 background-color: black;
 height: 400px;

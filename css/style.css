@@ -62,7 +62,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 @media screen and (max-width: 991px){
   [class*="col-"]{
   float: left;
-  min-height: 300px;
+  min-height: 500px;
   padding: 0px;  
 }
 }
@@ -163,14 +163,14 @@ margin: 45px 0px 0px 100px;
 }
 @media screen and (max-width: 991px){
 .menu-navi ul li a{
-  font-size: 18px;
+  font-size: 22px;
   line-height: 55px;
 }
 }
 @media screen and (orientation:portrait){
 .col-8 {width: 65.66%;
 background-color: black;
-height: 480px;
+height: 580px;
 }
 }
 @media screen and (orientation:portrait){
@@ -200,7 +200,7 @@ height: 125px;
    width: 396px;
   height: 230px;
   float: left;
-  margin: 0px auto;
+  margin: -20px 0px 0px 50px;
   }
 }
 @media screen and (orientation:landscape){

@@ -27,7 +27,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 
 .menu-navi ul li { display: block; }
 
-.menu-navi ul li a { font-weight: 700; text-transform: uppercase; text-decoration: none; font-size: 40px; line-height: 50px; position: relative; transition: margin .4s; color: black; }
+.menu-navi ul li a { font-weight: 700; text-transform: uppercase; text-decoration: none; font-size: 30px; line-height: 50px; position: relative; transition: margin .4s; color: black; }
 
 .menu-navi li a:hover { text-decoration: line-through;}
 

@@ -167,8 +167,8 @@ height: 480px;
 }
 @media screen and (orientation:portrait){
 .col-8>.banner {
-   width: 445px;
-  height: 250px;
+   width: 465px;
+  height: 260px;
   float: left;
   position: relative;
   top: 10px;
@@ -178,8 +178,8 @@ height: 480px;
 @media screen and (orientation:portrait){
 .col-8>.logo {
   float: left;
-  width: 120px;
-  height: 100px;
+  width: 130px;
+  height: 110px;
   margin: 60px 0px 0px 55px;
 }
 @media screen and (orientation:landscape){
@@ -194,7 +194,7 @@ height: 85px;
   height: 230px;
   float: left;
   position: relative;
-  top: 30px;
+  top: 15px;
   left: 50px;
   }
 }
@@ -203,5 +203,5 @@ height: 85px;
   float: left;
   width: 100px;
   height: 80px;
-  margin: 40px 0px 0px 55px;
+  margin: 20px 0px 0px 55px;
 }

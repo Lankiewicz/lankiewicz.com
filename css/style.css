@@ -62,7 +62,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 @media screen and (max-width: 991px){
   [class*="col-"]{
   float: left;
-  min-height: 500px;
+  min-height: 300px;
   padding: 0px;  
 }
 }
@@ -170,7 +170,7 @@ margin: 45px 0px 0px 100px;
 @media screen and (orientation:portrait){
 .col-8 {width: 65.66%;
 background-color: black;
-height: 580px;
+height: 600px;
 }
 }
 @media screen and (orientation:portrait){

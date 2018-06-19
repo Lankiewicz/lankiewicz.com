@@ -60,14 +60,14 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
-.col-3 {width: 29%;}
+.col-3 {width: 17%;}
 .col-4 {
   width: 33.33%;
 }
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;
+.col-8 {width: 80.00%;
 background-color: black;
 }
 .col-9 {width: 75%;}
@@ -91,29 +91,29 @@ background-color: black;
 
 
 .col-8>.banner {
-  width: 570px;
-  height: 310px;
+  width: 620px;
+  height: 350px;
   float: left;
   position: relative;
-  top: 240px;
-  left: 180px;
+  top: 290px;
+  left: 100px;
 }
 
 .col-8>.logo {
   float: left;
   width: 115px;
   height: 100px;
-  margin: 70px 0px 0px 175px;
+  margin: 50px 0px 0px 140px;
 }
 
 @media screen and (max-width: 1366px){
 .col-8>.banner {
-   width: 440px;
-  height: 240px;
+   width: 520px;
+  height: 270px;
   float: left;
   position: relative;
-  top: 175px;
-  left: 130px;
+  top: 166px;
+  left: 90px;
 }
 
 @media screen and (max-width: 1366px){

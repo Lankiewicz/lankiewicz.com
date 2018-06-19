@@ -159,16 +159,17 @@ background-color: black;
 .menu-navi ul li a{
   font-size: 18px;
 }
+}
 @media screen and (orientation:portrait){
-.col-8 {width: 65.66%;
+.col-8 {width: 60.66%;
 background-color: black;
 height: 480px;
 }
 }
 @media screen and (orientation:portrait){
 .col-8>.banner {
-   width: 465px;
-  height: 260px;
+   width: 485px;
+  height: 275px;
   float: left;
   position: relative;
   top: 10px;
@@ -178,12 +179,13 @@ height: 480px;
 @media screen and (orientation:portrait){
 .col-8>.logo {
   float: left;
-  width: 130px;
-  height: 110px;
+  width: 145px;
+  height: 120px;
   margin: 60px 0px 0px 55px;
 }
+}
 @media screen and (orientation:landscape){
-.col-8 {width: 65.66%;
+.col-8 {width: 60.66%;
 background-color: black;
 height: 85px;
 }
@@ -205,3 +207,5 @@ height: 85px;
   height: 80px;
   margin: 20px 0px 0px 55px;
 }
+}
+

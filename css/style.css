@@ -162,5 +162,6 @@ background-color: black;
 @media screen and (max-width: 767px){
 .col-8 {width: 60.66%;
 background-color: black;
+height: 400px;
 }
 }

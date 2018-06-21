@@ -14,3 +14,4 @@ $('.menu-container').click(function() {
         reset: true,
         delay: 300
     });*/
+$("#fullpage").fullpage();

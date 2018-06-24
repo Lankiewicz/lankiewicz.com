@@ -1,5 +1,5 @@
 .menda {
-  color: white;
+color: white;
 position: relative;
 top: 160px;
 }
@@ -37,6 +37,7 @@ position: relative;
 top: 50px;
 left: 451px;
 }
+//MAX WIDTH 1366px
 @media screen and (max-width: 1366px){
 .col-8.aboutme-section{
       background: red;
@@ -50,7 +51,8 @@ body {
  text-align: left;
  font-size: 20px;
 position: absolute;
- padding: 45px 0px 0px 100px;
+ padding: 45px 0px 0px 10
+ px;
 }
 .header-about-me {
   color: white;

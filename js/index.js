@@ -3,7 +3,7 @@
     sr.reveal('.banner',{
        origin: 'left', 
        distance: '50vw', 
-       duration: 1000, 
+       duration: 2000, 
        viewFactor: 0.5 
     });
        sr.reveal('.header-about-me',{

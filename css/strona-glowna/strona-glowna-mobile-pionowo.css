@@ -1,10 +1,5 @@
 /*STRONA GŁÓWNA MOBILE PIONOWO*/
-@media screen and (orientation:portrait) and (max-width: 766px){
-.col-8 {
-width: 65.66%;
-background-color: black;
-height: 700px;
-}
+@media screen and (orientation:portrait) and (max-width: 424px){
 .col-8>.banner {
    width: 450px;
   height: 280px;

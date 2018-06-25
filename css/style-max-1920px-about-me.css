@@ -5,31 +5,31 @@ position: relative;
 top: 160px;
 }
 .menda>a {
-  text-decoration: none;
-  color: white;
+text-decoration: none;
+color: white;
 }
 .col-8.aboutme-section{
-      background: red;
-    background: linear-gradient(to right, #000000, #0d0d0d);
+background: red;
+background: linear-gradient(to right, #000000, #0d0d0d);
 }
 body {
-    margin: 0 auto;
+margin: 0 auto;
 }
 .paragraf-about-me {
-  color: white;
- text-align: left;
- font: message-box;
+color: white;
+text-align: left;
+font: message-box;
 position: absolute;
- padding: 160px 0px 0px 200px;
+padding: 160px 0px 0px 200px;
 }
 .header-about-me {
-  color: white;
-  font-size: 120px;
-  text-decoration: line-through;
-  margin: 200px 0px 0px 0px;
-  letter-spacing: 12px;
-  font-weight: bold;
-  position: relative;
+color: white;
+font-size: 120px;
+text-decoration: line-through;
+margin: 200px 0px 0px 0px;
+letter-spacing: 12px;
+font-weight: bold;
+position: relative;
 }
 .me {
 width: 620px;

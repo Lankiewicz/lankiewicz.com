@@ -1,0 +1,21 @@
+/*STRONA GŁÓWNA MOBILE PIONOWO*/
+@media screen and (orientation:portrait){
+.col-8 {
+width: 65.66%;
+background-color: black;
+height: 700px;
+}
+.col-8>.banner {
+   width: 540px;
+  height: 320px;
+  float: left;
+  margin: 45px 0px 0px 35px;
+  }
+.col-8>.logo {
+  float: left;
+  width: 160px;
+  height: 140px;
+  margin: 60px 0px 0px 55px;
+}
+}
+/*KONIEC STRONA GŁÓWNA MOBILE*/

@@ -2,7 +2,7 @@
 @media screen and (orientation:landscape) and (max-width: 900px){
 .col-8 {
 width: 65.66%;
-background-color: black;
+background-color: red;
 height: 125px;
 }
 .col-8>.banner {

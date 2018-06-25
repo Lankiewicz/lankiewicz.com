@@ -69,7 +69,7 @@ padding: 0px;
 }
 /*KONIEC GRID TABLET*/
 /*GRID PIONOWO MOBILE*/
-@media screen and (orientation:portrait) and (max-width: 424px){
+@media screen and (orientation:portrait) and (max-width: 320px){
 [class*="col-"]{
 float: left;
 min-height: 505px;

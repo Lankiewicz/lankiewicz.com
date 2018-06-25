@@ -47,13 +47,13 @@ body {
 /*KONIEC MOUSE SCROLL MOBILE-PIONOWO*/
 
 /*MOUSE SCROLL MOBILE-POZIOMO*/
-@media screen and (orientation:landscape) and (max-width: 766px){
+@media screen and (orientation:landscape) and (max-width: 991px){
   .mouse_scroll {
   display: block;
   margin: 0 auto;
   width: 24px;
   height: 100px;
-  margin: 170px 0px 0px 75px;
+  margin: 140px 0px 0px 55px;
   position: fixed;
 }
 }

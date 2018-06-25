@@ -1,19 +1,15 @@
 /*STRONA GŁÓWNA MOBILE POZIOMO*/
-@media screen and (orientation:landscape) and (max-width: 900px){
-.col-8 {
-width: 65.66%;
-background-color: red;
-height: 125px;
-}
+@media screen and (orientation:landscape) and (max-width: 991px){
+
 .col-8>.banner {
-   width: 200px;
-  height: 180px;
+   width: 250px;
+  height: 200px;
   float: left;
   margin: 0px 0px 0px 50px;
   }
 .col-8>.logo {
   float: left;
-  width: 100px;
+  width: 80px;
   height: 80px;
   margin: 20px 0px 0px 55px;
 }

@@ -1,6 +1,4 @@
-body {
-margin: 0 auto;
-}
+
  @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
 .col-8.aboutme-section{
 background: red;
@@ -8,10 +6,10 @@ background: linear-gradient(to right, #000000, #0d0d0d);
 }
 .paragraf-about-me {
 color: white;
-text-align: left;
+text-align: ;
 font: -webkit-small-control;
-position: absolute;
-padding: 80px 0px 0px 70px;
+position: ;
+padding: 0px 0px 0px 00px;
 }
 .header-about-me {
 color: white;

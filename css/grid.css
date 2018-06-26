@@ -7,7 +7,7 @@ clear: both;
 }
 /*GRID MONITOR*/
 
-@media screen and (min-width: 1366px) and (max-width: 1920px){
+@media screen and (min-width: 1367px) and (max-width: 1920px){
 	[class*="col-"]{
 float: left;
 min-height: 450px;
@@ -28,7 +28,7 @@ padding: 0px;
 /*KONIEC GRID MONITOR*/
 }
 /*GRID LAPTOP*/
-@media screen and (min-width: 1200px) and (max-width: 1366px){
+@media screen and (min-width: 1025px) and (max-width: 1366px){
 [class*="col-"]{
 float: left;
 min-height: 317.5px;

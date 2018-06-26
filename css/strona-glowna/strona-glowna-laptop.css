@@ -1,6 +1,6 @@
 
 /*STRONA GŁÓWNA LAPTOP*/
-@media screen and (min-width: 991px) and (max-width: 1366px){
+@media screen and (min-width: 1025px) and (max-width: 1366px){
 .col-8>.banner {
    width: 520px;
   height: 270px;

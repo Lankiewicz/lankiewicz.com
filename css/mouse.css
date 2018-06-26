@@ -21,7 +21,7 @@ body {
 /*KONIEC MOUSE SCROLL MONITOR*/
 
 /*MOUSE SCROLL LAPTOP*/
-@media screen and (max-width: 1366px){
+@media screen and (min-width: 1200px) and (max-width: 1366px){
   .mouse_scroll {
   display: block;
   margin: 0 auto;
@@ -34,20 +34,20 @@ body {
 /*KONIEC MOUSE SCROLL LAPTOP*/
 
 /*MOUSE SCROLL MOBILE-PiONOWO*/
-@media screen and (orientation:portrait){
+ @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
   .mouse_scroll {
   display: block;
   margin: 0 auto;
   width: 24px;
   height: 100px;
-  margin: 510px 0px 0px 95px;
+  margin: 250px 0px 0px 90px;
   position: fixed;
 }
 }
 /*KONIEC MOUSE SCROLL MOBILE-PIONOWO*/
 
 /*MOUSE SCROLL MOBILE-POZIOMO*/
-@media screen and (orientation:landscape) and (max-width: 991px){
+ @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
   .mouse_scroll {
   display: block;
   margin: 0 auto;

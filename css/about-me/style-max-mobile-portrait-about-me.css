@@ -1,7 +1,7 @@
 body {
 margin: 0 auto;
 }
-@media screen and (max-width: 1366px){
+ @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
 .col-8.aboutme-section{
 background: red;
 background: linear-gradient(to right, #000000, #0d0d0d);
@@ -31,7 +31,7 @@ bottom: 40px;
 left: 289px;
 }
 .menu-container {
-margin: 30px 0px 0px 120px;
+margin: 30px 0px 0px 30px;
 display: -ms-flexbox;
 cursor: pointer;
 -ms-flex-align: center;

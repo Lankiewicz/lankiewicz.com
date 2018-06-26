@@ -73,7 +73,7 @@ padding: 0px;
  @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
 [class*="col-"]{
 float: left;
-min-height: 550px;
+min-height: 700px;
 padding: 0px;
 }
 .col-1 {width: 8.33%;}

@@ -54,7 +54,7 @@ line-height: 55px;
 /*MENU KONTENER MOBILE PORTRAIT*/
  @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
  	.menu-container {
-margin: 40px 0px 0px 70px;
+margin: 40px 0px 0px 110px;
 display: -ms-flexbox;
 cursor: pointer;
 -ms-flex-align: center;

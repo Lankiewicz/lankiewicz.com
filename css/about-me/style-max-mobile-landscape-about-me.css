@@ -9,7 +9,8 @@ background: linear-gradient(to right, #000000, #0d0d0d);
 .paragraf-about-me {
 color: white;
 text-align: left;
-font: -webkit-small-control;
+font-variant-caps: all-petite-caps;
+font-size: 18px;
 position: absolute;
 padding: 0px 0px 0px 0px;
 }

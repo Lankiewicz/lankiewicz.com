@@ -6,10 +6,10 @@ background: linear-gradient(to right, #000000, #0d0d0d);
 }
 .paragraf-about-me {
 color: white;
-text-align: ;
-font: -webkit-small-control;
-position: ;
-padding: 120px 0px 0px 00px;
+text-align: left;
+font-variant-caps: all-petite-caps;
+font-size: 18px;
+padding: 120px 0px 0px 60px;
 }
 .header-about-me {
 color: white;

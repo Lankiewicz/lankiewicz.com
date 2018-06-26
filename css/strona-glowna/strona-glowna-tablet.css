@@ -1,6 +1,6 @@
 
-/*STRONA GŁÓWNA TABLET*/
-@media screen and (max-width: 991px){
+/*STRONA GŁÓWNA TABLET
+  @media only screen and (device-width:768px){
 .col-8>.banner {
    width: 396px;
   height: 230px;
@@ -15,5 +15,3 @@
 }
 }
 /*KONIEC STRONA GŁÓWNA TABLET*/
-
-/

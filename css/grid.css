@@ -48,7 +48,7 @@ padding: 0px;
 }
 /*KONIEC GRID LAPTOP*/
 /*GRID TABLET*/
-@media screen and (min-width: 720px) and (max-width: 1280px){
+  @media only screen and (device-width:768px){
 [class*="col-"]{
 float: left;
 min-height: 235px;
@@ -69,7 +69,7 @@ padding: 0px;
 }
 /*KONIEC GRID TABLET*/
 /*GRID PIONOWO MOBILE*/
-@media screen and (orientation:portrait) and (max-width: 720px){
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
 [class*="col-"]{
 float: left;
 min-height: 505px;
@@ -91,7 +91,7 @@ background-color: red;
 }
 /*KONIEC GRID PIONOWO MOBILE*/
 /*GRID POZIOMO MOBILE*/
-@media screen and (orientation:landscape) and (min-width: 1280px) and (max-width: 1360px){
+ @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
 [class*="col-"]{
 float: left;
 min-height: 180px;

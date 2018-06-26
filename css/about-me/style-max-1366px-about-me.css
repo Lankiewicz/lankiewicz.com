@@ -9,7 +9,8 @@ background: linear-gradient(to right, #000000, #0d0d0d);
 .paragraf-about-me {
 color: white;
 text-align: left;
-font: -webkit-small-control;
+font-variant-caps: all-petite-caps;
+font-size: 18px;
 position: absolute;
 padding: 80px 0px 0px 70px;
 }
@@ -29,6 +30,9 @@ height: 340px;
 position: relative;
 bottom: 40px;
 left: 289px;
+}
+.mobile-photo {
+	display: none;
 }
 .menu-container {
 margin: 30px 0px 0px 120px;
@@ -51,7 +55,7 @@ transition: width 0.4s ease-in-out;
 color: white;
 position: relative;
 top: 80px;
-right: 40px;
+right: 80px;
 font: -webkit-small-control;
 }
 .menda>a {

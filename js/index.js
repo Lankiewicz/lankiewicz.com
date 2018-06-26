@@ -13,10 +13,7 @@
        viewFactor: 0.5
     });
        sr.reveal('p',{
-       origin: 'top', 
-       distance: '50vw', 
-       duration: 3300, 
-       viewFactor: 0.5
+       duration: 2000
     });
 $('.menu-container').click(function() {
   $(this).toggleClass('opened');

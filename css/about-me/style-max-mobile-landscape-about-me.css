@@ -24,11 +24,7 @@ position: relative;
 margin: 0 auto;
 }
 .me {
-width: 500px;
-height: 340px;
-position: relative;
-bottom: 40px;
-left: 289px;
+display: none;
 }
 .menu-container {
 margin: 30px 0px 0px 120px;
@@ -61,5 +57,12 @@ color: white;
 .menda>p {
 text-decoration-line: line-through;
 font-weight: bold;
+}
+.mobile-photo {
+width: 300px;
+height: 250px;
+
+top: 50px;
+left: 0px; 
 }
 }

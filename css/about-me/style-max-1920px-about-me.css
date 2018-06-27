@@ -31,7 +31,7 @@ text-align: left;
 font-variant-caps: all-petite-caps;
 font-size: 18px;
 position: absolute;
-padding: 160px 0px 0px 200px;
+padding: 160px 0px 0px 300px;
 }
 .header-about-me {
 color: white;
@@ -46,7 +46,7 @@ position: relative;
 width: 620px;
 height: 470px;
 position: relative;
-top: 50px;
+top: 78px;
 left: 451px;
 }
 }

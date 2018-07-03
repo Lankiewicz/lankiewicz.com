@@ -1,4 +1,4 @@
-body {
+﻿body {
 margin: 0 auto;
 }
 @media screen and (min-width: 1025px) and (max-width: 1366px){
@@ -12,7 +12,7 @@ text-align: left;
 font-variant-caps: all-petite-caps;
 font-size: 18px;
 position: absolute;
-padding: 80px 0px 0px 70px;
+padding: 20px 0px 0px 70px;
 }
 .header-about-me {
 color: white;
@@ -54,15 +54,17 @@ transition: width 0.4s ease-in-out;
 .menda {
 color: white;
 position: relative;
-top: 80px;
-right: 80px;
-font: -webkit-small-control;
+top: 360px;
+right: 443px;
+font-variant-caps: all-petite-caps;
+font-size: 18px;
 }
 .menda>a {
 text-decoration: none;
 color: white;
+
 }
-.menda>p {
+.menda>.index {
 text-decoration-line: line-through;
 font-weight: bold;
 }

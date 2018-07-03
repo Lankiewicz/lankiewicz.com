@@ -9,11 +9,11 @@
        sr.reveal('.header-about-me',{
        origin: 'left', 
        distance: '50vw', 
-       duration: 1000, 
+       duration: 2000, 
        viewFactor: 0.5
     });
-       sr.reveal('p',{
-       duration: 2000
+       sr.reveal('.paragraf-about-me',{
+       duration: 3000
     });
 $('.menu-container').click(function() {
   $(this).toggleClass('opened');

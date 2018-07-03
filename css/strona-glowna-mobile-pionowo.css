@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/*STRONA GŁÓWNA MOBILE PIONOWO*/
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) { .col-8 > .banner { width: 500px; height: 300px; float: left; margin: 250px 0px 0px 110px; }
+  .col-8 > .logo { float: left; width: 160px; height: 140px; margin: 75px 0px 0px 55px; } }
+
+/*KONIEC STRONA GŁÓWNA MOBILE*/

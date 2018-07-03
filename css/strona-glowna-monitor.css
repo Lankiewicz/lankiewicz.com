@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@media screen and (min-width: 1367px) and (max-width: 1920px) { /*STRONA GŁÓWNA MONITOR*/
+  .col-8 > .banner { width: 620px; height: 350px; float: left; margin: 115px 0px 0px 130px; }
+  .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 50px 0px 0px 140px; } }
+
+/*KONIEC STRONA GŁÓWNA MONITOR*/

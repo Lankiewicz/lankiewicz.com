@@ -1,7 +1,11 @@
+.row {
+  border: 2px solid red;
+}
 /* grids */
 .row:before, .row:after { content: ""; display: table; clear: both; }
 
 /*GRID MONITOR*/
+
 @media screen and (min-width: 1367px) and (max-width: 1920px) { [class*="col-"] { float: left; min-height: 450px; padding: 0px; }
   .col-1 { width: 8.33%; }
   .col-2 { width: 16.66%; }

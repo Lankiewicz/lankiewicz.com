@@ -35,9 +35,9 @@ padding: 160px 0px 0px 300px;
 }
 .header-about-me {
 color: white;
-font-size: 120px;
+font-size: 140px;
 text-decoration: line-through;
-margin: 200px 0px 0px 0px;
+margin: 305px 0px 0px 0px;
 letter-spacing: 12px;
 font-weight: bold;
 position: relative;
@@ -48,5 +48,15 @@ height: 470px;
 position: relative;
 top: 78px;
 left: 451px;
+}
+.header-before-paragraf>p {
+	margin: 180px 0px 0px 50px;
+	font-size: 40px;
+	color: white;
+	text-align: left;
+}
+.header-before-paragraf {
+background: red;
+background: linear-gradient(to right, #000000, #0d0d0d);
 }
 }

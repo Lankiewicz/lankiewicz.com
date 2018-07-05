@@ -53,6 +53,10 @@
   .col-12 {
     width: 100%;
   }
+  .col-13 {
+    width: 13.33%;
+    background-color: black;
+  }
   /*KONIEC GRID MONITOR*/
 }
 
@@ -60,7 +64,7 @@
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
   [class*="col-"] {
     float: left;
-    min-height: 317.5px;
+    min-height: 342px;
     padding: 0px;
   }
   .col-1 {
@@ -655,27 +659,29 @@ body {
   .paragraf-about-me {
     color: white;
     text-align: left;
-    font-variant-caps: all-petite-caps;
-    font-size: 18px;
-    position: absolute;
-    padding: 20px 0px 0px 70px;
+    font-variant-caps: small-caps;
+    font-size: 24px;
+    position: relative;
+    bottom: 150px;
+    padding: 0px 0px 30px 55px;
   }
   .header-about-me {
     color: white;
-    font-size: 90px;
+    font-size: 140px;
     text-decoration: line-through;
-    padding: 110px 0px 0px 0px;
+    padding: 180px 0px 0px 0px;
     letter-spacing: 12px;
     font-weight: bold;
     position: relative;
     margin: 0 auto;
+    text-align: left;
   }
   .me {
     width: 500px;
     height: 340px;
     position: relative;
-    bottom: 40px;
-    left: 289px;
+    bottom: 400px;
+    left: 120px;
   }
   .mobile-photo {
     display: none;
@@ -712,6 +718,52 @@ body {
   .menda > .index {
     text-decoration-line: line-through;
     font-weight: bold;
+  }
+  .header-before-paragraf > p {
+    color: white;
+    text-align: left;
+    margin: 80px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .what-i-am {
+    color: white;
+    font-size: 46px;
+    font-variant-caps: small-caps;
+    position: absolute;
+    left: 60px;
+    font-weight: bold;
+  }
+  .what-i-am > h1 {
+    position: relative;
+    bottom: 400px;
+  }
+  .what-i-do > h1 {
+    position: relative;
+    bottom: 400px;
+  }
+  .what-i-do {
+    color: white;
+    font-size: 46px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+  }
+  .what-i-am-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    left: 60px;
+  }
+  .what-i-do-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+  }
+  .col-8.header-before-paragraf {
+    background: red;
+    background: linear-gradient(to right, #000000, white);
   }
 }
 

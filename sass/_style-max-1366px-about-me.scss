@@ -27,11 +27,11 @@ margin: 0 auto;
 text-align: left;
 }
 .me {
-        width: 500px;
+    width: 500px;
     height: 340px;
     position: relative;
-    bottom: 400px;
-    left: 120px;
+    bottom: 435px;
+    left:450px;
 }
 .mobile-photo {
 	display: none;
@@ -82,42 +82,97 @@ font-weight: bold;
 	color: white;
     font-size: 46px;
     font-variant-caps: small-caps;
-    position: absolute;
-    left: 60px;
     font-weight: bold;
-}
-.what-i-am>h1 {
-	position: relative;
-	bottom: 400px
-}
-.what-i-do>h1 {
-	position: relative;
-	bottom: 400px;
+    margin-left: 140px;
 }
 .what-i-do {
 	color: white;
     font-size: 46px;
     font-variant-caps: small-caps;
     font-weight: bold;
+    text-align: left;
 }
 .what-i-am-paragraf {
 	font-size: 24px;
 	font-variant-caps: small-caps;
 	color: white;
 	text-align: left;
-	left: 60px;
+	position: relative;
+	bottom: 200px;
+	margin-left: 140px;
 }
 .what-i-do-paragraf {
 		font-size: 24px;
 	font-variant-caps: small-caps;
 	color: white;
 	text-align: left;
-}
-.col-8.header-before-paragraf, {
-	background: red;
-	background: linear-gradient(to right, #000000, white);
+	position: relative;
+	bottom: 200px;
 }
 .section-what-i-am {
+	margin: 0 auto;
+	font-size: 40px;
+	font-variant-caps: small-caps;
+	position: relative;
+	text-align: left;
+}
+.section-what-i-am>.row>.col-5>h1 {
+	text-align: left;
+}
+.header-before-paragraf,.section-paragraf-about-me>.row>.col-8 {
+	background: black;
+	background: linear-gradient(to right, #000000, #0d0d0d);
+}
+.main-section-header-about-me>.only-header>.row>.col-8 {
+background: black;
+	background: linear-gradient( to right, #000000, #0d0d0d);
+}
+.section-photo {
+	position: absolute;
+}
+.xxx {
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	line-height: 34px;
+	margin-left: 55px;
 
+}
+.xxx>a {
+	color: white;
+	text-decoration: none;
+}
+.xxx>h1 {
+	font-weight: bold;
+}
+.header {
+	color:white;
+	text-align: left;
+	margin: 80px 0px 0px 55px;
+	font-size: 40px;
+	font-variant-caps: small-caps;
+}
+.section-contact {
+	position: relative;
+	bottom: 320px;
+}
+.header-contact {
+	color: white;
+font-size: 140px;
+text-decoration: line-through;
+padding: 125px 0px 0px 0px;
+letter-spacing: 12px;
+font-weight: bold;
+position: relative;
+margin: 0 auto;
+text-align: left;
+}
+.what {
+	font-size: 19px;
+	color:  #4d4d4d;
+}
+.what-i {
+	text-decoration: line-through;
+	font-size: 70px;
 }
 }

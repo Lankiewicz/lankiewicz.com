@@ -75,6 +75,7 @@
   }
   .col-3 {
     width: 17%;
+    background-color: white;
   }
   .col-4 {
     width: 33.33%;
@@ -91,7 +92,6 @@
   }
   .col-8 {
     width: 80.00%;
-    background-color: black;
   }
   .col-9 {
     width: 75%;
@@ -581,7 +581,7 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
   .col-8.aboutme-section {
     background: red;
     background: linear-gradient(to right, #000000, #0d0d0d);
@@ -787,9 +787,10 @@ body {
     color: white;
     text-align: left;
     font-variant-caps: all-petite-caps;
-    font-size: 18px;
-    position: absolute;
-    padding: 160px 0px 0px 300px;
+    font-size: 24px;
+    position: relative;
+    bottom: 150px;
+    padding: 0px 0px 30px 55px;
   }
   .header-about-me {
     color: white;
@@ -804,7 +805,7 @@ body {
     width: 620px;
     height: 470px;
     position: relative;
-    top: 78px;
+    bottom: 450px;
     left: 451px;
   }
   .header-before-paragraf > p {
@@ -816,6 +817,102 @@ body {
   .header-before-paragraf {
     background: red;
     background: linear-gradient(to right, #000000, #0d0d0d);
+  }
+  .what-i-am {
+    color: white;
+    font-size: 46px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    margin-left: 220px;
+  }
+  .what-i-do {
+    color: white;
+    font-size: 46px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    text-align: left;
+  }
+  .what-i-am-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 280px;
+    margin-left: 220px;
+  }
+  .what-i-do-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 280px;
+  }
+  .section-what-i-am {
+    margin: 0 auto;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+    position: relative;
+    text-align: left;
+  }
+  .section-what-i-am > .row > .col-5 > h1 {
+    text-align: left;
+  }
+  .header-before-paragraf, .section-paragraf-about-me > .row > .col-8 {
+    background: black;
+    background: linear-gradient(to right, #000000, #0d0d0d);
+  }
+  .main-section-header-about-me > .only-header > .row > .col-8 {
+    background: black;
+    background: linear-gradient(to right, #000000, #0d0d0d);
+  }
+  .section-photo {
+    position: absolute;
+  }
+  .xxx {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 55px;
+  }
+  .xxx > a {
+    color: white;
+    text-decoration: none;
+  }
+  .xxx > h1 {
+    font-weight: bold;
+  }
+  .header {
+    color: white;
+    text-align: left;
+    margin: 80px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .section-contact {
+    position: relative;
+    bottom: 320px;
+  }
+  .header-contact {
+    color: white;
+    font-size: 140px;
+    text-decoration: line-through;
+    padding: 125px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .what {
+    font-size: 19px;
+    color: #4d4d4d;
+  }
+  .what-i {
+    text-decoration: line-through;
+    font-size: 70px;
   }
 }
 

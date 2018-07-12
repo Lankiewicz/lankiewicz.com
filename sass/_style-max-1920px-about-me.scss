@@ -20,6 +20,7 @@ font-weight: bold;
 }
 body {
 margin: 0 auto;
+height: 10px;
 }
 .paragraf-about-me {
 color: white;
@@ -38,12 +39,14 @@ margin: 305px 0px 0px 0px;
 letter-spacing: 12px;
 font-weight: bold;
 position: relative;
+text-align: left;
 }
 .me {
 
 position: relative;
-bottom: 850px;
+bottom: 670px;
 left: 435px;
+width: 99%;
 }
 .header-before-paragraf>p {
 	margin: 180px 0px 0px 50px;
@@ -57,7 +60,7 @@ left: 435px;
     font-size: 46px;
     font-variant-caps: small-caps;
     font-weight: bold;
-    margin-left: 220px;
+    margin-left: 55px;
 }
 .what-i-do {
 	color: white;
@@ -73,7 +76,7 @@ left: 435px;
 	text-align: left;
 	position: relative;
 	bottom: 280px;
-	margin-left: 220px;
+	margin-left: 55px;
 }
 .what-i-do-paragraf {
 		font-size: 24px;

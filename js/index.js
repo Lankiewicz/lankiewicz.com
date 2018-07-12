@@ -1,7 +1,9 @@
 //ScrollReveal - efekt wjeżdzających napisów
     window.sr = ScrollReveal();
     sr.reveal('.banner',{ 
-       duration: 1500
+       duration: 2000,
+       viewFactor: 0.6,
+       origin: 'left'
     });
        sr.reveal('.header-about-me',{
        origin: 'left', 
@@ -10,12 +12,12 @@
        viewFactor: 0.5
     });
        sr.reveal('.paragraf-about-me',{
-       duration: 4500,
+       duration: 6500,
         origin: 'left',
         distance: '3vw'
     });
        sr.reveal('.text-about-me', {
-        duration: 2000,
+        duration: 4000,
         origin:'left',
         distance: '3vw'
     });

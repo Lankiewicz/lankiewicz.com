@@ -1,11 +1,7 @@
 ﻿body {
 margin: 0 auto;
 }
-@media screen and (min-width: 1025px) and (max-width: 1920px){
-.col-8.aboutme-section{
-background: red;
-background: linear-gradient(to right, #000000, #0d0d0d);
-}
+@media screen and (min-width: 1025px) and (max-width: 1366px){
 .paragraf-about-me {
 color: white;
 text-align: left;
@@ -27,8 +23,6 @@ margin: 0 auto;
 text-align: left;
 }
 .me {
-    width: 500px;
-    height: 340px;
     position: relative;
     bottom: 435px;
     left:450px;
@@ -118,14 +112,6 @@ font-weight: bold;
 }
 .section-what-i-am>.row>.col-5>h1 {
 	text-align: left;
-}
-.header-before-paragraf,.section-paragraf-about-me>.row>.col-8 {
-	background: black;
-	background: linear-gradient(to right, #000000, #0d0d0d);
-}
-.main-section-header-about-me>.only-header>.row>.col-8 {
-background: black;
-	background: linear-gradient( to right, #000000, #0d0d0d);
 }
 .section-photo {
 	position: absolute;

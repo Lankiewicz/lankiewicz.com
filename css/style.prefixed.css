@@ -92,6 +92,7 @@
   }
   .col-8 {
     width: 80.00%;
+    background-color: black;
   }
   .col-9 {
     width: 75%;
@@ -604,8 +605,9 @@ body {
   }
   .me {
     position: relative;
-    bottom: 435px;
-    left: 450px;
+    bottom: 719px;
+    left: 400px;
+    width: 99%;
   }
   .mobile-photo {
     display: none;

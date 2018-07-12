@@ -1,103 +1,320 @@
 @charset "UTF-8";
 /* grids */
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,700");
-.row:before, .row:after { content: ""; display: table; clear: both; }
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /*GRID MONITOR*/
-@media screen and (min-width: 1367px) and (max-width: 1920px) { [class*="col-"] { float: left; min-height: 450px; padding: 0px; }
-  .col-1 { width: 8.33%; }
-  .col-2 { width: 16.66%; }
-  .col-3 { width: 17%; }
-  .col-4 { width: 33.33%; }
-  .col-5 { width: 40.00%; background-color: black; }
-  .col-6 { width: 50%; }
-  .col-7 { width: 58.33%; }
-  .col-8 { width: 80.00%; background-color: black; }
-  .col-9 { width: 75%; }
-  .col-10 { width: 83.33%; }
-  .col-11 { width: 91.66%; }
-  .col-12 { width: 100%; }
-  .col-13 { width: 26.66%; background-color: black; }
-  /*KONIEC GRID MONITOR*/ }
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+  [class*="col-"] {
+    float: left;
+    min-height: 450px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .col-13 {
+    width: 26.66%;
+    background-color: black;
+  }
+  /*KONIEC GRID MONITOR*/
+}
 
 /*GRID LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) { [class*="col-"] { float: left; min-height: 342px; padding: 0px; }
-  .col-1 { width: 8.33%; }
-  .col-2 { width: 16.66%; }
-  .col-3 { width: 17%; background-color: white; }
-  .col-4 { width: 33.33%; }
-  .col-5 { width: 40.00%; background-color: black; }
-  .col-6 { width: 50%; }
-  .col-7 { width: 58.33%; }
-  .col-8 { width: 80.00%; }
-  .col-9 { width: 75%; }
-  .col-10 { width: 83.33%; }
-  .col-11 { width: 91.66%; }
-  .col-12 { width: 100%; }
-  .col-13 { width: 26.66%; background-color: black; } }
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  [class*="col-"] {
+    float: left;
+    min-height: 342px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+    background-color: white;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .col-13 {
+    width: 26.66%;
+    background-color: black;
+  }
+}
 
 /*KONIEC GRID LAPTOP*/
-/*GRID TABLET @media only screen and (device-width:768px){ [class*="col-"]{ float: left; min-height: 235px; padding: 0px; } .col-1 {width: 8.33%;} .col-2 {width: 16.66%;} .col-3 {width: 17%;} .col-4 {width: 33.33%;} .col-5 {width: 40.00%;background-color: black;} .col-6 {width: 50%;} .col-7 {width: 58.33%;} .col-8 {width: 80.00%;background-color: black;} .col-9 {width: 75%;} .col-10 {width: 83.33%;} .col-11 {width: 91.66%;} .col-12 {width: 100%;} } /*KONIEC GRID TABLET*/
+/*GRID TABLET
+  @media only screen and (device-width:768px){
+[class*="col-"]{
+float: left;
+min-height: 235px;
+padding: 0px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 17%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 40.00%;background-color: black;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 80.00%;background-color: black;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+/*KONIEC GRID TABLET*/
 /*GRID PIONOWO MOBILE*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) { [class*="col-"] { float: left; min-height: 700px; padding: 0px; }
-  .col-1 { width: 8.33%; }
-  .col-2 { width: 16.66%; }
-  .col-3 { width: 17%; }
-  .col-4 { width: 33.33%; }
-  .col-5 { width: 40.00%; background-color: black; }
-  .col-6 { width: 50%; }
-  .col-7 { width: 58.33%; }
-  .col-8 { width: 80.00%; background-color: black; }
-  .col-9 { width: 75%; }
-  .col-10 { width: 83.33%; }
-  .col-11 { width: 91.66%; }
-  .col-12 { width: 100%; } }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+  [class*="col-"] {
+    float: left;
+    min-height: 700px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
 
 /*KONIEC GRID PIONOWO MOBILE*/
 /*GRID POZIOMO MOBILE*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) { [class*="col-"] { float: left; min-height: 180px; padding: 0px; }
-  .col-1 { width: 8.33%; }
-  .col-2 { width: 16.66%; }
-  .col-3 { width: 17%; }
-  .col-4 { width: 33.33%; }
-  .col-5 { width: 40.00%; background-color: black; }
-  .col-6 { width: 50%; }
-  .col-7 { width: 58.33%; }
-  .col-8 { width: 80.00%; background-color: black; }
-  .col-9 { width: 75%; }
-  .col-10 { width: 83.33%; }
-  .col-11 { width: 91.66%; }
-  .col-12 { width: 100%; } }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+  [class*="col-"] {
+    float: left;
+    min-height: 180px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
 
 /*KONIEC GRID POZIOMO MOBILE*/
 /*Menu STANTARD*/
-.menu-container { margin: 75px 0px 0px 165px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
+.menu-container {
+  margin: 75px 0px 0px 165px;
+  display: -ms-flexbox;
+  cursor: pointer;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: fixed;
+}
 
-.menu-icon span { position: relative; display: block; width: 49px; height: 5.5px; background: black; border-radius: 2px; margin-bottom: 5px; transition: transform 0.4s ease-in-out, height 0.4s ease-in-out; }
+.menu-icon span {
+  position: relative;
+  display: block;
+  width: 49px;
+  height: 5.5px;
+  background: black;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  transition: transform 0.4s ease-in-out, height 0.4s ease-in-out;
+}
 
-.opened span { background: black; transition: transform 0.4s ease-in-out,  height 0s ease-in-out; }
+.opened span {
+  background: black;
+  transition: transform 0.4s ease-in-out,  height 0s ease-in-out;
+}
 
-.opened span:nth-child(1) { transform: rotate(-45deg); top: 12px; }
+.opened span:nth-child(1) {
+  transform: rotate(-45deg);
+  top: 12px;
+}
 
-.opened span:nth-child(2) { transform: scale(0); height: 0; }
+.opened span:nth-child(2) {
+  transform: scale(0);
+  height: 0;
+}
 
-.opened span:nth-child(3) { transform: rotate(45deg); }
+.opened span:nth-child(3) {
+  transform: rotate(45deg);
+}
 
-.menu-navi { display: inline-block; margin: 35px 0px 0px -15px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
+.menu-navi {
+  display: inline-block;
+  margin: 35px 0px 0px -15px;
+  width: 0;
+  overflow: hidden;
+  transition: width 0.4s ease-in-out;
+}
 
-.menu-navi ul { text-align: left; }
+.menu-navi ul {
+  text-align: left;
+}
 
-.menu-navi ul li { display: block; }
+.menu-navi ul li {
+  display: block;
+}
 
-.menu-navi ul li a { font-weight: 700; text-transform: uppercase; text-decoration: none; font-size: 30px; line-height: 70px; position: relative; transition: margin .4s; color: black; }
+.menu-navi ul li a {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 70px;
+  position: relative;
+  transition: margin .4s;
+  color: black;
+}
 
-.menu-navi li a:hover { text-decoration: line-through; }
+.menu-navi li a:hover {
+  text-decoration: line-through;
+}
 
-.opened .menu-navi { width: 150px; transition: width 0.5s ease-in-out; }
+.opened .menu-navi {
+  width: 150px;
+  transition: width 0.5s ease-in-out;
+}
 
 /*KONIEC MENU STANTARD*/
 /*MENU LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) { .menu-navi ul li a { line-height: 56px; } }
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .menu-navi ul li a {
+    line-height: 56px;
+  }
+}
 
 /*KONIEC MENU LAPTOP*/
 /*MENU TABLET i MOBILE
@@ -119,146 +336,753 @@ line-height: 55px;
 }
 */
 /*MENU KONTENER MOBILE PORTRAIT*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) { .menu-container { margin: 40px 0px 0px 110px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
-  .menu-navi ul li a { font-size: 22px; line-height: 55px; } }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+  .menu-container {
+    margin: 40px 0px 0px 110px;
+    display: -ms-flexbox;
+    cursor: pointer;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+  }
+  .menu-navi ul li a {
+    font-size: 22px;
+    line-height: 55px;
+  }
+}
 
 /*MENU KONTENER MOBILE LANDSCAPE*/
-body { background: white; }
+body {
+  background: white;
+}
 
-*, *:before, *:after { box-sizing: border-box; }
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 /*MOUSE SCROLL MONITOR*/
-.mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 350px 0px 0px 195px; position: fixed; }
+.mouse_scroll {
+  display: block;
+  margin: 0 auto;
+  width: 24px;
+  height: 100px;
+  margin: 350px 0px 0px 195px;
+  position: fixed;
+}
 
 /*KONIEC MOUSE SCROLL MONITOR*/
 /*MOUSE SCROLL LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 200px 0px 0px 135px; position: fixed; } }
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .mouse_scroll {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    margin: 200px 0px 0px 135px;
+    position: fixed;
+  }
+}
 
 /*KONIEC MOUSE SCROLL LAPTOP*/
 /*MOUSE SCROLL MOBILE-PiONOWO*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 400px 0px 0px 90px; position: fixed; } }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+  .mouse_scroll {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    margin: 400px 0px 0px 90px;
+    position: fixed;
+  }
+}
 
 /*KONIEC MOUSE SCROLL MOBILE-PIONOWO*/
 /*MOUSE SCROLL MOBILE-POZIOMO*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 140px 0px 0px 55px; position: fixed; } }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+  .mouse_scroll {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    margin: 140px 0px 0px 55px;
+    position: fixed;
+  }
+}
 
 /*KONIEC MOUSE SCROLL MOBILE-POZIOMO*/
-.m_scroll_arrows { display: block; width: 5px; height: 5px; /* IE 9 */ /* Chrome, Safari, Opera */ transform: rotate(45deg); border-right: 2px solid black; border-bottom: 2px solid black; margin: 0 0 3px 4px; width: 16px; height: 16px; }
+.m_scroll_arrows {
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0 0 3px 4px;
+  width: 16px;
+  height: 16px;
+}
 
-.unu { margin-top: 1px; }
+.unu {
+  margin-top: 1px;
+}
 
-.unu, .doi, .trei { -webkit-animation: mouse-scroll 1s infinite; -moz-animation: mouse-scroll 1s infinite; }
+.unu, .doi, .trei {
+  -webkit-animation: mouse-scroll 1s infinite;
+  -moz-animation: mouse-scroll 1s infinite;
+}
 
-.unu { -webkit-animation-delay: .1s; -moz-animation-delay: .1s; -webkit-animation-direction: alternate; }
+.unu {
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+}
 
-.doi { -webkit-animation-delay: .2s; -moz-animation-delay: .2s; -webkit-animation-direction: alternate; margin-top: -6px; }
+.doi {
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  margin-top: -6px;
+}
 
-.trei { -webkit-animation-delay: .3s; -moz-animation-delay: .3s; -webkit-animation-direction: alternate; margin-top: -6px; }
+.trei {
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  margin-top: -6px;
+}
 
-.mouse { height: 42px; width: 24px; border-radius: 14px; transform: none; border: 2px solid black; top: 170px; }
+.mouse {
+  height: 42px;
+  width: 24px;
+  border-radius: 14px;
+  transform: none;
+  border: 2px solid black;
+  top: 170px;
+}
 
-.wheel { height: 5px; width: 2px; display: block; margin: 5px auto; background: black; position: relative; height: 4px; width: 4px; border: 2px solid black; border-radius: 8px; }
+.wheel {
+  height: 5px;
+  width: 2px;
+  display: block;
+  margin: 5px auto;
+  background: black;
+  position: relative;
+  height: 4px;
+  width: 4px;
+  border: 2px solid black;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
 
-.wheel { -webkit-animation: mouse-wheel 0.6s linear infinite; -moz-animation: mouse-wheel 0.6s linear infinite; }
+.wheel {
+  -webkit-animation: mouse-wheel 0.6s linear infinite;
+  -moz-animation: mouse-wheel 0.6s linear infinite;
+}
 
-@keyframes mouse-scroll { 0% { opacity: 0; }
-  50% { opacity: .5; }
-  100% { opacity: 1; } }
+@-webkit-keyframes mouse-wheel {
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(6px);
+    -ms-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+
+@-moz-keyframes mouse-wheel {
+  0% {
+    top: 1px;
+  }
+  25% {
+    top: 2px;
+  }
+  50% {
+    top: 3px;
+  }
+  75% {
+    top: 2px;
+  }
+  100% {
+    top: 1px;
+  }
+}
+
+@-webkit-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes mouse-scroll {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /*STRONA GŁÓWNA LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) { .col-8 > .banner { width: 520px; height: 270px; float: left; margin: 45px 0px 0px 100px; }
-  .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 55px 0px 0px 130px; } }
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .col-8 > .banner {
+    width: 520px;
+    height: 270px;
+    float: left;
+    margin: 45px 0px 0px 100px;
+  }
+  .col-8 > .logo {
+    float: left;
+    width: 115px;
+    height: 100px;
+    margin: 55px 0px 0px 130px;
+  }
+}
 
 /*KONIEC STRONA GŁÓWNA LAPTOP*/
 /*STRONA GŁÓWNA MOBILE PIONOWO*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) { .col-8 > .banner { width: 500px; height: 300px; float: left; margin: 250px 0px 0px 110px; }
-  .col-8 > .logo { float: left; width: 160px; height: 140px; margin: 75px 0px 0px 55px; } }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+  .col-8 > .banner {
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin: 250px 0px 0px 110px;
+  }
+  .col-8 > .logo {
+    float: left;
+    width: 160px;
+    height: 140px;
+    margin: 75px 0px 0px 55px;
+  }
+}
 
 /*KONIEC STRONA GŁÓWNA MOBILE*/
 /*STRONA GŁÓWNA MOBILE POZIOMO*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) { .col-8 > .banner { width: 250px; height: 200px; float: left; margin: 0px 0px 0px 50px; }
-  .col-8 > .logo { float: left; width: 80px; height: 80px; margin: 20px 0px 0px 55px; } }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+  .col-8 > .banner {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+  }
+  .col-8 > .logo {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 20px 0px 0px 55px;
+  }
+}
 
 /*KONIEC STRONA GŁÓWNA MOBILE POZIOMO*/
-@media screen and (min-width: 1367px) and (max-width: 1920px) { /*STRONA GŁÓWNA MONITOR*/
-  .col-8 > .banner { width: 620px; height: 350px; float: left; margin: 115px 0px 0px 130px; }
-  .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 50px 0px 0px 140px; } }
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+  /*STRONA GŁÓWNA MONITOR*/
+  .col-8 > .banner {
+    width: 620px;
+    height: 350px;
+    float: left;
+    margin: 115px 0px 0px 130px;
+  }
+  .col-8 > .logo {
+    float: left;
+    width: 115px;
+    height: 100px;
+    margin: 50px 0px 0px 140px;
+  }
+}
 
 /*KONIEC STRONA GŁÓWNA MONITOR*/
-/*STRONA GŁÓWNA TABLET @media only screen and (device-width:768px){ .col-8>.banner { width: 396px; height: 230px; float: left; } .col-8>.logo { float: left; width: 100px; height: 80px; margin: 100px 0px 0px 30px; } } /*KONIEC STRONA GŁÓWNA TABLET*/
-body { margin: 0 auto; }
+/*STRONA GŁÓWNA TABLET
+  @media only screen and (device-width:768px){
+.col-8>.banner {
+   width: 396px;
+  height: 230px;
+  float: left;
 
-@media screen and (min-width: 1025px) and (max-width: 1366px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 24px; position: relative; bottom: 150px; padding: 0px 0px 30px 55px; }
-  .header-about-me { color: white; font-size: 140px; text-decoration: line-through; padding: 180px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
-  .me { position: relative; bottom: 435px; left: 450px; }
-  .mobile-photo { display: none; }
-  .menu-container { margin: 30px 0px 0px 120px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
-  .menu-navi { display: inline-block; margin: 35px 0px 0px -25px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
-  .menda { color: white; position: relative; top: 360px; right: 443px; font-variant-caps: all-petite-caps; font-size: 18px; }
-  .menda > a { text-decoration: none; color: white; }
-  .menda > .index { -webkit-text-decoration-line: line-through; text-decoration-line: line-through; font-weight: bold; }
-  .header-before-paragraf > p { color: white; text-align: left; margin: 80px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
-  .what-i-am { color: white; font-size: 46px; font-variant-caps: small-caps; font-weight: bold; margin-left: 140px; }
-  .what-i-do { color: white; font-size: 46px; font-variant-caps: small-caps; font-weight: bold; text-align: left; }
-  .what-i-am-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 200px; margin-left: 140px; }
-  .what-i-do-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 200px; }
-  .section-what-i-am { margin: 0 auto; font-size: 40px; font-variant-caps: small-caps; position: relative; text-align: left; }
-  .section-what-i-am > .row > .col-5 > h1 { text-align: left; }
-  .section-photo { position: absolute; }
-  .xxx { color: white; text-align: left; font-size: 20px; line-height: 34px; margin-left: 55px; }
-  .xxx > a { color: white; text-decoration: none; }
-  .xxx > h1 { font-weight: bold; }
-  .header { color: white; text-align: left; margin: 80px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
-  .section-contact { position: relative; bottom: 320px; }
-  .header-contact { color: white; font-size: 140px; text-decoration: line-through; padding: 125px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
-  .what { font-size: 19px; color: #4d4d4d; }
-  .what-i { text-decoration: line-through; font-size: 70px; } }
+}
+.col-8>.logo {
+  float: left;
+  width: 100px;
+  height: 80px;
+  margin: 100px 0px 0px 30px;
+}
+}
+/*KONIEC STRONA GŁÓWNA TABLET*/
+body {
+  margin: 0 auto;
+}
 
-@media screen and (min-width: 1367px) and (max-width: 1920px) { .menda { color: white; position: relative; top: 520px; right: 433px; font-variant-caps: all-petite-caps; font-size: 18px; }
-  .menda > a { text-decoration: none; color: white; }
-  .menda > p { -webkit-text-decoration-line: line-through; text-decoration-line: line-through; font-weight: bold; }
-  .mobile-photo { display: none; }
-  body { margin: 0 auto; }
-  .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 24px; position: relative; bottom: 150px; padding: 0px 0px 30px 55px; }
-  .header-about-me { color: white; font-size: 140px; text-decoration: line-through; margin: 305px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; }
-  .me { position: relative; bottom: 850px; left: 435px; }
-  .header-before-paragraf > p { margin: 180px 0px 0px 50px; font-size: 40px; color: white; text-align: left; }
-  .what-i-am { color: white; font-size: 46px; font-variant-caps: small-caps; font-weight: bold; margin-left: 220px; }
-  .what-i-do { color: white; font-size: 46px; font-variant-caps: small-caps; font-weight: bold; text-align: left; }
-  .what-i-am-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 280px; margin-left: 220px; }
-  .what-i-do-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 280px; }
-  .section-what-i-am { margin: 0 auto; font-size: 40px; font-variant-caps: small-caps; position: relative; text-align: left; }
-  .section-what-i-am > .row > .col-5 > h1 { text-align: left; }
-  .section-photo { position: absolute; }
-  .xxx { color: white; text-align: left; font-size: 20px; line-height: 34px; margin-left: 55px; }
-  .xxx > a { color: white; text-decoration: none; }
-  .xxx > h1 { font-weight: bold; }
-  .header { color: white; text-align: left; margin: 80px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
-  .section-contact { position: relative; bottom: 320px; }
-  .header-contact { color: white; font-size: 140px; text-decoration: line-through; padding: 125px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
-  .what { font-size: 19px; color: #4d4d4d; }
-  .what-i { text-decoration: line-through; font-size: 70px; } }
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .paragraf-about-me {
+    color: white;
+    text-align: left;
+    font-variant-caps: small-caps;
+    font-size: 24px;
+    position: relative;
+    bottom: 150px;
+    padding: 0px 0px 30px 55px;
+  }
+  .header-about-me {
+    color: white;
+    font-size: 140px;
+    text-decoration: line-through;
+    padding: 180px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .me {
+    position: relative;
+    bottom: 719px;
+    left: 400px;
+    width: 99%;
+  }
+  .mobile-photo {
+    display: none;
+  }
+  .menu-container {
+    margin: 30px 0px 0px 120px;
+    display: -ms-flexbox;
+    cursor: pointer;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+  }
+  .menu-navi {
+    display: inline-block;
+    margin: 35px 0px 0px -25px;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+  }
+  .menda {
+    color: white;
+    position: relative;
+    top: 360px;
+    right: 443px;
+    font-variant-caps: all-petite-caps;
+    font-size: 18px;
+  }
+  .menda > a {
+    text-decoration: none;
+    color: white;
+  }
+  .menda > .index {
+    text-decoration-line: line-through;
+    font-weight: bold;
+  }
+  .header-before-paragraf > p {
+    color: white;
+    text-align: left;
+    margin: 80px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .what-i-am {
+    color: white;
+    font-size: 46px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    margin-left: 140px;
+  }
+  .what-i-do {
+    color: white;
+    font-size: 46px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    text-align: left;
+  }
+  .what-i-am-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 200px;
+    margin-left: 140px;
+  }
+  .what-i-do-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 200px;
+  }
+  .section-what-i-am {
+    margin: 0 auto;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+    position: relative;
+    text-align: left;
+  }
+  .section-what-i-am > .row > .col-5 > h1 {
+    text-align: left;
+  }
+  .section-photo {
+    position: absolute;
+  }
+  .xxx {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 55px;
+  }
+  .xxx > a {
+    color: white;
+    text-decoration: none;
+  }
+  .xxx > h1 {
+    font-weight: bold;
+  }
+  .header {
+    color: white;
+    text-align: left;
+    margin: 80px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .section-contact {
+    position: relative;
+    bottom: 320px;
+  }
+  .header-contact {
+    color: white;
+    font-size: 140px;
+    text-decoration: line-through;
+    padding: 125px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .what {
+    font-size: 19px;
+    color: #4d4d4d;
+  }
+  .what-i {
+    text-decoration: line-through;
+    font-size: 70px;
+  }
+}
 
-body { margin: 0 auto; }
+@media screen and (min-width: 1367px) and (max-width: 1920px) {
+  .menda {
+    color: white;
+    position: relative;
+    top: 520px;
+    right: 433px;
+    font-variant-caps: all-petite-caps;
+    font-size: 18px;
+  }
+  .menda > a {
+    text-decoration: none;
+    color: white;
+  }
+  .menda > p {
+    text-decoration-line: line-through;
+    font-weight: bold;
+  }
+  .mobile-photo {
+    display: none;
+  }
+  body {
+    margin: 0 auto;
+  }
+  .paragraf-about-me {
+    color: white;
+    text-align: left;
+    font-variant-caps: all-petite-caps;
+    font-size: 24px;
+    position: relative;
+    bottom: 150px;
+    padding: 0px 0px 30px 55px;
+  }
+  .header-about-me {
+    color: white;
+    font-size: 140px;
+    text-decoration: line-through;
+    margin: 305px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+  }
+  .me {
+    position: relative;
+    bottom: 850px;
+    left: 435px;
+  }
+  .header-before-paragraf > p {
+    margin: 180px 0px 0px 50px;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+  }
+  .what-i-am {
+    color: white;
+    font-size: 46px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    margin-left: 220px;
+  }
+  .what-i-do {
+    color: white;
+    font-size: 46px;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    text-align: left;
+  }
+  .what-i-am-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 280px;
+    margin-left: 220px;
+  }
+  .what-i-do-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 280px;
+  }
+  .section-what-i-am {
+    margin: 0 auto;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+    position: relative;
+    text-align: left;
+  }
+  .section-what-i-am > .row > .col-5 > h1 {
+    text-align: left;
+  }
+  .section-photo {
+    position: absolute;
+  }
+  .xxx {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 55px;
+  }
+  .xxx > a {
+    color: white;
+    text-decoration: none;
+  }
+  .xxx > h1 {
+    font-weight: bold;
+  }
+  .header {
+    color: white;
+    text-align: left;
+    margin: 80px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .section-contact {
+    position: relative;
+    bottom: 320px;
+  }
+  .header-contact {
+    color: white;
+    font-size: 140px;
+    text-decoration: line-through;
+    padding: 125px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .what {
+    font-size: 19px;
+    color: #4d4d4d;
+  }
+  .what-i {
+    text-decoration: line-through;
+    font-size: 70px;
+  }
+}
 
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) { .col-8.aboutme-section { background: red; background: linear-gradient(to right, #000000, #0d0d0d); }
-  .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 18px; position: absolute; padding: 0px 0px 0px 0px; }
-  .header-about-me { color: white; font-size: 90px; text-decoration: line-through; padding: 110px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; }
-  .me { display: none; }
-  .menu-container { margin: 30px 0px 0px 120px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
-  .menu-navi { display: inline-block; margin: 35px 0px 0px -25px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
-  .menda { color: white; position: relative; top: 80px; right: 40px; font: -webkit-small-control; }
-  .menda > a { text-decoration: none; color: white; }
-  .menda > p { -webkit-text-decoration-line: line-through; text-decoration-line: line-through; font-weight: bold; }
-  .mobile-photo { width: 300px; height: 250px; top: 50px; left: 0px; } }
+body {
+  margin: 0 auto;
+}
 
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) { .col-8.aboutme-section { background: red; background: linear-gradient(to right, #000000, #0d0d0d); }
-  .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 18px; padding: 120px 0px 0px 60px; }
-  .header-about-me { color: white; font-size: 90px; text-decoration: line-through; padding: 110px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; }
-  .me { display: none; }
-  .menu-container { margin: 30px 0px 0px 30px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
-  .menu-navi { display: inline-block; margin: 35px 0px 0px -25px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
-  .menda > a { display: none; }
-  .mobile-photo { width: 380px; height: 280px; margin: 35px 0px 0px 0px; } }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+  .col-8.aboutme-section {
+    background: red;
+    background: linear-gradient(to right, #000000, #0d0d0d);
+  }
+  .paragraf-about-me {
+    color: white;
+    text-align: left;
+    font-variant-caps: all-petite-caps;
+    font-size: 18px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+  }
+  .header-about-me {
+    color: white;
+    font-size: 90px;
+    text-decoration: line-through;
+    padding: 110px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+  }
+  .me {
+    display: none;
+  }
+  .menu-container {
+    margin: 30px 0px 0px 120px;
+    display: -ms-flexbox;
+    cursor: pointer;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+  }
+  .menu-navi {
+    display: inline-block;
+    margin: 35px 0px 0px -25px;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+  }
+  .menda {
+    color: white;
+    position: relative;
+    top: 80px;
+    right: 40px;
+    font: -webkit-small-control;
+  }
+  .menda > a {
+    text-decoration: none;
+    color: white;
+  }
+  .menda > p {
+    text-decoration-line: line-through;
+    font-weight: bold;
+  }
+  .mobile-photo {
+    width: 300px;
+    height: 250px;
+    top: 50px;
+    left: 0px;
+  }
+}
 
-html { text-align: center; font-family: 'Titillium Web', sans-serif; }
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+  .col-8.aboutme-section {
+    background: red;
+    background: linear-gradient(to right, #000000, #0d0d0d);
+  }
+  .paragraf-about-me {
+    color: white;
+    text-align: left;
+    font-variant-caps: all-petite-caps;
+    font-size: 18px;
+    padding: 120px 0px 0px 60px;
+  }
+  .header-about-me {
+    color: white;
+    font-size: 90px;
+    text-decoration: line-through;
+    padding: 110px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+  }
+  .me {
+    display: none;
+  }
+  .menu-container {
+    margin: 30px 0px 0px 30px;
+    display: -ms-flexbox;
+    cursor: pointer;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+  }
+  .menu-navi {
+    display: inline-block;
+    margin: 35px 0px 0px -25px;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+  }
+  .menda > a {
+    display: none;
+  }
+  .mobile-photo {
+    width: 380px;
+    height: 280px;
+    margin: 35px 0px 0px 0px;
+  }
+}
+
+html {
+  text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -31,7 +31,7 @@ padding: 0px;
 /*KONIEC GRID MONITOR*/
 }
 /*GRID LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px){
+/*@media screen and (min-width: 1025px) and (max-width: 1366px){*/
 [class*="col-"]{
 float: left;
 min-height: 342px;
@@ -52,7 +52,7 @@ padding: 0px;
 .col-13 {width: 26.66%; background-color: black;}
 .col-14 {width: 20%; background-color: black;}
 .col-15 {width: 60%; background-color: black;}
-}
+
 /*KONIEC GRID LAPTOP*/
 /*GRID TABLET
   @media only screen and (device-width:768px){

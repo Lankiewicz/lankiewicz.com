@@ -9,7 +9,7 @@
 }
 
 /*GRID MONITOR*/
-@media screen and (min-width: 1367px) and (max-width: 1920px) {
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
   [class*="col-"] {
     float: left;
     min-height: 450px;
@@ -639,7 +639,7 @@ body {
 .me {
   position: relative;
   bottom: 580px;
-  left: 405px;
+  left: 435px;
   width: 99%;
 }
 

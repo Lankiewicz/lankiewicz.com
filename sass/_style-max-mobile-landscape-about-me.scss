@@ -1,11 +1,7 @@
-body {
+/*body {
 margin: 0 auto;
 }
- @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
-.col-8.aboutme-section{
-background: red;
-background: linear-gradient(to right, #000000, #0d0d0d);
-}
+ @media screen and (min-width: 300px) and (max-width: 450px) and (orientation:landscape) {
 .paragraf-about-me {
 color: white;
 text-align: left;
@@ -16,9 +12,9 @@ padding: 0px 0px 0px 0px;
 }
 .header-about-me {
 color: white;
-font-size: 90px;
+font-size: 40px;
 text-decoration: line-through;
-padding: 110px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
 letter-spacing: 12px;
 font-weight: bold;
 position: relative;
@@ -26,23 +22,6 @@ margin: 0 auto;
 }
 .me {
 display: none;
-}
-.menu-container {
-margin: 30px 0px 0px 120px;
-display: -ms-flexbox;
-cursor: pointer;
--ms-flex-align: center;
-align-items: center;
--ms-flex-pack: center;
-justify-content: center;
-position: fixed;
-}
-.menu-navi {
-display: inline-block;
-margin: 35px 0px 0px -25px;
-width: 0;
-overflow: hidden;
-transition: width 0.4s ease-in-out;
 }
 .menda {
 color: white;
@@ -62,8 +41,8 @@ font-weight: bold;
 .mobile-photo {
 width: 300px;
 height: 250px;
-
 top: 50px;
 left: 0px; 
 }
 }
+*/

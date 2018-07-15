@@ -31,7 +31,7 @@ padding: 0px;
 /*KONIEC GRID MONITOR*/
 }
 /*GRID LAPTOP*/
-/*@media screen and (min-width: 1025px) and (max-width: 1366px){*/
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
 [class*="col-"]{
 float: left;
 min-height: 342px;
@@ -76,10 +76,10 @@ padding: 0px;
 }
 /*KONIEC GRID TABLET*/
 /*GRID PIONOWO MOBILE*/
- @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+ @media screen and (min-width: 300px) and (max-width: 450px) and (orientation:portrait) {
 [class*="col-"]{
 float: left;
-min-height: 700px;
+min-height: 300px;
 padding: 0px;
 }
 .col-1 {width: 8.33%;}

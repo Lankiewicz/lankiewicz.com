@@ -1,5 +1,5 @@
 ﻿/*STRONA GŁÓWNA MOBILE POZIOMO*/
- @media screen and (min-width: 450px) and (max-width: 734px) and (orientation:landscape) {
+ @media screen and (min-width: 600px) and (max-width: 800px) and (orientation:landscape) {
 
 .col-8>.banner {
    width: 330px;
@@ -15,3 +15,18 @@
 }
 }
 /*KONIEC STRONA GŁÓWNA MOBILE POZIOMO*/
+/*STRONA GŁÓWNA MOBILE POZIOMO*/
+ @media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation:landscape) {
+ 	.col-8>.banner {
+   width: 500px;
+  height: 250px;
+  float: left;
+margin: 45px 0px 0px 100px;
+}
+.col-8>.logo { 
+  float: left;
+  width: 115px;
+  height: 100px;
+  margin: 55px 0px 0px 130px;
+}
+}

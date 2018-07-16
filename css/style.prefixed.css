@@ -69,7 +69,7 @@
 }
 
 /*GRID LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
   [class*="col-"] {
     float: left;
     min-height: 342px;
@@ -129,28 +129,243 @@
 }
 
 /*KONIEC GRID LAPTOP*/
-/*GRID TABLET
-  @media only screen and (device-width:768px){
-[class*="col-"]{
-float: left;
-min-height: 235px;
-padding: 0px;
+/*Grid Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  [class*="col-"] {
+    float: left;
+    min-height: 350px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .col-13 {
+    width: 26.66%;
+    background-color: black;
+  }
+  .col-14 {
+    width: 20%;
+    background-color: black;
+  }
+  .col-15 {
+    width: 60%;
+    background-color: black;
+  }
 }
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 17%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 40.00%;background-color: black;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 80.00%;background-color: black;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+
+/*KONIEC GRID TABLET*/
+/*Grid Tablet*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+  [class*="col-"] {
+    float: left;
+    min-height: 300px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .col-13 {
+    width: 26.66%;
+    background-color: black;
+  }
+  .col-14 {
+    width: 20%;
+    background-color: black;
+  }
+  .col-15 {
+    width: 60%;
+    background-color: black;
+  }
 }
+
 /*KONIEC GRID TABLET*/
 /*GRID PIONOWO MOBILE*/
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
+  [class*="col-"] {
+    float: left;
+    min-height: 300px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .col-13 {
+    width: 26.66%;
+    background-color: black;
+  }
+  .col-14 {
+    width: 20%;
+    background-color: black;
+  }
+  .col-15 {
+    width: 60%;
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) {
+  [class*="col-"] {
+    float: left;
+    min-height: 120px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .col-13 {
+    width: 26.66%;
+    background-color: black;
+  }
+  .col-14 {
+    width: 20%;
+    background-color: black;
+  }
+  .col-15 {
+    width: 60%;
+    background-color: black;
+  }
+}
+
 /*Menu STANTARD*/
 .menu-container {
   margin: 30px 0px 0px 120px;
@@ -239,32 +454,13 @@ padding: 0px;
 
 /*KONIEC MENU STANTARD*/
 /*MENU LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
   .menu-navi ul li a {
     line-height: 56px;
   }
 }
 
-/*KONIEC MENU LAPTOP*/
-/*MENU TABLET i MOBILE
-@media screen and (max-width: 991px){
-.menu-container {
-margin: 30px 0px 0px 95px;
-display: -ms-flexbox;
-cursor: pointer;
--ms-flex-align: center;
-align-items: center;
--ms-flex-pack: center;
-justify-content: center;
-position: fixed;
-}
-.menu-navi ul li a{
-font-size: 22px;
-line-height: 55px;
-}
-}
-*/
-/*MENU KONTENER MOBILE PORTRAIT*/
+/*MENU KONTENER MOBILE PORTRAIT iPhone*/
 @media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
   .menu-container {
     margin: 18px 0px 0px 20px;
@@ -300,7 +496,8 @@ line-height: 55px;
   }
 }
 
-@media screen and (min-width: 450px) and (max-width: 750px) and (orientation: landscape) {
+/*MENU KONTENER MOBILE LANDSCAPE iPhone*/
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) {
   .menu-container {
     margin: 18px 0px 0px 60px;
     display: -ms-flexbox;
@@ -336,6 +533,79 @@ line-height: 55px;
 }
 
 /*MENU KONTENER MOBILE LANDSCAPE*/
+/*MENU KONTENER TABLET LANDSCAPE*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+  .menu-container {
+    margin: 18px 0px 0px 90px;
+    display: -ms-flexbox;
+    cursor: pointer;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+  }
+  .menu-navi ul li a {
+    font-size: 12.5px;
+    line-height: 43px;
+    font-weight: bold;
+  }
+  .menu-navi {
+    display: inline-block;
+    margin: 35px 0px 0px -18.5px;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+  }
+  .menu-icon span {
+    position: relative;
+    display: block;
+    width: 29px;
+    height: 4px;
+    background: black;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+}
+
+/*MENU KONTENER TABLET LANDSCAPE*/
+/*MENU KONTENER TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .menu-container {
+    margin: 18px 0px 0px 20px;
+    display: -ms-flexbox;
+    cursor: pointer;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+  }
+  .menu-navi ul li a {
+    font-size: 12.5px;
+    line-height: 43px;
+    font-weight: bold;
+  }
+  .menu-navi {
+    display: inline-block;
+    margin: 35px 0px 0px -18.5px;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+  }
+  .menu-icon span {
+    position: relative;
+    display: block;
+    width: 29px;
+    height: 4px;
+    background: black;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+}
+
 body {
   background: white;
 }
@@ -356,7 +626,7 @@ body {
 
 /*KONIEC MOUSE SCROLL MONITOR*/
 /*MOUSE SCROLL LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
   .mouse_scroll {
     display: block;
     margin: 0 auto;
@@ -369,7 +639,7 @@ body {
 
 /*KONIEC MOUSE SCROLL LAPTOP*/
 /*MOUSE SCROLL MOBILE-PiONOWO*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
   .mouse_scroll {
     display: block;
     margin: 0 auto;
@@ -382,7 +652,7 @@ body {
 
 /*KONIEC MOUSE SCROLL MOBILE-PIONOWO*/
 /*MOUSE SCROLL MOBILE-POZIOMO*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) {
   .mouse_scroll {
     display: block;
     margin: 0 auto;
@@ -393,7 +663,32 @@ body {
   }
 }
 
-/*KONIEC MOUSE SCROLL MOBILE-POZIOMO*/
+/*MOUSE SCROLL TABLET PORTRAIT*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .mouse_scroll {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    margin: 450px 0px 0px 60px;
+    position: fixed;
+  }
+}
+
+/*KONIEC MOUSE SCROLL TABLET PORTRAIT*/
+/*MOUSE SCROLL TABLET LANDSCAPE*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+  .mouse_scroll {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    margin: 190px 0px 0px 105px;
+    position: fixed;
+  }
+}
+
+/*KONIEC MOUSE SCROLL TABLET LANDSCAPE*/
 .m_scroll_arrows {
   display: block;
   width: 5px;
@@ -477,19 +772,19 @@ body {
 }
 
 /*STRONA GŁÓWNA LAPTOP*/
-/*@media screen and (min-width: 1025px) and (max-width: 1366px){*/
-.col-8 > .banner {
-  width: 520px;
-  height: 270px;
-  float: left;
-  margin: 45px 0px 0px 100px;
-}
-
-.col-8 > .logo {
-  float: left;
-  width: 115px;
-  height: 100px;
-  margin: 55px 0px 0px 130px;
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+  .col-8 > .banner {
+    width: 520px;
+    height: 270px;
+    float: left;
+    margin: 45px 0px 0px 100px;
+  }
+  .col-8 > .logo {
+    float: left;
+    width: 115px;
+    height: 100px;
+    margin: 55px 0px 0px 130px;
+  }
 }
 
 /*KONIEC STRONA GŁÓWNA LAPTOP*/
@@ -510,8 +805,24 @@ body {
 }
 
 /*KONIEC STRONA GŁÓWNA MOBILE*/
+/*STRONA GŁOWNA TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .col-8 > .banner {
+    width: 530px;
+    height: 400px;
+    float: left;
+    margin: 200px 0px 0px 55px;
+  }
+  .col-8 > .logo {
+    float: left;
+    width: 115px;
+    height: 100px;
+    margin: 65px 0px 0px 55px;
+  }
+}
+
 /*STRONA GŁÓWNA MOBILE POZIOMO*/
-@media screen and (min-width: 450px) and (max-width: 734px) and (orientation: landscape) {
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) {
   .col-8 > .banner {
     width: 330px;
     height: 185px;
@@ -527,6 +838,22 @@ body {
 }
 
 /*KONIEC STRONA GŁÓWNA MOBILE POZIOMO*/
+/*STRONA GŁÓWNA MOBILE POZIOMO*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+  .col-8 > .banner {
+    width: 500px;
+    height: 250px;
+    float: left;
+    margin: 45px 0px 0px 100px;
+  }
+  .col-8 > .logo {
+    float: left;
+    width: 115px;
+    height: 100px;
+    margin: 55px 0px 0px 130px;
+  }
+}
+
 @media screen and (min-width: 1367px) and (max-width: 1920px) {
   /*STRONA GŁÓWNA MONITOR*/
   .col-8 > .banner {
@@ -565,7 +892,7 @@ body {
   height: 10px;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1366px) {
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
   .paragraf-about-me {
     color: white;
     text-align: left;
@@ -666,7 +993,7 @@ body {
   .header {
     color: white;
     text-align: left;
-    margin: 80px 0px 0px 55px;
+    margin: 140px 0px 0px 55px;
     font-size: 40px;
     font-variant-caps: small-caps;
   }
@@ -678,7 +1005,7 @@ body {
     color: white;
     font-size: 140px;
     text-decoration: line-through;
-    padding: 125px 0px 0px 0px;
+    padding: 165px 0px 0px 0px;
     letter-spacing: 12px;
     font-weight: bold;
     position: relative;
@@ -859,7 +1186,7 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 450px) and (max-width: 750px) and (orientation: landscape) {
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) {
   .paragraf-about-me {
     color: white;
     text-align: left;
@@ -983,13 +1310,143 @@ body {
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+  .paragraf-about-me {
+    color: white;
+    text-align: left;
+    font-variant-caps: small-caps;
+    font-size: 24px;
+    position: relative;
+    bottom: 150px;
+    padding: 180px 0px 30px 55px;
+  }
+  .header-about-me {
+    color: white;
+    font-size: 140px;
+    text-decoration: line-through;
+    padding: 250px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .me-mobile {
+    width: 93%;
+    right: 250px;
+    position: absolute;
+    padding-top: 100px;
+  }
+  .me {
+    display: none;
+  }
+  .mobile-photo {
+    display: none;
+  }
+  .header-before-paragraf > p {
+    color: white;
+    text-align: left;
+    margin: 680px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .what-i-am {
+    color: white;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    margin-left: 55px;
+  }
+  .what-i-do {
+    color: white;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .what-i-am-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 160px;
+    margin-left: 55px;
+  }
+  .what-i-do-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 160px;
+    margin-left: 55px;
+  }
+  .section-what-i-am {
+    margin: 0 auto;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+    position: relative;
+    text-align: left;
+  }
+  .section-what-i-am > .row > .col-5 > h1 {
+    text-align: left;
+  }
+  .section-photo {
+    position: absolute;
+  }
+  .xxx {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 55px;
+  }
+  .xxx > a {
+    color: white;
+    text-decoration: none;
+  }
+  .xxx > h1 {
+    font-weight: bold;
+  }
+  .header {
+    color: white;
+    text-align: left;
+    margin: 140px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .section-contact {
+    position: relative;
+    bottom: 320px;
+  }
+  .header-contact {
+    color: white;
+    font-size: 140px;
+    text-decoration: line-through;
+    padding: 165px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .what {
+    font-size: 19px;
+    color: #4d4d4d;
+  }
+  .what-i {
+    text-decoration: line-through;
+    font-size: 70px;
+  }
+}
+
 @media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
   .paragraf-about-me {
     color: white;
     text-align: left;
     font-variant-caps: all-petite-caps;
     font-size: 18px;
-    padding: 20px 0px 0px 20px;
+    padding: 180px 0px 0px 20px;
   }
   .header-about-me {
     color: white;
@@ -1112,126 +1569,137 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .paragraf-about-me {
+    color: white;
+    text-align: left;
+    font-variant-caps: small-caps;
+    font-size: 24px;
+    position: relative;
+    bottom: 150px;
+    padding: 180px 0px 30px 55px;
+  }
+  .header-about-me {
+    color: white;
+    font-size: 110px;
+    text-decoration: line-through;
+    padding: 300px 0px 0px 0px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .me-mobile {
+    width: 95%;
+    right: 200px;
+    position: absolute;
+    padding-top: 230px;
+  }
+  .me {
+    display: none;
+  }
+  .header-before-paragraf > p {
+    color: white;
+    text-align: left;
+    margin: 550px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .what-i-am {
+    width: 100%;
+    color: white;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    margin-left: 55px;
+  }
+  .what-i-do {
+    color: white;
+    width: 100%;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 80px;
+  }
+  .what-i-am-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 215px;
+    margin-left: 55px;
+  }
+  .what-i-do-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 215px;
+    margin-left: 80px;
+  }
+  .section-what-i-am {
+    margin: 0 auto;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+    position: relative;
+    text-align: left;
+  }
+  .section-what-i-am > .row > .col-5 > h1 {
+    text-align: left;
+  }
+  .section-photo {
+    position: absolute;
+  }
+  .xxx {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 55px;
+  }
+  .xxx > a {
+    color: white;
+    text-decoration: none;
+  }
+  .xxx > h1 {
+    font-weight: bold;
+  }
+  .header {
+    color: white;
+    text-align: left;
+    margin: 140px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .section-contact {
+    position: relative;
+    bottom: 320px;
+  }
+  .header-contact {
+    color: white;
+    font-size: 110px;
+    text-decoration: line-through;
+    padding: 200px 0px 0px 0px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .what {
+    font-size: 19px;
+    color: #4d4d4d;
+  }
+  .what-i {
+    text-decoration: line-through;
+    font-size: 70px;
+  }
+}
+
 html {
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
-}
-
-/*GRID MONITOR*/
-/*GRID PIONOWO MOBILE*/
-@media only screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
-  [class*="col-"] {
-    float: left;
-    min-height: 300px;
-    padding: 0px;
-  }
-  .col-1 {
-    width: 8.33%;
-  }
-  .col-2 {
-    width: 16.66%;
-  }
-  .col-3 {
-    width: 17%;
-  }
-  .col-4 {
-    width: 33.33%;
-  }
-  .col-5 {
-    width: 40.00%;
-    background-color: black;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-7 {
-    width: 58.33%;
-  }
-  .col-8 {
-    width: 80.00%;
-    background-color: black;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.33%;
-  }
-  .col-11 {
-    width: 91.66%;
-  }
-  .col-12 {
-    width: 100%;
-  }
-  .col-13 {
-    width: 26.66%;
-    background-color: black;
-  }
-  .col-14 {
-    width: 20%;
-    background-color: black;
-  }
-  .col-15 {
-    width: 60%;
-    background-color: black;
-  }
-}
-
-@media screen and (min-width: 450px) and (max-width: 750px) and (orientation: landscape) {
-  [class*="col-"] {
-    float: left;
-    min-height: 120px;
-    padding: 0px;
-  }
-  .col-1 {
-    width: 8.33%;
-  }
-  .col-2 {
-    width: 16.66%;
-  }
-  .col-3 {
-    width: 17%;
-  }
-  .col-4 {
-    width: 33.33%;
-  }
-  .col-5 {
-    width: 40.00%;
-    background-color: black;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-7 {
-    width: 58.33%;
-  }
-  .col-8 {
-    width: 80.00%;
-    background-color: black;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.33%;
-  }
-  .col-11 {
-    width: 91.66%;
-  }
-  .col-12 {
-    width: 100%;
-  }
-  .col-13 {
-    width: 26.66%;
-    background-color: black;
-  }
-  .col-14 {
-    width: 20%;
-    background-color: black;
-  }
-  .col-15 {
-    width: 60%;
-    background-color: black;
-  }
 }
 /*# sourceMappingURL=style.prefixed.css.map */

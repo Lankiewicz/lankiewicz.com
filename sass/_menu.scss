@@ -31,34 +31,14 @@ transition: width 0.4s ease-in-out;
 /*KONIEC MENU STANTARD*/
 
 /*MENU LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px){
+@media screen and (min-width: 1281px) and (max-width: 1366px){
 .menu-navi ul li a {
 line-height: 56px;
 }
 }
-/*KONIEC MENU LAPTOP*/
 
-/*MENU TABLET i MOBILE
-@media screen and (max-width: 991px){
-.menu-container {
-margin: 30px 0px 0px 95px;
-display: -ms-flexbox;
-cursor: pointer;
--ms-flex-align: center;
-align-items: center;
--ms-flex-pack: center;
-justify-content: center;
-position: fixed;
-}
-.menu-navi ul li a{
-font-size: 22px;
-line-height: 55px;
-}
-}
-*/
-
-/*MENU KONTENER MOBILE PORTRAIT*/
- @media screen and (min-width: 300px) and (max-width: 1000px) and (orientation:portrait) {
+/*MENU KONTENER MOBILE PORTRAIT iPhone*/
+ @media screen and (min-width: 300px) and (max-width: 450px) and (orientation:portrait) {
  	.menu-container {
 margin: 18px 0px 0px 20px;
 display: -ms-flexbox;
@@ -83,7 +63,9 @@ transition: width 0.4s ease-in-out;
 }
 .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; }
 }
- @media screen and (min-width: 450px) and (max-width: 750px) and (orientation:landscape) {
+
+/*MENU KONTENER MOBILE LANDSCAPE iPhone*/
+ @media screen and (min-width: 600px) and (max-width: 800px) and (orientation:landscape) {
  	.menu-container {
 margin: 18px 0px 0px 60px;
 display: -ms-flexbox;
@@ -109,3 +91,57 @@ transition: width 0.4s ease-in-out;
 .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; }
 }
 /*MENU KONTENER MOBILE LANDSCAPE*/
+
+/*MENU KONTENER TABLET LANDSCAPE*/
+ @media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation:landscape) {
+ 	.menu-container {
+margin: 18px 0px 0px 90px;
+display: -ms-flexbox;
+cursor: pointer;
+-ms-flex-align: center;
+align-items: center;
+-ms-flex-pack: center;
+justify-content: center;
+position: fixed;
+}
+.menu-navi ul li a{
+font-size: 12.5px;
+line-height: 43px;
+font-weight: bold;
+}
+.menu-navi {
+display: inline-block;
+margin: 35px 0px 0px -18.5px;
+width: 0;
+overflow: hidden;
+transition: width 0.4s ease-in-out;
+}
+.menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; }
+}
+/*MENU KONTENER TABLET LANDSCAPE*/
+/*MENU KONTENER TABLET*/
+ @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+ 	.menu-container {
+margin: 18px 0px 0px 20px;
+display: -ms-flexbox;
+cursor: pointer;
+-ms-flex-align: center;
+align-items: center;
+-ms-flex-pack: center;
+justify-content: center;
+position: fixed;
+}
+.menu-navi ul li a{
+font-size: 12.5px;
+line-height: 43px;
+font-weight: bold;
+}
+.menu-navi {
+display: inline-block;
+margin: 35px 0px 0px -18.5px;
+width: 0;
+overflow: hidden;
+transition: width 0.4s ease-in-out;
+}
+.menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; }
+}

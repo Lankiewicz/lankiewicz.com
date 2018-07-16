@@ -1,5 +1,5 @@
 ﻿/*STRONA GŁÓWNA MOBILE PIONOWO*/
- @media screen and (min-width: 300px) and (max-width: 1000px) and (orientation:portrait) {
+ @media screen and (min-width: 300px) and (max-width: 450px) and (orientation:portrait) {
 .col-8>.banner {
    width: 270px;
   height: 190px;
@@ -14,3 +14,19 @@
 }
 }
 /*KONIEC STRONA GŁÓWNA MOBILE*/
+
+/*STRONA GŁOWNA TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+	.col-8>.banner {
+   width: 530px;
+  height: 400px;
+  float: left;
+  margin: 200px 0px 0px 55px;	
+  }
+.col-8>.logo {
+  float: left;
+  width: 115px;
+  height: 100px;
+  margin: 65px 0px 0px 55px;
+}
+}

@@ -23,7 +23,7 @@
   /*KONIEC GRID MONITOR*/ }
 
 /*GRID LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) { [class*="col-"] { float: left; min-height: 342px; padding: 0px; }
+@media screen and (min-width: 1281px) and (max-width: 1366px) { [class*="col-"] { float: left; min-height: 342px; padding: 0px; }
   .col-1 { width: 8.33%; }
   .col-2 { width: 16.66%; }
   .col-3 { width: 17%; background-color: white; }
@@ -41,31 +41,8 @@
   .col-15 { width: 60%; background-color: black; } }
 
 /*KONIEC GRID LAPTOP*/
-/*GRID TABLET
-  @media only screen and (device-width:768px){
-[class*="col-"]{
-float: left;
-min-height: 235px;
-padding: 0px;
-}
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 17%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 40.00%;background-color: black;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 80.00%;background-color: black;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-}
-/*KONIEC GRID TABLET*/
-/*GRID PIONOWO MOBILE*/
-/*GRID MONITOR*/
-/*GRID PIONOWO MOBILE*/
-@media only screen and (min-width: 300px) and (max-width: 1000px) and (orientation: portrait) { [class*="col-"] { float: left; min-height: 300px; padding: 0px; }
+/*Grid Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { [class*="col-"] { float: left; min-height: 350px; padding: 0px; }
   .col-1 { width: 8.33%; }
   .col-2 { width: 16.66%; }
   .col-3 { width: 17%; }
@@ -82,7 +59,45 @@ padding: 0px;
   .col-14 { width: 20%; background-color: black; }
   .col-15 { width: 60%; background-color: black; } }
 
-@media screen and (min-width: 450px) and (max-width: 750px) and (orientation: landscape) { [class*="col-"] { float: left; min-height: 120px; padding: 0px; }
+/*KONIEC GRID TABLET*/
+/*Grid Tablet*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) { [class*="col-"] { float: left; min-height: 300px; padding: 0px; }
+  .col-1 { width: 8.33%; }
+  .col-2 { width: 16.66%; }
+  .col-3 { width: 17%; }
+  .col-4 { width: 33.33%; }
+  .col-5 { width: 40.00%; background-color: black; }
+  .col-6 { width: 50%; }
+  .col-7 { width: 58.33%; }
+  .col-8 { width: 80.00%; background-color: black; }
+  .col-9 { width: 75%; }
+  .col-10 { width: 83.33%; }
+  .col-11 { width: 91.66%; }
+  .col-12 { width: 100%; }
+  .col-13 { width: 26.66%; background-color: black; }
+  .col-14 { width: 20%; background-color: black; }
+  .col-15 { width: 60%; background-color: black; } }
+
+/*KONIEC GRID TABLET*/
+/*GRID PIONOWO MOBILE*/
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) { [class*="col-"] { float: left; min-height: 300px; padding: 0px; }
+  .col-1 { width: 8.33%; }
+  .col-2 { width: 16.66%; }
+  .col-3 { width: 17%; }
+  .col-4 { width: 33.33%; }
+  .col-5 { width: 40.00%; background-color: black; }
+  .col-6 { width: 50%; }
+  .col-7 { width: 58.33%; }
+  .col-8 { width: 80.00%; background-color: black; }
+  .col-9 { width: 75%; }
+  .col-10 { width: 83.33%; }
+  .col-11 { width: 91.66%; }
+  .col-12 { width: 100%; }
+  .col-13 { width: 26.66%; background-color: black; }
+  .col-14 { width: 20%; background-color: black; }
+  .col-15 { width: 60%; background-color: black; } }
+
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) { [class*="col-"] { float: left; min-height: 120px; padding: 0px; }
   .col-1 { width: 8.33%; }
   .col-2 { width: 16.66%; }
   .col-3 { width: 17%; }
@@ -128,39 +143,34 @@ padding: 0px;
 
 /*KONIEC MENU STANTARD*/
 /*MENU LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) { .menu-navi ul li a { line-height: 56px; } }
+@media screen and (min-width: 1281px) and (max-width: 1366px) { .menu-navi ul li a { line-height: 56px; } }
 
-/*KONIEC MENU LAPTOP*/
-/*MENU TABLET i MOBILE
-@media screen and (max-width: 991px){
-.menu-container {
-margin: 30px 0px 0px 95px;
-display: -ms-flexbox;
-cursor: pointer;
--ms-flex-align: center;
-align-items: center;
--ms-flex-pack: center;
-justify-content: center;
-position: fixed;
-}
-.menu-navi ul li a{
-font-size: 22px;
-line-height: 55px;
-}
-}
-*/
-/*MENU KONTENER MOBILE PORTRAIT*/
-@media screen and (min-width: 300px) and (max-width: 1000px) and (orientation: portrait) { .menu-container { margin: 18px 0px 0px 20px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
+/*MENU KONTENER MOBILE PORTRAIT iPhone*/
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) { .menu-container { margin: 18px 0px 0px 20px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
   .menu-navi ul li a { font-size: 12.5px; line-height: 43px; font-weight: bold; }
   .menu-navi { display: inline-block; margin: 35px 0px 0px -18.5px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
   .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; } }
 
-@media screen and (min-width: 450px) and (max-width: 750px) and (orientation: landscape) { .menu-container { margin: 18px 0px 0px 60px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
+/*MENU KONTENER MOBILE LANDSCAPE iPhone*/
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) { .menu-container { margin: 18px 0px 0px 60px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
   .menu-navi ul li a { font-size: 12.5px; line-height: 43px; font-weight: bold; }
   .menu-navi { display: inline-block; margin: 35px 0px 0px -18.5px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
   .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; } }
 
 /*MENU KONTENER MOBILE LANDSCAPE*/
+/*MENU KONTENER TABLET LANDSCAPE*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) { .menu-container { margin: 18px 0px 0px 90px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
+  .menu-navi ul li a { font-size: 12.5px; line-height: 43px; font-weight: bold; }
+  .menu-navi { display: inline-block; margin: 35px 0px 0px -18.5px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
+  .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; } }
+
+/*MENU KONTENER TABLET LANDSCAPE*/
+/*MENU KONTENER TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { .menu-container { margin: 18px 0px 0px 20px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
+  .menu-navi ul li a { font-size: 12.5px; line-height: 43px; font-weight: bold; }
+  .menu-navi { display: inline-block; margin: 35px 0px 0px -18.5px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
+  .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; } }
+
 body { background: white; }
 
 *, *:before, *:after { box-sizing: border-box; }
@@ -170,17 +180,24 @@ body { background: white; }
 
 /*KONIEC MOUSE SCROLL MONITOR*/
 /*MOUSE SCROLL LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 200px 0px 0px 135px; position: fixed; } }
+@media screen and (min-width: 1281px) and (max-width: 1366px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 200px 0px 0px 135px; position: fixed; } }
 
 /*KONIEC MOUSE SCROLL LAPTOP*/
 /*MOUSE SCROLL MOBILE-PiONOWO*/
-@media screen and (min-width: 481px) and (max-width: 1000px) and (orientation: portrait) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 400px 0px 0px 90px; position: fixed; } }
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 400px 0px 0px 90px; position: fixed; } }
 
 /*KONIEC MOUSE SCROLL MOBILE-PIONOWO*/
 /*MOUSE SCROLL MOBILE-POZIOMO*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 140px 0px 0px 55px; position: fixed; } }
+@media only screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 140px 0px 0px 55px; position: fixed; } }
 
-/*KONIEC MOUSE SCROLL MOBILE-POZIOMO*/
+/*MOUSE SCROLL TABLET PORTRAIT*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 450px 0px 0px 60px; position: fixed; } }
+
+/*KONIEC MOUSE SCROLL TABLET PORTRAIT*/
+/*MOUSE SCROLL TABLET LANDSCAPE*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 190px 0px 0px 105px; position: fixed; } }
+
+/*KONIEC MOUSE SCROLL TABLET LANDSCAPE*/
 .m_scroll_arrows { display: block; width: 5px; height: 5px; /* IE 9 */ /* Chrome, Safari, Opera */ transform: rotate(45deg); border-right: 2px solid black; border-bottom: 2px solid black; margin: 0 0 3px 4px; width: 16px; height: 16px; }
 
 .unu { margin-top: 1px; }
@@ -204,22 +221,28 @@ body { background: white; }
   100% { opacity: 1; } }
 
 /*STRONA GŁÓWNA LAPTOP*/
-/*@media screen and (min-width: 1025px) and (max-width: 1366px){*/
-.col-8 > .banner { width: 520px; height: 270px; float: left; margin: 45px 0px 0px 100px; }
-
-.col-8 > .logo { float: left; width: 115px; height: 100px; margin: 55px 0px 0px 130px; }
+@media screen and (min-width: 1281px) and (max-width: 1366px) { .col-8 > .banner { width: 520px; height: 270px; float: left; margin: 45px 0px 0px 100px; }
+  .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 55px 0px 0px 130px; } }
 
 /*KONIEC STRONA GŁÓWNA LAPTOP*/
 /*STRONA GŁÓWNA MOBILE PIONOWO*/
-@media screen and (min-width: 300px) and (max-width: 1000px) and (orientation: portrait) { .col-8 > .banner { width: 270px; height: 190px; float: left; margin: 30px 0px 0px 0px; }
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) { .col-8 > .banner { width: 270px; height: 190px; float: left; margin: 30px 0px 0px 0px; }
   .col-8 > .logo { float: left; width: 110px; height: 90px; margin: 65px 0px 0px 25px; } }
 
 /*KONIEC STRONA GŁÓWNA MOBILE*/
+/*STRONA GŁOWNA TABLET*/
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { .col-8 > .banner { width: 530px; height: 400px; float: left; margin: 200px 0px 0px 55px; }
+  .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 65px 0px 0px 55px; } }
+
 /*STRONA GŁÓWNA MOBILE POZIOMO*/
-@media screen and (min-width: 450px) and (max-width: 734px) and (orientation: landscape) { .col-8 > .banner { width: 330px; height: 185px; float: left; margin: 20px 0px 0px 50px; }
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) { .col-8 > .banner { width: 330px; height: 185px; float: left; margin: 20px 0px 0px 50px; }
   .col-8 > .logo { float: left; width: 80px; height: 80px; margin: 10px 0px 0px 50px; } }
 
 /*KONIEC STRONA GŁÓWNA MOBILE POZIOMO*/
+/*STRONA GŁÓWNA MOBILE POZIOMO*/
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) { .col-8 > .banner { width: 500px; height: 250px; float: left; margin: 45px 0px 0px 100px; }
+  .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 55px 0px 0px 130px; } }
+
 @media screen and (min-width: 1367px) and (max-width: 1920px) { /*STRONA GŁÓWNA MONITOR*/
   .col-8 > .banner { width: 620px; height: 350px; float: left; margin: 170px 0px 0px 130px; }
   .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 50px 0px 0px 140px; } }
@@ -243,7 +266,7 @@ body { background: white; }
 /*KONIEC STRONA GŁÓWNA TABLET*/
 body { margin: 0 auto; height: 10px; }
 
-@media screen and (min-width: 1025px) and (max-width: 1366px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 24px; position: relative; bottom: 150px; padding: 200px 0px 30px 55px; }
+@media screen and (min-width: 1281px) and (max-width: 1366px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 24px; position: relative; bottom: 150px; padding: 200px 0px 30px 55px; }
   .header-about-me { color: white; font-size: 140px; text-decoration: line-through; padding: 180px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .me-mobile { display: none; }
   .me { position: relative; bottom: 580px; left: 435px; width: 99%; }
@@ -294,7 +317,7 @@ body { margin: 0 auto; height: 10px; }
 
 body { margin: 0 auto; }
 
-@media screen and (min-width: 450px) and (max-width: 750px) and (orientation: landscape) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 18px; padding: 20px 0px 0px 20px; }
+@media screen and (min-width: 600px) and (max-width: 800px) and (orientation: landscape) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 18px; padding: 20px 0px 0px 20px; }
   .header-about-me { color: white; font-size: 70px; text-decoration: line-through; padding: 250px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .header-before-paragraf > p { color: white; text-align: left; margin: 400px 0px 0px 20px; font-size: 32px; font-variant-caps: small-caps; }
   .me { display: none; }
@@ -315,7 +338,29 @@ body { margin: 0 auto; }
   .what { font-size: 17px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 40px; } }
 
-@media screen and (min-width: 300px) and (max-width: 1000px) and (orientation: portrait) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 18px; padding: 20px 0px 0px 20px; }
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 24px; position: relative; bottom: 150px; padding: 180px 0px 30px 55px; }
+  .header-about-me { color: white; font-size: 140px; text-decoration: line-through; padding: 250px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .me-mobile { width: 93%; right: 250px; position: absolute; padding-top: 100px; }
+  .me { display: none; }
+  .mobile-photo { display: none; }
+  .header-before-paragraf > p { color: white; text-align: left; margin: 680px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
+  .what-i-am { color: white; font-variant-caps: small-caps; font-weight: bold; margin-left: 55px; }
+  .what-i-do { color: white; font-variant-caps: small-caps; font-weight: bold; text-align: left; margin-left: 50px; }
+  .what-i-am-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 160px; margin-left: 55px; }
+  .what-i-do-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 160px; margin-left: 55px; }
+  .section-what-i-am { margin: 0 auto; font-size: 40px; font-variant-caps: small-caps; position: relative; text-align: left; }
+  .section-what-i-am > .row > .col-5 > h1 { text-align: left; }
+  .section-photo { position: absolute; }
+  .xxx { color: white; text-align: left; font-size: 20px; line-height: 30px; margin-left: 55px; }
+  .xxx > a { color: white; text-decoration: none; }
+  .xxx > h1 { font-weight: bold; }
+  .header { color: white; text-align: left; margin: 140px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
+  .section-contact { position: relative; bottom: 320px; }
+  .header-contact { color: white; font-size: 140px; text-decoration: line-through; padding: 165px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .what { font-size: 19px; color: #4d4d4d; }
+  .what-i { text-decoration: line-through; font-size: 70px; } }
+
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 18px; padding: 180px 0px 0px 20px; }
   .header-about-me { color: white; font-size: 46px; text-decoration: line-through; padding: 320px 0px 0px 0px; letter-spacing: 8px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .header-before-paragraf > p { color: white; text-align: left; margin: 260px 0px 0px 20px; font-size: 32px; font-variant-caps: small-caps; }
   .me { display: none; }
@@ -335,5 +380,26 @@ body { margin: 0 auto; }
   .header-contact { color: white; font-size: 48px; text-decoration: line-through; padding: 250px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .what { font-size: 19px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 40px; } }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 24px; position: relative; bottom: 150px; padding: 180px 0px 30px 55px; }
+  .header-about-me { color: white; font-size: 110px; text-decoration: line-through; padding: 300px 0px 0px 0px; letter-spacing: 10px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .me-mobile { width: 95%; right: 200px; position: absolute; padding-top: 230px; }
+  .me { display: none; }
+  .header-before-paragraf > p { color: white; text-align: left; margin: 550px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
+  .what-i-am { width: 100%; color: white; font-variant-caps: small-caps; font-weight: bold; margin-left: 55px; }
+  .what-i-do { color: white; width: 100%; font-variant-caps: small-caps; font-weight: bold; text-align: left; margin-left: 80px; }
+  .what-i-am-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 215px; margin-left: 55px; }
+  .what-i-do-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 215px; margin-left: 80px; }
+  .section-what-i-am { margin: 0 auto; font-size: 40px; font-variant-caps: small-caps; position: relative; text-align: left; }
+  .section-what-i-am > .row > .col-5 > h1 { text-align: left; }
+  .section-photo { position: absolute; }
+  .xxx { color: white; text-align: left; font-size: 20px; line-height: 34px; margin-left: 55px; }
+  .xxx > a { color: white; text-decoration: none; }
+  .xxx > h1 { font-weight: bold; }
+  .header { color: white; text-align: left; margin: 140px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
+  .section-contact { position: relative; bottom: 320px; }
+  .header-contact { color: white; font-size: 110px; text-decoration: line-through; padding: 200px 0px 0px 0px; letter-spacing: 10px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .what { font-size: 19px; color: #4d4d4d; }
+  .what-i { text-decoration: line-through; font-size: 70px; } }
 
 html { text-align: center; font-family: 'Titillium Web', sans-serif; }

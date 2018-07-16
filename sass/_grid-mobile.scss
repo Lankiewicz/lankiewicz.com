@@ -24,10 +24,10 @@ padding: 0px;
 .col-15 {width: 60%; background-color: black;}
 }
 
- /*@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
+ @media screen and (min-width: 450px) and (max-width: 750px) and (orientation:landscape) {
 [class*="col-"]{
 float: left;
-min-height: 180px;
+min-height: 120px;
 padding: 0px;
 }
 .col-1 {width: 8.33%;}
@@ -42,4 +42,7 @@ padding: 0px;
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-}*/
+.col-13 {width: 26.66%; background-color: black;}
+.col-14 {width: 20%; background-color: black;}
+.col-15 {width: 60%; background-color: black;}
+}

@@ -300,6 +300,41 @@ line-height: 55px;
   }
 }
 
+@media screen and (min-width: 450px) and (max-width: 750px) and (orientation: landscape) {
+  .menu-container {
+    margin: 18px 0px 0px 60px;
+    display: -ms-flexbox;
+    cursor: pointer;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+  }
+  .menu-navi ul li a {
+    font-size: 12.5px;
+    line-height: 43px;
+    font-weight: bold;
+  }
+  .menu-navi {
+    display: inline-block;
+    margin: 35px 0px 0px -18.5px;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+  }
+  .menu-icon span {
+    position: relative;
+    display: block;
+    width: 29px;
+    height: 4px;
+    background: black;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
+  }
+}
+
 /*MENU KONTENER MOBILE LANDSCAPE*/
 body {
   background: white;
@@ -476,18 +511,18 @@ body {
 
 /*KONIEC STRONA GŁÓWNA MOBILE*/
 /*STRONA GŁÓWNA MOBILE POZIOMO*/
-@media screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 450px) and (max-width: 734px) and (orientation: landscape) {
   .col-8 > .banner {
-    width: 250px;
-    height: 200px;
+    width: 330px;
+    height: 185px;
     float: left;
-    margin: 0px 0px 0px 50px;
+    margin: 20px 0px 0px 50px;
   }
   .col-8 > .logo {
     float: left;
     width: 80px;
     height: 80px;
-    margin: 20px 0px 0px 55px;
+    margin: 10px 0px 0px 50px;
   }
 }
 
@@ -550,6 +585,9 @@ body {
     position: relative;
     margin: 0 auto;
     text-align: left;
+  }
+  .me-mobile {
+    display: none;
   }
   .me {
     position: relative;
@@ -812,56 +850,139 @@ body {
     justify-content: center;
     position: fixed;
   }
+  .me-mobile {
+    display: none;
+  }
 }
 
-/*body {
-margin: 0 auto;
+body {
+  margin: 0 auto;
 }
- @media screen and (min-width: 300px) and (max-width: 450px) and (orientation:landscape) {
-.paragraf-about-me {
-color: white;
-text-align: left;
-font-variant-caps: all-petite-caps;
-font-size: 18px;
-position: absolute;
-padding: 0px 0px 0px 0px;
+
+@media screen and (min-width: 450px) and (max-width: 750px) and (orientation: landscape) {
+  .paragraf-about-me {
+    color: white;
+    text-align: left;
+    font-variant-caps: all-petite-caps;
+    font-size: 18px;
+    padding: 20px 0px 0px 20px;
+  }
+  .header-about-me {
+    color: white;
+    font-size: 70px;
+    text-decoration: line-through;
+    padding: 250px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .header-before-paragraf > p {
+    color: white;
+    text-align: left;
+    margin: 400px 0px 0px 20px;
+    font-size: 32px;
+    font-variant-caps: small-caps;
+  }
+  .me {
+    display: none;
+  }
+  .me-mobile {
+    width: 95%;
+    right: 150px;
+    position: absolute;
+  }
+  .what-i-am {
+    color: white;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    width: 100%;
+    margin: 20px 0px 0px 20px;
+  }
+  .what-i-do {
+    color: white;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0px 0px 80px;
+    width: 100%;
+  }
+  .what-i-am-paragraf {
+    font-size: 20px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    margin-left: 20px;
+    width: 120%;
+  }
+  .what-i-do-paragraf {
+    font-size: 20px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    margin-left: 80px;
+    width: 100%;
+  }
+  .section-what-i-am {
+    margin: 0 auto;
+    font-size: 28px;
+    font-variant-caps: small-caps;
+    position: relative;
+    text-align: left;
+  }
+  .section-what-i-am > .row > .col-5 > h1 {
+    text-align: left;
+  }
+  .section-photo {
+    position: absolute;
+  }
+  .xxx {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 21.5px;
+    margin-left: 20px;
+  }
+  .xxx > a {
+    color: white;
+    text-decoration: none;
+  }
+  .xxx > h1 {
+    font-weight: bold;
+  }
+  .header {
+    color: white;
+    text-align: left;
+    margin: 0px 0px 0px 20px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .section-contact {
+    bottom: 320px;
+  }
+  .header-contact {
+    color: white;
+    font-size: 70px;
+    text-decoration: line-through;
+    padding: 40px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    text-align: left;
+  }
+  .what {
+    font-size: 17px;
+    color: #4d4d4d;
+  }
+  .what-i {
+    text-decoration: line-through;
+    font-size: 40px;
+  }
 }
-.header-about-me {
-color: white;
-font-size: 40px;
-text-decoration: line-through;
-padding: 0px 0px 0px 0px;
-letter-spacing: 12px;
-font-weight: bold;
-position: relative;
-margin: 0 auto;
-}
-.me {
-display: none;
-}
-.menda {
-color: white;
-position: relative;
-top: 80px;
-right: 40px;
-font: -webkit-small-control;
-}
-.menda>a {
-text-decoration: none;
-color: white;
-}
-.menda>p {
-text-decoration-line: line-through;
-font-weight: bold;
-}
-.mobile-photo {
-width: 300px;
-height: 250px;
-top: 50px;
-left: 0px; 
-}
-}
-*/
+
 @media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
   .paragraf-about-me {
     color: white;
@@ -872,13 +993,14 @@ left: 0px;
   }
   .header-about-me {
     color: white;
-    font-size: 40px;
+    font-size: 46px;
     text-decoration: line-through;
-    padding: 350px 0px 0px 0px;
-    letter-spacing: 12px;
+    padding: 320px 0px 0px 0px;
+    letter-spacing: 8px;
     font-weight: bold;
     position: relative;
     margin: 0 auto;
+    text-align: left;
   }
   .header-before-paragraf > p {
     color: white;
@@ -948,7 +1070,7 @@ left: 0px;
     color: white;
     text-align: left;
     font-size: 20px;
-    line-height: 34px;
+    line-height: 30px;
     margin-left: 20px;
   }
   .xxx > a {
@@ -961,7 +1083,7 @@ left: 0px;
   .header {
     color: white;
     text-align: left;
-    margin: 250px 0px 0px 20px;
+    padding: 15px 0px 0px 20px;
     font-size: 40px;
     font-variant-caps: small-caps;
   }
@@ -971,13 +1093,14 @@ left: 0px;
   }
   .header-contact {
     color: white;
-    font-size: 40px;
+    font-size: 48px;
     text-decoration: line-through;
     padding: 250px 0px 0px 0px;
     letter-spacing: 12px;
     font-weight: bold;
     position: relative;
     margin: 0 auto;
+    text-align: left;
   }
   .what {
     font-size: 19px;
@@ -1054,23 +1177,61 @@ html {
   }
 }
 
-/*@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:landscape) {
-[class*="col-"]{
-float: left;
-min-height: 180px;
-padding: 0px;
+@media screen and (min-width: 450px) and (max-width: 750px) and (orientation: landscape) {
+  [class*="col-"] {
+    float: left;
+    min-height: 120px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .col-13 {
+    width: 26.66%;
+    background-color: black;
+  }
+  .col-14 {
+    width: 20%;
+    background-color: black;
+  }
+  .col-15 {
+    width: 60%;
+    background-color: black;
+  }
 }
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 17%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 40.00%;background-color: black;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 80.00%;background-color: black;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-}*/
 /*# sourceMappingURL=style.prefixed.css.map */

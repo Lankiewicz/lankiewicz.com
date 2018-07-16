@@ -148,10 +148,15 @@ padding: 0px;
 .col-12 {width: 100%;}
 }
 /*KONIEC GRID TABLET*/
+<<<<<<< HEAD
   /*GRID PIONOWO MOBILE*/
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
+=======
+/*GRID PIONOWO MOBILE*/
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
+>>>>>>> c6c919c6afbd11b345f6967c5beaf45f0e5e8a61
   [class*="col-"] {
     float: left;
     min-height: 300px;
@@ -932,6 +937,7 @@ body {
 /*body {
 margin: 0 auto;
 }
+<<<<<<< HEAD
  @media screen and (min-width: 300px) and (max-width: 450px) and (orientation:landscape) {
 .paragraf-about-me {
 color: white;
@@ -940,6 +946,53 @@ font-variant-caps: all-petite-caps;
 font-size: 18px;
 position: absolute;
 padding: 0px 0px 0px 0px;
+=======
+
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: landscape) {
+  .paragraf-about-me {
+    color: white;
+    text-align: left;
+    font-variant-caps: all-petite-caps;
+    font-size: 18px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+  }
+  .header-about-me {
+    color: white;
+    font-size: 40px;
+    text-decoration: line-through;
+    padding: 0px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+  }
+  .me {
+    display: none;
+  }
+  .menda {
+    color: white;
+    position: relative;
+    top: 80px;
+    right: 40px;
+    font: -webkit-small-control;
+  }
+  .menda > a {
+    text-decoration: none;
+    color: white;
+  }
+  .menda > p {
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+    font-weight: bold;
+  }
+  .mobile-photo {
+    width: 300px;
+    height: 250px;
+    top: 50px;
+    left: 0px;
+  }
+>>>>>>> c6c919c6afbd11b345f6967c5beaf45f0e5e8a61
 }
 .header-about-me {
 color: white;

@@ -223,9 +223,9 @@ body { margin: 0 auto; height: 10px; }
   .xxx { color: white; text-align: left; font-size: 20px; line-height: 34px; margin-left: 55px; }
   .xxx > a { color: white; text-decoration: none; }
   .xxx > h1 { font-weight: bold; }
-  .header { color: white; text-align: left; margin: 80px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
+  .header { color: white; text-align: left; margin: 140px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
   .section-contact { position: relative; bottom: 320px; }
-  .header-contact { color: white; font-size: 140px; text-decoration: line-through; padding: 125px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .header-contact { color: white; font-size: 140px; text-decoration: line-through; padding: 165px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .what { font-size: 19px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 70px; } }
 

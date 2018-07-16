@@ -9,7 +9,7 @@
 }
 
 /*GRID MONITOR*/
-@media screen and (min-width: 1367px) and (max-width: 1920px) {
+@media screen and (min-width: 1400px) and (max-width: 1920px) {
   [class*="col-"] {
     float: left;
     min-height: 450px;
@@ -69,81 +69,65 @@
 }
 
 /*GRID LAPTOP*/
-/*@media screen and (min-width: 1025px) and (max-width: 1366px){*/
-[class*="col-"] {
-  float: left;
-  min-height: 342px;
-  padding: 0px;
-}
-
-.col-1 {
-  width: 8.33%;
-}
-
-.col-2 {
-  width: 16.66%;
-}
-
-.col-3 {
-  width: 17%;
-  background-color: white;
-}
-
-.col-4 {
-  width: 33.33%;
-}
-
-.col-5 {
-  width: 40.00%;
-  background-color: black;
-}
-
-.col-6 {
-  width: 50%;
-}
-
-.col-7 {
-  width: 58.33%;
-}
-
-.col-8 {
-  width: 80.00%;
-  background-color: black;
-}
-
-.col-9 {
-  width: 75%;
-}
-
-.col-10 {
-  width: 83.33%;
-}
-
-.col-11 {
-  width: 91.66%;
-}
-
-.col-12 {
-  width: 100%;
-}
-
-.col-13 {
-  width: 26.66%;
-  background-color: black;
-}
-
-.col-14 {
-  width: 20%;
-  background-color: black;
-}
-
-.col-15 {
-  width: 60%;
-  background-color: black;
-}
-
-/*KONIEC GRID LAPTOP*/
-/*GRID TABLET
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  [class*="col-"] {
+    float: left;
+    min-height: 342px;
+    padding: 0px;
+  }
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 17%;
+    background-color: white;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 40.00%;
+    background-color: black;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 80.00%;
+    background-color: black;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  .col-13 {
+    width: 26.66%;
+    background-color: black;
+  }
+  .col-14 {
+    width: 20%;
+    background-color: black;
+  }
+  .col-15 {
+    width: 60%;
+    background-color: black;
+  }
+  /*KONIEC GRID LAPTOP*/
+  /*GRID TABLET
   @media only screen and (device-width:768px){
 [class*="col-"]{
 float: left;
@@ -164,11 +148,13 @@ padding: 0px;
 .col-12 {width: 100%;}
 }
 /*KONIEC GRID TABLET*/
-/*GRID PIONOWO MOBILE*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+  /*GRID PIONOWO MOBILE*/
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
   [class*="col-"] {
     float: left;
-    min-height: 700px;
+    min-height: 300px;
     padding: 0px;
   }
   .col-1 {
@@ -211,9 +197,12 @@ padding: 0px;
   }
 }
 
-/*KONIEC GRID PIONOWO MOBILE*/
-/*GRID POZIOMO MOBILE*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  /*KONIEC GRID PIONOWO MOBILE*/
+  /*GRID POZIOMO MOBILE*/
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1366px) and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
   [class*="col-"] {
     float: left;
     min-height: 180px;
@@ -262,7 +251,7 @@ padding: 0px;
 /*KONIEC GRID POZIOMO MOBILE*/
 /*Menu STANTARD*/
 .menu-container {
-  margin: 75px 0px 0px 165px;
+  margin: 30px 0px 0px 120px;
   display: -ms-flexbox;
   cursor: pointer;
   -ms-flex-align: center;
@@ -338,6 +327,14 @@ padding: 0px;
   transition: width 0.5s ease-in-out;
 }
 
+.menu-navi {
+  display: inline-block;
+  margin: 35px 0px 0px -25px;
+  width: 0;
+  overflow: hidden;
+  transition: width 0.4s ease-in-out;
+}
+
 /*KONIEC MENU STANTARD*/
 /*MENU LAPTOP*/
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
@@ -366,9 +363,9 @@ line-height: 55px;
 }
 */
 /*MENU KONTENER MOBILE PORTRAIT*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
   .menu-container {
-    margin: 40px 0px 0px 110px;
+    margin: 18px 0px 0px 20px;
     display: -ms-flexbox;
     cursor: pointer;
     -ms-flex-align: center;
@@ -378,8 +375,26 @@ line-height: 55px;
     position: fixed;
   }
   .menu-navi ul li a {
-    font-size: 22px;
-    line-height: 55px;
+    font-size: 12.5px;
+    line-height: 43px;
+    font-weight: bold;
+  }
+  .menu-navi {
+    display: inline-block;
+    margin: 35px 0px 0px -18.5px;
+    width: 0;
+    overflow: hidden;
+    transition: width 0.4s ease-in-out;
+  }
+  .menu-icon span {
+    position: relative;
+    display: block;
+    width: 29px;
+    height: 4px;
+    background: black;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
   }
 }
 
@@ -616,24 +631,24 @@ body {
 
 /*KONIEC STRONA GŁÓWNA LAPTOP*/
 /*STRONA GŁÓWNA MOBILE PIONOWO*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
   .col-8 > .banner {
-    width: 500px;
-    height: 300px;
+    width: 240px;
+    height: 170px;
     float: left;
-    margin: 250px 0px 0px 110px;
+    margin: 30px 0px 0px 10px;
   }
   .col-8 > .logo {
     float: left;
-    width: 160px;
-    height: 140px;
-    margin: 75px 0px 0px 55px;
+    width: 110px;
+    height: 90px;
+    margin: 65px 0px 0px 25px;
   }
 }
 
 /*KONIEC STRONA GŁÓWNA MOBILE*/
 /*STRONA GŁÓWNA MOBILE POZIOMO*/
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
   .col-8 > .banner {
     width: 250px;
     height: 200px;
@@ -687,190 +702,149 @@ body {
   height: 10px;
 }
 
-/*@media screen and (min-width: 1025px) and (max-width: 1366px){*/
-.paragraf-about-me {
-  color: white;
-  text-align: left;
-  font-variant-caps: small-caps;
-  font-size: 24px;
-  position: relative;
-  bottom: 150px;
-  padding: 200px 0px 30px 55px;
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .paragraf-about-me {
+    color: white;
+    text-align: left;
+    font-variant-caps: small-caps;
+    font-size: 24px;
+    position: relative;
+    bottom: 150px;
+    padding: 200px 0px 30px 55px;
+  }
+  .header-about-me {
+    color: white;
+    font-size: 140px;
+    text-decoration: line-through;
+    padding: 180px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .me {
+    position: relative;
+    bottom: 580px;
+    left: 435px;
+    width: 99%;
+  }
+  .mobile-photo {
+    display: none;
+  }
+  .menda {
+    color: white;
+    position: relative;
+    top: 360px;
+    right: 443px;
+    font-variant-caps: all-petite-caps;
+    font-size: 18px;
+  }
+  .menda > a {
+    text-decoration: none;
+    color: white;
+  }
+  .menda > .index {
+    text-decoration-line: line-through;
+    font-weight: bold;
+  }
+  .header-before-paragraf > p {
+    color: white;
+    text-align: left;
+    margin: 310px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .what-i-am {
+    color: white;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    margin-left: 55px;
+  }
+  .what-i-do {
+    color: white;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .what-i-am-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 200px;
+    margin-left: 55px;
+  }
+  .what-i-do-paragraf {
+    font-size: 24px;
+    font-variant-caps: small-caps;
+    color: white;
+    text-align: left;
+    position: relative;
+    bottom: 200px;
+    margin-left: 55px;
+  }
+  .section-what-i-am {
+    margin: 0 auto;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+    position: relative;
+    text-align: left;
+  }
+  .section-what-i-am > .row > .col-5 > h1 {
+    text-align: left;
+  }
+  .section-photo {
+    position: absolute;
+  }
+  .xxx {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 34px;
+    margin-left: 55px;
+  }
+  .xxx > a {
+    color: white;
+    text-decoration: none;
+  }
+  .xxx > h1 {
+    font-weight: bold;
+  }
+  .header {
+    color: white;
+    text-align: left;
+    margin: 80px 0px 0px 55px;
+    font-size: 40px;
+    font-variant-caps: small-caps;
+  }
+  .section-contact {
+    position: relative;
+    bottom: 320px;
+  }
+  .header-contact {
+    color: white;
+    font-size: 140px;
+    text-decoration: line-through;
+    padding: 125px 0px 0px 0px;
+    letter-spacing: 12px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .what {
+    font-size: 19px;
+    color: #4d4d4d;
+  }
+  .what-i {
+    text-decoration: line-through;
+    font-size: 70px;
+  }
 }
 
-.header-about-me {
-  color: white;
-  font-size: 140px;
-  text-decoration: line-through;
-  padding: 180px 0px 0px 0px;
-  letter-spacing: 12px;
-  font-weight: bold;
-  position: relative;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.me {
-  position: relative;
-  bottom: 580px;
-  left: 405px;
-  width: 99%;
-}
-
-.mobile-photo {
-  display: none;
-}
-
-.menu-container {
-  margin: 30px 0px 0px 120px;
-  display: -ms-flexbox;
-  cursor: pointer;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: fixed;
-}
-
-.menu-navi {
-  display: inline-block;
-  margin: 35px 0px 0px -25px;
-  width: 0;
-  overflow: hidden;
-  transition: width 0.4s ease-in-out;
-}
-
-.menda {
-  color: white;
-  position: relative;
-  top: 360px;
-  right: 443px;
-  font-variant-caps: all-petite-caps;
-  font-size: 18px;
-}
-
-.menda > a {
-  text-decoration: none;
-  color: white;
-}
-
-.menda > .index {
-  text-decoration-line: line-through;
-  font-weight: bold;
-}
-
-.header-before-paragraf > p {
-  color: white;
-  text-align: left;
-  margin: 310px 0px 0px 55px;
-  font-size: 40px;
-  font-variant-caps: small-caps;
-}
-
-.what-i-am {
-  color: white;
-  font-variant-caps: small-caps;
-  font-weight: bold;
-  margin-left: 55px;
-}
-
-.what-i-do {
-  color: white;
-  font-variant-caps: small-caps;
-  font-weight: bold;
-  text-align: left;
-  margin-left: 50px;
-}
-
-.what-i-am-paragraf {
-  font-size: 24px;
-  font-variant-caps: small-caps;
-  color: white;
-  text-align: left;
-  position: relative;
-  bottom: 200px;
-  margin-left: 55px;
-}
-
-.what-i-do-paragraf {
-  font-size: 24px;
-  font-variant-caps: small-caps;
-  color: white;
-  text-align: left;
-  position: relative;
-  bottom: 200px;
-  margin-left: 55px;
-}
-
-.section-what-i-am {
-  margin: 0 auto;
-  font-size: 40px;
-  font-variant-caps: small-caps;
-  position: relative;
-  text-align: left;
-}
-
-.section-what-i-am > .row > .col-5 > h1 {
-  text-align: left;
-}
-
-.section-photo {
-  position: absolute;
-}
-
-.xxx {
-  color: white;
-  text-align: left;
-  font-size: 20px;
-  line-height: 34px;
-  margin-left: 55px;
-}
-
-.xxx > a {
-  color: white;
-  text-decoration: none;
-}
-
-.xxx > h1 {
-  font-weight: bold;
-}
-
-.header {
-  color: white;
-  text-align: left;
-  margin: 80px 0px 0px 55px;
-  font-size: 40px;
-  font-variant-caps: small-caps;
-}
-
-.section-contact {
-  position: relative;
-  bottom: 320px;
-}
-
-.header-contact {
-  color: white;
-  font-size: 140px;
-  text-decoration: line-through;
-  padding: 125px 0px 0px 0px;
-  letter-spacing: 12px;
-  font-weight: bold;
-  position: relative;
-  margin: 0 auto;
-  text-align: left;
-}
-
-.what {
-  font-size: 19px;
-  color: #4d4d4d;
-}
-
-.what-i {
-  text-decoration: line-through;
-  font-size: 70px;
-}
-
-/*}*/
 @media screen and (min-width: 1367px) and (max-width: 1920px) {
   .menda {
     color: white;
@@ -902,7 +876,7 @@ body {
     font-size: 24px;
     position: relative;
     bottom: 150px;
-    padding: 200px 0px 30px 55px;
+    padding: 180px 0px 30px 55px;
   }
   .header-about-me {
     color: white;
@@ -917,11 +891,11 @@ body {
   .me {
     position: relative;
     bottom: 640px;
-    left: 435px;
+    left: 490px;
     width: 130%;
   }
   .header-before-paragraf > p {
-    margin: 310px 0px 0px 50px;
+    margin: 490px 0px 0px 50px;
     font-size: 40px;
     color: white;
     text-align: left;
@@ -946,7 +920,8 @@ body {
     color: white;
     text-align: left;
     position: relative;
-    bottom: 190px;
+    bottom: 290px;
+    margin-left: 55px;
   }
   .what-i-do-paragraf {
     font-size: 24px;
@@ -955,6 +930,7 @@ body {
     text-align: left;
     position: relative;
     bottom: 190px;
+    bottom: 290px;
   }
   .section-what-i-am {
     margin: 0 auto;
@@ -1003,6 +979,7 @@ body {
     letter-spacing: 12px;
     font-weight: bold;
     text-align: left;
+    margin-top: 252px;
   }
   .what {
     font-size: 19px;
@@ -1024,81 +1001,55 @@ body {
   }
 }
 
-body {
-  margin: 0 auto;
+/*body {
+margin: 0 auto;
 }
-
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
-  .col-8.aboutme-section {
-    background: red;
-    background: linear-gradient(to right, #000000, #0d0d0d);
-  }
-  .paragraf-about-me {
-    color: white;
-    text-align: left;
-    font-variant-caps: all-petite-caps;
-    font-size: 18px;
-    position: absolute;
-    padding: 0px 0px 0px 0px;
-  }
-  .header-about-me {
-    color: white;
-    font-size: 90px;
-    text-decoration: line-through;
-    padding: 110px 0px 0px 0px;
-    letter-spacing: 12px;
-    font-weight: bold;
-    position: relative;
-    margin: 0 auto;
-  }
-  .me {
-    display: none;
-  }
-  .menu-container {
-    margin: 30px 0px 0px 120px;
-    display: -ms-flexbox;
-    cursor: pointer;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: fixed;
-  }
-  .menu-navi {
-    display: inline-block;
-    margin: 35px 0px 0px -25px;
-    width: 0;
-    overflow: hidden;
-    transition: width 0.4s ease-in-out;
-  }
-  .menda {
-    color: white;
-    position: relative;
-    top: 80px;
-    right: 40px;
-    font: -webkit-small-control;
-  }
-  .menda > a {
-    text-decoration: none;
-    color: white;
-  }
-  .menda > p {
-    text-decoration-line: line-through;
-    font-weight: bold;
-  }
-  .mobile-photo {
-    width: 300px;
-    height: 250px;
-    top: 50px;
-    left: 0px;
-  }
+ @media screen and (min-width: 300px) and (max-width: 450px) and (orientation:landscape) {
+.paragraf-about-me {
+color: white;
+text-align: left;
+font-variant-caps: all-petite-caps;
+font-size: 18px;
+position: absolute;
+padding: 0px 0px 0px 0px;
 }
-
-@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
-  .col-8.aboutme-section {
-    background: red;
-    background: linear-gradient(to right, #000000, #0d0d0d);
-  }
+.header-about-me {
+color: white;
+font-size: 40px;
+text-decoration: line-through;
+padding: 0px 0px 0px 0px;
+letter-spacing: 12px;
+font-weight: bold;
+position: relative;
+margin: 0 auto;
+}
+.me {
+display: none;
+}
+.menda {
+color: white;
+position: relative;
+top: 80px;
+right: 40px;
+font: -webkit-small-control;
+}
+.menda>a {
+text-decoration: none;
+color: white;
+}
+.menda>p {
+text-decoration-line: line-through;
+font-weight: bold;
+}
+.mobile-photo {
+width: 300px;
+height: 250px;
+top: 50px;
+left: 0px; 
+}
+}
+*/
+@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) {
   .paragraf-about-me {
     color: white;
     text-align: left;
@@ -1108,7 +1059,7 @@ body {
   }
   .header-about-me {
     color: white;
-    font-size: 90px;
+    font-size: 30px;
     text-decoration: line-through;
     padding: 110px 0px 0px 0px;
     letter-spacing: 12px;
@@ -1118,23 +1069,6 @@ body {
   }
   .me {
     display: none;
-  }
-  .menu-container {
-    margin: 30px 0px 0px 30px;
-    display: -ms-flexbox;
-    cursor: pointer;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: fixed;
-  }
-  .menu-navi {
-    display: inline-block;
-    margin: 35px 0px 0px -25px;
-    width: 0;
-    overflow: hidden;
-    transition: width 0.4s ease-in-out;
   }
   .menda > a {
     display: none;

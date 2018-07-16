@@ -7,7 +7,7 @@ clear: both;
 }
 /*GRID MONITOR*/
 
-@media screen and (min-width: 1367px) and (max-width: 1920px){
+@media screen and (min-width: 1400px) and (max-width: 1920px){
 [class*="col-"]{
 float: left;
 min-height: 450px;
@@ -31,7 +31,7 @@ padding: 0px;
 /*KONIEC GRID MONITOR*/
 }
 /*GRID LAPTOP*/
-/*@media screen and (min-width: 1025px) and (max-width: 1366px){*/
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
 [class*="col-"]{
 float: left;
 min-height: 342px;
@@ -76,10 +76,10 @@ padding: 0px;
 }
 /*KONIEC GRID TABLET*/
 /*GRID PIONOWO MOBILE*/
- @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+ @media screen and (min-width: 300px) and (max-width: 450px) and (orientation:portrait) {
 [class*="col-"]{
 float: left;
-min-height: 700px;
+min-height: 300px;
 padding: 0px;
 }
 .col-1 {width: 8.33%;}
@@ -115,5 +115,6 @@ padding: 0px;
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+}
 }
 /*KONIEC GRID POZIOMO MOBILE*/

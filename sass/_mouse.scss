@@ -34,7 +34,7 @@ body {
 /*KONIEC MOUSE SCROLL LAPTOP*/
 
 /*MOUSE SCROLL MOBILE-PiONOWO*/
- @media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation:portrait) {
+ @media screen and (min-width: 481px) and (max-width: 1000px) and (orientation:portrait) {
   .mouse_scroll {
   display: block;
   margin: 0 auto;

@@ -114,7 +114,7 @@ line-height: 55px;
 }
 */
 /*MENU KONTENER MOBILE PORTRAIT*/
-@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) { .menu-container { margin: 18px 0px 0px 20px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
+@media screen and (min-width: 300px) and (max-width: 750px) and (orientation: portrait) { .menu-container { margin: 18px 0px 0px 20px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
   .menu-navi ul li a { font-size: 12.5px; line-height: 43px; font-weight: bold; }
   .menu-navi { display: inline-block; margin: 35px 0px 0px -18.5px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
   .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; } }
@@ -175,7 +175,7 @@ body { background: white; }
 
 /*KONIEC STRONA GŁÓWNA LAPTOP*/
 /*STRONA GŁÓWNA MOBILE PIONOWO*/
-@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) { .col-8 > .banner { width: 270px; height: 190px; float: left; margin: 30px 0px 0px 0px; }
+@media screen and (min-width: 300px) and (max-width: 750px) and (orientation: portrait) { .col-8 > .banner { width: 270px; height: 190px; float: left; margin: 30px 0px 0px 0px; }
   .col-8 > .logo { float: left; width: 110px; height: 90px; margin: 65px 0px 0px 25px; } }
 
 /*KONIEC STRONA GŁÓWNA MOBILE*/
@@ -279,7 +279,7 @@ body { margin: 0 auto; }
   .what { font-size: 17px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 40px; } }
 
-@media screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 18px; padding: 20px 0px 0px 20px; }
+@media screen and (min-width: 300px) and (max-width: 750px) and (orientation: portrait) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 18px; padding: 20px 0px 0px 20px; }
   .header-about-me { color: white; font-size: 46px; text-decoration: line-through; padding: 320px 0px 0px 0px; letter-spacing: 8px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .header-before-paragraf > p { color: white; text-align: left; margin: 260px 0px 0px 20px; font-size: 32px; font-variant-caps: small-caps; }
   .me { display: none; }
@@ -304,7 +304,7 @@ html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 
 /*GRID MONITOR*/
 /*GRID PIONOWO MOBILE*/
-@media only screen and (min-width: 300px) and (max-width: 450px) and (orientation: portrait) { [class*="col-"] { float: left; min-height: 300px; padding: 0px; }
+@media only screen and (min-width: 300px) and (max-width: 750px) and (orientation: portrait) { [class*="col-"] { float: left; min-height: 300px; padding: 0px; }
   .col-1 { width: 8.33%; }
   .col-2 { width: 16.66%; }
   .col-3 { width: 17%; }

@@ -1,0 +1,35 @@
+/* grids */
+.row:before,
+.row:after {
+content: "";
+display: table ;
+clear: both;
+}
+/*GRID WSZYSTKIE URZĄDZENIA*/
+@media(max-width: 415px),
+(min-width: 414px) and (max-width: 991px),
+(min-width: 992px) and (max-width: 1199px),
+only screen  and (min-width : 1224px),
+only screen  and (min-width : 1824px)
+{
+[class*="col-"]{
+float: left;
+min-height: 250px;
+padding: 0px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 17%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 40.00%; background-color: black;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 80.00%;background-color: black;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-13 {width: 26.66%; background-color: black;}
+.col-14 {width: 20%; background-color: black;}
+.col-15 {width: 60%; background-color: black;}
+}

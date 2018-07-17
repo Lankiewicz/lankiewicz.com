@@ -20,7 +20,6 @@
     "test:html": "globstar nu-html-checker *.html",
     "test:js": "globstar jshint js/*.js",
     "init-project": "npm install && npm-run-all init:*",
-    "init:dirs": "mkdir sass css vendor images js",
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "build": "npm-run-all build:* test",

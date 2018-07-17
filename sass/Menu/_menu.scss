@@ -1,6 +1,10 @@
-﻿/*Menu STANTARD*/
+﻿
+@media only screen  and (min-width : 1224px) {
+.menu-navi ul li a {
+line-height: 56px;
+}
 .menu-container {
-margin: 30px 0px 0px 120px;
+margin: 30px 0px 0px 130px;
 display: -ms-flexbox;
 cursor: pointer;
 -ms-flex-align: center;
@@ -9,6 +13,8 @@ align-items: center;
 justify-content: center;
 position: fixed;
 }
+}
+
 .menu-icon span { position: relative; display: block; width: 49px; height: 5.5px; background: black; border-radius: 2px; margin-bottom: 5px; transition: transform 0.4s ease-in-out, height 0.4s ease-in-out; }
 .opened span { background: black; transition: transform 0.4s ease-in-out,  height 0s ease-in-out; }
 .opened span:nth-child(1) { transform: rotate(-45deg); top: 12px; }
@@ -28,17 +34,7 @@ overflow: hidden;
 transition: width 0.4s ease-in-out;
 }
 
-/*KONIEC MENU STANTARD*/
-
-/*MENU LAPTOP*/
-@media screen and (min-width: 1281px) and (max-width: 1366px){
-.menu-navi ul li a {
-line-height: 56px;
-}
-}
-
-/*MENU KONTENER MOBILE PORTRAIT iPhone*/
- @media screen and (min-width: 300px) and (max-width: 450px) and (orientation:portrait) {
+@media(max-width: 415px){
  	.menu-container {
 margin: 18px 0px 0px 20px;
 display: -ms-flexbox;
@@ -64,8 +60,8 @@ transition: width 0.4s ease-in-out;
 .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; }
 }
 
-/*MENU KONTENER MOBILE LANDSCAPE iPhone*/
- @media screen and (min-width: 600px) and (max-width: 800px) and (orientation:landscape) {
+
+@media(min-width: 414px) and (max-width: 991px){
  	.menu-container {
 margin: 18px 0px 0px 60px;
 display: -ms-flexbox;
@@ -90,10 +86,7 @@ transition: width 0.4s ease-in-out;
 }
 .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; }
 }
-/*MENU KONTENER MOBILE LANDSCAPE*/
-
-/*MENU KONTENER TABLET LANDSCAPE*/
- @media screen and (min-width: 1024px) and (max-width: 1280px) and (orientation:landscape) {
+@media(min-width: 992px) and (max-width: 1199px){
  	.menu-container {
 margin: 18px 0px 0px 90px;
 display: -ms-flexbox;
@@ -118,9 +111,8 @@ transition: width 0.4s ease-in-out;
 }
 .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; }
 }
-/*MENU KONTENER TABLET LANDSCAPE*/
-/*MENU KONTENER TABLET*/
- @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation:portrait) {
+
+@media(min-width: 992px) and (max-width: 1199px){
  	.menu-container {
 margin: 18px 0px 0px 20px;
 display: -ms-flexbox;

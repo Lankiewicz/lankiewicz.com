@@ -1,13 +1,18 @@
-@import 'grid';
-@import 'menu';
-@import 'mouse';
-@import 'strona-glowna-laptop';
-@import 'strona-glowna-mobile-pionowo';
-@import 'strona-glowna-mobile-poziomo';
-@import 'strona-glowna-monitor';
-@import 'strona-glowna-tablet';
-@import 'style-max-1366px-about-me';
-@import 'style-max-1920px-about-me';
-@import 'style-max-mobile-landscape-about-me';
-@import 'style-max-mobile-portrait-about-me';
-@import 'style-podstawowe';
+@import 'Grid/grid';
+@import 'Menu/menu';
+@import 'Menu/menu-monitor';
+@import 'Mouse/mouse';
+@import 'Mouse/mouse-monitor';
+@import 'Main Page Laptop & Monitor/main-page-laptop&monitor';
+
+@import 'Main Page Mobile & Tablet/main-page-large-mobile';
+@import 'Main Page Mobile & Tablet/main-page-medium-mobile';
+@import 'Main Page Mobile & Tablet/main-page-small-mobile';
+
+@import 'Page About Me Laptop & Monitor/page-about-me-laptop&monitor';
+
+@import 'Page About Me Mobile & Tablet/page-about-me-large-mobile';
+@import 'Page About Me Mobile & Tablet/page-about-me-medium-mobile';
+@import 'Page About Me Mobile & Tablet/page-about-me-small-mobile';
+
+@import 'Style Podstawowe/style-podstawowe';

@@ -1,8 +1,4 @@
-﻿body {
-margin: 0 auto;
-height: 10px;
-}
-@media screen and (min-width: 1281px) and (max-width: 1366px){
+﻿@media(min-width: 992px) and (max-width: 1199px){
 .paragraf-about-me {
 color: white;
 text-align: left;
@@ -24,7 +20,7 @@ margin: 0 auto;
 text-align: left;
 }
 .me-mobile {
-	display: none;
+  display: none;
 }
 .me {
    position: relative;
@@ -33,89 +29,89 @@ text-align: left;
     width: 99%;
 }
 .mobile-photo {
-	display: none;
+  display: none;
 }
 
 .header-before-paragraf>p {
-	color:white;
-	text-align: left;
-	margin: 310px 0px 0px 55px;
-	font-size: 40px;
-	font-variant-caps: small-caps;
+  color:white;
+  text-align: left;
+  margin: 310px 0px 0px 55px;
+  font-size: 40px;
+  font-variant-caps: small-caps;
 }
 .what-i-am {
-	
-	color: white;
+  
+  color: white;
     font-variant-caps: small-caps;
     font-weight: bold;
     margin-left: 55px;
 }
 .what-i-do {
-	color: white;
+  color: white;
     font-variant-caps: small-caps;
     font-weight: bold;
     text-align: left;
     margin-left: 50px;
 }
 .what-i-am-paragraf {
-	font-size: 24px;
-	font-variant-caps: small-caps;
-	color: white;
-	text-align: left;
-	position: relative;
-	bottom: 200px;
-	margin-left: 55px;
+  font-size: 24px;
+  font-variant-caps: small-caps;
+  color: white;
+  text-align: left;
+  position: relative;
+  bottom: 200px;
+  margin-left: 55px;
 }
 .what-i-do-paragraf {
-		font-size: 24px;
-	font-variant-caps: small-caps;
-	color: white;
-	text-align: left;
-	position: relative;
-	bottom: 200px;
-	margin-left: 55px;
+    font-size: 24px;
+  font-variant-caps: small-caps;
+  color: white;
+  text-align: left;
+  position: relative;
+  bottom: 200px;
+  margin-left: 55px;
 }
 .section-what-i-am {
-	margin: 0 auto;
-	font-size: 40px;
-	font-variant-caps: small-caps;
-	position: relative;
-	text-align: left;
+  margin: 0 auto;
+  font-size: 40px;
+  font-variant-caps: small-caps;
+  position: relative;
+  text-align: left;
 }
 .section-what-i-am>.row>.col-5>h1 {
-	text-align: left;
+  text-align: left;
 }
 .section-photo {
-	position: absolute;
+  position: absolute;
 }
 .xxx {
-	color: white;
-	text-align: left;
-	font-size: 20px;
-	line-height: 34px;
-	margin-left: 55px;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  line-height: 34px;
+  margin-left: 55px;
 
 }
 .xxx>a {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 .xxx>h1 {
-	font-weight: bold;
+  font-weight: bold;
 }
 .header {
-	color:white;
-	text-align: left;
-	margin: 140px 0px 0px 55px;
-	font-size: 40px;
-	font-variant-caps: small-caps;
+  color:white;
+  text-align: left;
+  margin: 140px 0px 0px 55px;
+  font-size: 40px;
+  font-variant-caps: small-caps;
 }
 .section-contact {
-	position: relative;
-	bottom: 320px;
+  position: relative;
+  bottom: 320px;
 }
 .header-contact {
-	color: white;
+  color: white;
 font-size: 140px;
 text-decoration: line-through;
 padding: 165px 0px 0px 0px;
@@ -126,11 +122,11 @@ margin: 0 auto;
 text-align: left;
 }
 .what {
-	font-size: 19px;
-	color:  #4d4d4d;
+  font-size: 19px;
+  color:  #4d4d4d;
 }
 .what-i {
-	text-decoration: line-through;
-	font-size: 70px;
+  text-decoration: line-through;
+  font-size: 70px;
 }
 }

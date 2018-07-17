@@ -20,13 +20,13 @@ margin: 0 auto;
 text-align: left;
 }
 .me-mobile {
-  display: none;
-}
-.me {
-   position: relative;
-    bottom: 580px;
+     position: relative;
+    top: 380px;
     left:435px;
     width: 99%;
+}
+.me {
+   display: none;
 }
 .mobile-photo {
   display: none;

@@ -3,17 +3,17 @@
 color: white;
 text-align: left;
 font-variant-caps: small-caps;
-font-size: 24px;
+font-size: 17px;
 position: relative;
-bottom:150px;
-padding: 190px 0px 30px 55px;
+margin-top: -35px;
+margin-left: 10px;
 }
 .header-about-me {
 color: white;
-font-size: 140px;
+font-size: 45px;
 text-decoration: line-through;
 padding: 180px 0px 0px 0px;
-letter-spacing: 12px;
+letter-spacing: 5px;
 font-weight: bold;
 position: relative;
 margin: 0 auto;
@@ -21,12 +21,12 @@ text-align: left;
 }
 .me-mobile {
      position: relative;
-    top: 380px;
-    right: 85px;
+    top: 200px;
+    right:35px;
     width: 99%;
 }
 .me {
-   display: none;
+display: none;
 }
 .mobile-photo {
   display: none;
@@ -35,8 +35,8 @@ text-align: left;
 .header-before-paragraf>p {
   color:white;
   text-align: left;
-  margin: 350px 0px 0px 55px;
-  font-size: 40px;
+  margin: 150px 0px 0px 10px;
+  font-size: 25.5px;
   font-variant-caps: small-caps;
 }
 .what-i-am {
@@ -44,32 +44,36 @@ text-align: left;
   color: white;
     font-variant-caps: small-caps;
     font-weight: bold;
-    margin-left: 55px;
+    margin-left: 10px;
+    width: 150px;
 }
 .what-i-do {
   color: white;
     font-variant-caps: small-caps;
     font-weight: bold;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 60px;
+    width: 150px;
 }
 .what-i-am-paragraf {
-  font-size: 24px;
+  font-size: 17px;
   font-variant-caps: small-caps;
   color: white;
   text-align: left;
   position: relative;
-  bottom: 145px;
-  margin-left: 55px;
+  margin-left: 10px;
+  bottom: 210px;
+  width: 150px;
 }
 .what-i-do-paragraf {
-    font-size: 24px;
+    font-size: 17px;
   font-variant-caps: small-caps;
   color: white;
   text-align: left;
   position: relative;
-  bottom: 145px;
-  margin-left: 55px;
+  margin-left: 60px;
+  width: 150px;
+  bottom: 210px;
 }
 .section-what-i-am {
   margin: 0 auto;
@@ -77,6 +81,7 @@ text-align: left;
   font-variant-caps: small-caps;
   position: relative;
   text-align: left;
+  bottom: 70px;
 }
 .section-what-i-am>.row>.col-5>h1 {
   text-align: left;
@@ -89,7 +94,8 @@ text-align: left;
   text-align: left;
   font-size: 20px;
   line-height: 34px;
-  margin-left: 55px;
+  margin-left: 10px;
+  position: relative;
 
 }
 .xxx>a {
@@ -102,7 +108,7 @@ text-align: left;
 .header {
   color:white;
   text-align: left;
-  margin: 700px 0px 0px 55px;
+  margin: 0px 0px 0px 10px;
   font-size: 40px;
   font-variant-caps: small-caps;
 }
@@ -112,10 +118,10 @@ text-align: left;
 }
 .header-contact {
   color: white;
-font-size: 140px;
+font-size: 45px;
 text-decoration: line-through;
-padding: 850px 0px 350px 0px;
-letter-spacing: 12px;
+padding: 50px 0px 0px 0px;
+letter-spacing: 5px;
 font-weight: bold;
 position: relative;
 margin: 0 auto;
@@ -127,6 +133,6 @@ text-align: left;
 }
 .what-i {
   text-decoration: line-through;
-  font-size: 70px;
+  font-size: 50px;
 }
 }

@@ -12,10 +12,12 @@
        viewFactor: 0.5
     });
        sr.reveal('.paragraf-about-me',{
-       duration: 3000
+       distance: '8vw', 
+       duration: 4500
     });
        sr.reveal('.text-about-me', {
-        duration: 2000
+       distance: '8vw', 
+       duration: 3000
     });
        sr.reveal('.header-contact',{
        origin: 'left', 
@@ -24,16 +26,20 @@
        viewFactor: 0.9
     });
         sr.reveal('.what-i-am', {
-        duration: 2000
+        distance: '50px', 
+       duration: 3000
     });
         sr.reveal('.what-i-do', {
-        duration: 2000
+        distance: '50px', 
+       duration: 3000
     });
          sr.reveal('.what-i-am-paragraf', {
-        duration: 3000
+        distance: '50px', 
+       duration: 5000
     });
           sr.reveal('.what-i-do-paragraf', {
-        duration: 3000
+        distance: '50px', 
+       duration: 5000
        
     });
 $('.menu-container').click(function() {

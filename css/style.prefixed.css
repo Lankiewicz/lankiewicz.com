@@ -310,10 +310,6 @@
   }
 }
 
-body {
-  background: white;
-}
-
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -471,15 +467,15 @@ body {
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
   .col-8 > .banner {
-    width: 500px;
-    height: 250px;
+    width: 520px;
+    height: 290px;
     float: left;
-    margin: 140px 0px 0px 100px;
+    margin: 115px 0px 0px 100px;
   }
   .col-8 > .logo {
     float: left;
-    width: 115px;
-    height: 100px;
+    width: 125px;
+    height: 115px;
     margin: 55px 0px 0px 130px;
   }
 }
@@ -490,7 +486,7 @@ body {
     width: 600px;
     height: 330px;
     float: left;
-    margin: 380px 0px 0px 130px;
+    margin: 265px 0px 0px 130px;
   }
   .col-8 > .logo {
     float: left;
@@ -557,9 +553,9 @@ body {
   }
   .header-about-me {
     color: white;
-    font-size: 140px;
+    font-size: 160px;
     text-decoration: line-through;
-    padding: 275px 0px 0px 0px;
+    padding: 300px 0px 0px 0px;
     letter-spacing: 12px;
     font-weight: bold;
     position: relative;
@@ -659,7 +655,7 @@ body {
     color: white;
     font-size: 140px;
     text-decoration: line-through;
-    padding: 130px 0px 0px 0px;
+    padding: 125px 0px 0px 0px;
     letter-spacing: 12px;
     font-weight: bold;
     position: relative;
@@ -690,7 +686,7 @@ body {
     color: white;
     font-size: 160px;
     text-decoration: line-through;
-    padding: 300px 0px 0px 0px;
+    padding: 330px 0px 0px 0px;
     letter-spacing: 12px;
     font-weight: bold;
     position: relative;
@@ -1199,5 +1195,11 @@ body {
 html {
   text-align: center;
   font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  background: white;
+  margin: 0 auto;
+  height: 100vw;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

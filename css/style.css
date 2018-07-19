@@ -48,14 +48,14 @@
 
 .menu-navi { display: inline-block; margin: 35px 0px 0px -25px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
 
-@media (max-width: 415px) { .menu-container { margin: 18px 0px 0px 20px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
+@media (max-width: 767px) { .menu-container { margin: 18px 0px 0px 20px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
   .menu-navi ul li a { font-size: 12.5px; line-height: 43px; font-weight: bold; }
   .menu-navi { display: inline-block; margin: 35px 0px 0px -18.5px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
   .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; } }
 
-@media (min-width: 414px) and (max-width: 991px) { .menu-container { margin: 18px 0px 0px 60px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
-  .menu-navi ul li a { font-size: 12.5px; line-height: 43px; font-weight: bold; }
-  .menu-navi { display: inline-block; margin: 35px 0px 0px -18.5px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
+@media (min-width: 767px) and (max-width: 991px) { .menu-container { margin: 30px 0px 0px 80px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
+  .menu-navi ul li a { font-size: 30px; line-height: 78px; font-weight: bold; }
+  .menu-navi { display: inline-block; margin: 35px 0px 0px -75px; width: 0; overflow: hidden; transition: width 0.4s ease-in-out; }
   .menu-icon span { position: relative; display: block; width: 29px; height: 4px; background: black; border-radius: 2px; margin-bottom: 4px; transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; } }
 
 @media (min-width: 992px) and (max-width: 1199px) { .menu-container { margin: 18px 0px 0px 90px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; }
@@ -79,10 +79,10 @@
 /*MOUSE SCROLL LAPTOP*/
 @media only screen and (min-width: 1224px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 295px 0px 0px 140px; position: fixed; } }
 
-@media (max-width: 415px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 400px 0px 0px 90px; position: fixed; } }
+@media (max-width: 767px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 400px 0px 0px 90px; position: fixed; } }
 
 /*KONIEC MOUSE SCROLL MOBILE-PIONOWO*/
-@media (min-width: 414px) and (max-width: 991px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 140px 0px 0px 55px; position: fixed; } }
+@media (min-width: 767px) and (max-width: 991px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 140px 0px 0px 55px; position: fixed; } }
 
 @media (min-width: 992px) and (max-width: 1199px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 450px 0px 0px 60px; position: fixed; } }
 
@@ -202,19 +202,19 @@
   .header-before-paragraf > p { color: white; text-align: left; margin: 280px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
   .what-i-am { color: white; font-variant-caps: small-caps; font-weight: bold; margin-left: 55px; width: 150px; }
   .what-i-do { color: white; font-variant-caps: small-caps; font-weight: bold; text-align: left; margin-left: 60px; width: 150px; }
-  .what-i-am-paragraf { font-size: 17px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; margin-left: 55px; bottom: 140px; width: 150px; }
-  .what-i-do-paragraf { font-size: 17px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; margin-left: 60px; width: 130px; bottom: 140px; }
+  .what-i-am-paragraf { font-size: 19px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; margin-left: 55px; bottom: 130px; width: 150px; }
+  .what-i-do-paragraf { font-size: 19px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; margin-left: 60px; width: 130px; bottom: 130px; }
   .section-what-i-am { margin: 0 auto; font-size: 40px; font-variant-caps: small-caps; position: relative; text-align: left; }
   .section-what-i-am > .row > .col-5 > h1 { text-align: left; }
   .section-photo { position: absolute; }
   .xxx { color: white; text-align: left; font-size: 20px; line-height: 34px; margin-left: 55px; position: relative; }
   .xxx > a { color: white; text-decoration: none; }
   .xxx > h1 { font-weight: bold; }
-  .header { color: white; text-align: left; margin: 200px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
+  .header { color: white; text-align: left; margin: 205px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
   .section-contact { position: relative; bottom: 320px; }
-  .header-contact { color: white; font-size: 140px; text-decoration: line-through; padding: 800px 0px 0px 0px; letter-spacing: 5px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .header-contact { color: white; font-size: 140px; text-decoration: line-through; padding: 800px 0px 40px 0px; letter-spacing: 5px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .what { font-size: 19px; color: #4d4d4d; }
-  .what-i { text-decoration: line-through; font-size: 50px; } }
+  .what-i { text-decoration: line-through; font-size: 70px; } }
 
 @media (max-width: 415px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 17px; position: relative; margin-top: -35px; margin-left: 10px; }
   .header-about-me { color: white; font-size: 45px; text-decoration: line-through; padding: 180px 0px 0px 0px; letter-spacing: 5px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }

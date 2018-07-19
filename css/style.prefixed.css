@@ -157,7 +157,7 @@
   transition: width 0.4s ease-in-out;
 }
 
-@media (max-width: 415px) {
+@media (max-width: 767px) {
   .menu-container {
     margin: 18px 0px 0px 20px;
     display: -ms-flexbox;
@@ -192,9 +192,9 @@
   }
 }
 
-@media (min-width: 414px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   .menu-container {
-    margin: 18px 0px 0px 60px;
+    margin: 30px 0px 0px 80px;
     display: -ms-flexbox;
     cursor: pointer;
     -ms-flex-align: center;
@@ -204,13 +204,13 @@
     position: fixed;
   }
   .menu-navi ul li a {
-    font-size: 12.5px;
-    line-height: 43px;
+    font-size: 30px;
+    line-height: 78px;
     font-weight: bold;
   }
   .menu-navi {
     display: inline-block;
-    margin: 35px 0px 0px -18.5px;
+    margin: 35px 0px 0px -75px;
     width: 0;
     overflow: hidden;
     transition: width 0.4s ease-in-out;
@@ -337,7 +337,7 @@
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 767px) {
   .mouse_scroll {
     display: block;
     margin: 0 auto;
@@ -349,7 +349,7 @@
 }
 
 /*KONIEC MOUSE SCROLL MOBILE-PIONOWO*/
-@media (min-width: 414px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   .mouse_scroll {
     display: block;
     margin: 0 auto;
@@ -993,24 +993,24 @@
     width: 150px;
   }
   .what-i-am-paragraf {
-    font-size: 17px;
+    font-size: 19px;
     font-variant-caps: small-caps;
     color: white;
     text-align: left;
     position: relative;
     margin-left: 55px;
-    bottom: 140px;
+    bottom: 130px;
     width: 150px;
   }
   .what-i-do-paragraf {
-    font-size: 17px;
+    font-size: 19px;
     font-variant-caps: small-caps;
     color: white;
     text-align: left;
     position: relative;
     margin-left: 60px;
     width: 130px;
-    bottom: 140px;
+    bottom: 130px;
   }
   .section-what-i-am {
     margin: 0 auto;
@@ -1043,7 +1043,7 @@
   .header {
     color: white;
     text-align: left;
-    margin: 200px 0px 0px 55px;
+    margin: 205px 0px 0px 55px;
     font-size: 40px;
     font-variant-caps: small-caps;
   }
@@ -1055,7 +1055,7 @@
     color: white;
     font-size: 140px;
     text-decoration: line-through;
-    padding: 800px 0px 0px 0px;
+    padding: 800px 0px 40px 0px;
     letter-spacing: 5px;
     font-weight: bold;
     position: relative;
@@ -1068,7 +1068,7 @@
   }
   .what-i {
     text-decoration: line-through;
-    font-size: 50px;
+    font-size: 70px;
   }
 }
 

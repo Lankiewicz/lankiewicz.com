@@ -4,7 +4,7 @@
 .row:before, .row:after { content: ""; display: table; clear: both; }
 
 /*GRID WSZYSTKIE URZĄDZENIA*/
-@media (max-width: 415px), (min-width: 414px) and (max-width: 991px), (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 1224px), only screen and (min-width: 1824px) { [class*="col-"] { float: left; min-height: 250px; padding: 0px; }
+@media (max-width: 767px), (min-width: 767px) and (max-width: 991px), (min-width: 992px) and (max-width: 1223px), only screen and (min-width: 1224px), only screen and (min-width: 1824px) { [class*="col-"] { float: left; min-height: 250px; padding: 0px; }
   .col-1 { width: 8.33%; }
   .col-2 { width: 16.66%; }
   .col-3 { width: 17%; }
@@ -119,11 +119,11 @@
 @media only screen and (min-width: 1824px) { .col-8 > .banner { width: 600px; height: 330px; float: left; margin: 265px 0px 0px 130px; }
   .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 50px 0px 0px 140px; } }
 
-@media (min-width: 992px) and (max-width: 1199px) { .col-8 > .banner { width: 520px; height: 270px; float: left; margin: 45px 0px 0px 100px; }
+@media (min-width: 992px) and (max-width: 1223px) { .col-8 > .banner { width: 520px; height: 270px; float: left; margin: 45px 0px 0px 100px; }
   .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 55px 0px 0px 130px; } }
 
-@media (min-width: 767px) and (max-width: 991px) { .col-8 > .banner { width: 320px; height: 185px; float: left; margin: -60px 0px 0px 50px; }
-  .col-8 > .logo { float: left; width: 80px; height: 80px; margin: 10px 0px 0px 50px; } }
+@media (min-width: 767px) and (max-width: 991px) { .col-8 > .banner { width: 350px; height: 220px; float: left; margin: 385px 0px 0px 50px; }
+  .col-8 > .logo { float: left; width: 80px; height: 65px; margin: 30px 0px 0px 50px; } }
 
 @media (max-width: 767px) { .col-8 > .banner { width: 257px; height: 165px; float: left; margin: 10px 0px 0px 0px; }
   .col-8 > .logo { float: left; width: 90px; height: 78px; margin: 10px 0px 0px 50px; } }
@@ -194,8 +194,8 @@
   .what { font-size: 19px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 50px; } }
 
-@media (min-width: 414px) and (max-width: 991px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 17px; position: relative; margin-top: -35px; margin-left: 10px; }
-  .header-about-me { color: white; font-size: 45px; text-decoration: line-through; padding: 180px 0px 0px 0px; letter-spacing: 5px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+@media (min-width: 767px) and (max-width: 991px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 17px; position: relative; margin-top: -35px; margin-left: 10px; }
+  .header-about-me { color: white; font-size: 45px; text-decoration: line-through; padding: 400px 0px 0px 0px; letter-spacing: 5px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .me-mobile { position: relative; top: 200px; right: 35px; width: 99%; }
   .me { display: none; }
   .mobile-photo { display: none; }

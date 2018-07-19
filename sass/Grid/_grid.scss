@@ -6,9 +6,9 @@ display: table ;
 clear: both;
 }
 /*GRID WSZYSTKIE URZĄDZENIA*/
-@media(max-width: 415px),
-(min-width: 414px) and (max-width: 991px),
-(min-width: 992px) and (max-width: 1199px),
+@media(max-width: 767px),
+(min-width: 767px) and (max-width: 991px),
+(min-width: 992px) and (max-width: 1223px),
 only screen  and (min-width : 1224px),
 only screen  and (min-width : 1824px)
 {

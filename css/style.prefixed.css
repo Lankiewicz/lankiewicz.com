@@ -9,7 +9,7 @@
 }
 
 /*GRID WSZYSTKIE URZĄDZENIA*/
-@media (max-width: 415px), (min-width: 414px) and (max-width: 991px), (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 1224px), only screen and (min-width: 1824px) {
+@media (max-width: 767px), (min-width: 767px) and (max-width: 991px), (min-width: 992px) and (max-width: 1223px), only screen and (min-width: 1224px), only screen and (min-width: 1824px) {
   [class*="col-"] {
     float: left;
     min-height: 250px;
@@ -496,7 +496,7 @@
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1223px) {
   .col-8 > .banner {
     width: 520px;
     height: 270px;
@@ -513,16 +513,16 @@
 
 @media (min-width: 767px) and (max-width: 991px) {
   .col-8 > .banner {
-    width: 320px;
-    height: 185px;
+    width: 350px;
+    height: 220px;
     float: left;
-    margin: -60px 0px 0px 50px;
+    margin: 385px 0px 0px 50px;
   }
   .col-8 > .logo {
     float: left;
     width: 80px;
-    height: 80px;
-    margin: 10px 0px 0px 50px;
+    height: 65px;
+    margin: 30px 0px 0px 50px;
   }
 }
 
@@ -938,7 +938,7 @@
   }
 }
 
-@media (min-width: 414px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
   .paragraf-about-me {
     color: white;
     text-align: left;
@@ -952,7 +952,7 @@
     color: white;
     font-size: 45px;
     text-decoration: line-through;
-    padding: 180px 0px 0px 0px;
+    padding: 400px 0px 0px 0px;
     letter-spacing: 5px;
     font-weight: bold;
     position: relative;

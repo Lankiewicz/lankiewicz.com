@@ -470,7 +470,7 @@
     width: 520px;
     height: 290px;
     float: left;
-    margin: 115px 0px 0px 100px;
+    margin: 100px 0px 0px 100px;
   }
   .col-8 > .logo {
     float: left;
@@ -565,7 +565,7 @@
     color: white;
     font-size: 160px;
     text-decoration: line-through;
-    padding: 300px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     letter-spacing: 12px;
     font-weight: bold;
     position: relative;
@@ -696,7 +696,7 @@
     color: white;
     font-size: 160px;
     text-decoration: line-through;
-    padding: 330px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     letter-spacing: 12px;
     font-weight: bold;
     position: relative;

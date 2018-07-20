@@ -112,7 +112,7 @@
 @media only screen and (min-width: 1824px) { .mouse_scroll { display: block; width: 24px; height: 100px; margin: 580px 0px 0px 190px; position: fixed; } }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) { .col-8 > .banner { width: 520px; height: 290px; float: left; margin: 115px 0px 0px 100px; }
+@media only screen and (min-width: 1224px) { .col-8 > .banner { width: 520px; height: 290px; float: left; margin: 100px 0px 0px 100px; }
   .col-8 > .logo { float: left; width: 125px; height: 115px; margin: 55px 0px 0px 130px; } }
 
 /* Large screens ----------- */
@@ -130,7 +130,7 @@
   .col-8 > .logo { float: left; width: 90px; height: 78px; margin: 10px 0px 0px 50px; } }
 
 @media only screen and (min-width: 1224px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 24px; position: relative; bottom: 150px; padding: 20px 0px 30px 55px; }
-  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; padding: 300px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; padding: 0px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .me-mobile { display: none; }
   .me { position: relative; left: 185px; width: 60%; bottom: 350px; }
   .mobile-photo { display: none; }
@@ -152,7 +152,7 @@
   .what-i { text-decoration: line-through; font-size: 70px; } }
 
 @media only screen and (min-width: 1824px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 24px; position: relative; bottom: 150px; padding: 200px 0px 30px 55px; }
-  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; padding: 330px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; padding: 0px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .me-mobile { display: none; }
   .me { left: 130px; width: 60%; bottom: 350px; position: relative; }
   .mobile-photo { display: none; }

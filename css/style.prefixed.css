@@ -1085,16 +1085,20 @@
     color: white;
     text-align: left;
     font-variant-caps: small-caps;
-    font-size: 17px;
+    font-size: 18px;
     position: relative;
     margin-top: -35px;
     margin-left: 10px;
+  }
+  .text-about-me {
+    color: white;
+    font-size: 24px;
   }
   .header-about-me {
     color: white;
     font-size: 45px;
     text-decoration: line-through;
-    padding: 180px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     letter-spacing: 5px;
     font-weight: bold;
     position: relative;
@@ -1103,7 +1107,6 @@
   }
   .me-mobile {
     position: relative;
-    top: 200px;
     right: 35px;
     width: 99%;
   }
@@ -1199,7 +1202,7 @@
     color: white;
     font-size: 45px;
     text-decoration: line-through;
-    padding: 50px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
     letter-spacing: 5px;
     font-weight: bold;
     position: relative;

@@ -1,9 +1,0 @@
-@media screen and (min-width: 1367px) and (max-width: 1920px) { .menda { color: white; position: relative; top: 520px; right: 433px; font-variant-caps: all-petite-caps; font-size: 18px; }
-  .menda > a { text-decoration: none; color: white; }
-  .menda > p { text-decoration-line: line-through; font-weight: bold; }
-  .mobile-photo { display: none; }
-  .col-8.aboutme-section { background: red; background: linear-gradient(to right, #000000, #0d0d0d); }
-  body { margin: 0 auto; }
-  .paragraf-about-me { color: white; text-align: left; font-variant-caps: all-petite-caps; font-size: 18px; position: absolute; padding: 160px 0px 0px 300px; }
-  .header-about-me { color: white; font-size: 120px; text-decoration: line-through; margin: 200px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; }
-  .me { width: 620px; height: 470px; position: relative; top: 78px; left: 451px; } }

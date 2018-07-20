@@ -1,6 +1,0 @@
-@charset "UTF-8";
-/*STRONA GŁÓWNA LAPTOP*/
-@media screen and (min-width: 1025px) and (max-width: 1366px) { .col-8 > .banner { width: 520px; height: 270px; float: left; margin: 45px 0px 0px 100px; }
-  .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 55px 0px 0px 130px; } }
-
-/*KONIEC STRONA GŁÓWNA LAPTOP*/

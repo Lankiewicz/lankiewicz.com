@@ -217,9 +217,10 @@
   .what { font-size: 19px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 70px; } }
 
-@media (max-width: 767px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 17px; position: relative; margin-top: -35px; margin-left: 10px; }
-  .header-about-me { color: white; font-size: 45px; text-decoration: line-through; padding: 180px 0px 0px 0px; letter-spacing: 5px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
-  .me-mobile { position: relative; top: 200px; right: 35px; width: 99%; }
+@media (max-width: 767px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 18px; position: relative; margin-top: -35px; margin-left: 10px; }
+  .text-about-me { color: white; font-size: 24px; }
+  .header-about-me { color: white; font-size: 45px; text-decoration: line-through; padding: 0px 0px 0px 0px; letter-spacing: 5px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .me-mobile { position: relative; right: 35px; width: 99%; }
   .me { display: none; }
   .mobile-photo { display: none; }
   .header-before-paragraf > p { color: white; text-align: left; margin: 150px 0px 0px 10px; font-size: 25.5px; font-variant-caps: small-caps; }
@@ -235,7 +236,7 @@
   .xxx > h1 { font-weight: bold; }
   .header { color: white; text-align: left; margin: 0px 0px 0px 10px; font-size: 40px; font-variant-caps: small-caps; }
   .section-contact { position: relative; bottom: 320px; }
-  .header-contact { color: white; font-size: 45px; text-decoration: line-through; padding: 50px 0px 0px 0px; letter-spacing: 5px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .header-contact { color: white; font-size: 45px; text-decoration: line-through; padding: 30px 0px 0px 0px; letter-spacing: 5px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
   .what { font-size: 19px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 50px; } }
 

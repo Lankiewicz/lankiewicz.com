@@ -526,7 +526,7 @@
     width: 550px;
     height: 320px;
     float: left;
-    margin: 500px 0px 0px 30px;
+    margin: 300px 0px 0px 30px;
   }
   .col-8 > .logo {
     float: left;
@@ -953,15 +953,19 @@
     color: white;
     text-align: left;
     font-variant-caps: small-caps;
-    font-size: 24px;
+    font-size: 32px;
     position: relative;
     padding: 15px 0px 0px 55px;
+  }
+  .text-about-me {
+    color: white;
+    font-size: 39px;
   }
   .header-about-me {
     color: white;
     font-size: 140px;
     text-decoration: line-through;
-    padding: 700px 0px 0px 0px;
+    padding: 500px 0px 500px 0px;
     letter-spacing: 5px;
     font-weight: bold;
     position: relative;
@@ -970,7 +974,6 @@
   }
   .me-mobile {
     position: relative;
-    top: 410px;
     right: 35px;
     width: 99%;
   }
@@ -979,13 +982,6 @@
   }
   .mobile-photo {
     display: none;
-  }
-  .header-before-paragraf > p {
-    color: white;
-    text-align: left;
-    margin: 280px 0px 0px 55px;
-    font-size: 40px;
-    font-variant-caps: small-caps;
   }
   .what-i-am {
     color: white;
@@ -1003,7 +999,7 @@
     width: 150px;
   }
   .what-i-am-paragraf {
-    font-size: 19px;
+    font-size: 22px;
     font-variant-caps: small-caps;
     color: white;
     text-align: left;
@@ -1011,9 +1007,10 @@
     margin-left: 55px;
     bottom: 130px;
     width: 150px;
+    height: 30vw;
   }
   .what-i-do-paragraf {
-    font-size: 19px;
+    font-size: 22px;
     font-variant-caps: small-caps;
     color: white;
     text-align: left;
@@ -1021,6 +1018,7 @@
     margin-left: 60px;
     width: 130px;
     bottom: 130px;
+    height: 30vw;
   }
   .section-what-i-am {
     margin: 0 auto;
@@ -1082,7 +1080,7 @@
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 767px) {
   .paragraf-about-me {
     color: white;
     text-align: left;

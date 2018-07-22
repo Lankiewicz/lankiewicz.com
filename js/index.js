@@ -11,12 +11,12 @@
        viewFactor: 0.5
     });
        sr.reveal('.text-about-me',{
-       distance: '50vw', 
-       duration: 2500
+       distance: '150px', 
+       duration: 3000
     });
        sr.reveal('.paragraf-about-me',{
-       distance: '50px', 
-       duration: 4500
+       distance: '150px', 
+       duration: 4000
     });
        sr.reveal('.header-contact',{
        origin: 'left', 
@@ -25,11 +25,11 @@
        viewFactor: 0.9
     });
         sr.reveal('.what-i-am', {
-        distance: '50px', 
+        distance: '150px', 
        duration: 3000
     });
         sr.reveal('.what-i-do', {
-        distance: '50px', 
+        distance: '150px', 
        duration: 3000
     });
          sr.reveal('.what-i-am-paragraf', {

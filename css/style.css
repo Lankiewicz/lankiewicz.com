@@ -116,7 +116,7 @@
 
 /*KONIEC MOUSE SCROLL MONITOR*/
 /*MOUSE SCROLL LAPTOP*/
-@media only screen and (min-width: 1224px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 200px 0px 0px 140px; position: fixed; } }
+@media only screen and (min-width: 1224px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 180px 0px 0px 160px; position: fixed; } }
 
 @media (max-width: 767px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 900px 0px 0px 90px; position: fixed; } }
 

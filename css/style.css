@@ -1,25 +1,64 @@
-@charset "UTF-8";
-/* grids */
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,700");
+* { box-sizing: border-box; font-family: sans-serif; }
+
+/* grids */
+.container { width: 100%; margin: 0 auto; }
+
 .row:before, .row:after { content: ""; display: table; clear: both; }
 
-/*GRID WSZYSTKIE URZĄDZENIA*/
-@media (max-width: 767px), (min-width: 767px) and (max-width: 991px), (min-width: 992px) and (max-width: 1223px), only screen and (min-width: 1224px), only screen and (min-width: 1824px) { [class*="col-"] { float: left; min-height: 250px; padding: 0px; }
-  .col-1 { width: 8.33%; }
-  .col-2 { width: 16.66%; }
-  .col-3 { width: 17%; }
-  .col-4 { width: 33.33%; }
-  .col-5 { width: 40.00%; background-color: black; }
-  .col-6 { width: 50%; }
-  .col-7 { width: 58.33%; }
-  .col-8 { width: 80.00%; background-color: black; }
-  .col-9 { width: 75%; }
-  .col-10 { width: 83.33%; }
-  .col-11 { width: 91.66%; }
-  .col-12 { width: 100%; }
-  .col-13 { width: 26.66%; background-color: black; }
-  .col-14 { width: 20%; background-color: black; }
-  .col-15 { width: 60%; background-color: black; } }
+[class*="col-"] { float: left; min-height: 1px; height: 350px; padding: 12px; }
+
+.col-1 { width: 8.33%; }
+
+.col-2 { width: 16.66%; }
+
+.col-3 { width: 25%; }
+
+.col-4 { width: 33.33%; }
+
+.col-5 { width: 41.66%; }
+
+.col-6 { width: 50%; }
+
+.col-7 { width: 58.33%; }
+
+.col-8 { width: 66.66%; }
+
+.col-9 { width: 75%; }
+
+.col-10 { width: 83.33%; }
+
+.col-11 { width: 91.66%; }
+
+.col-12 { width: 100%; }
+
+.col-offset-1 { margin-left: 8.33%; }
+
+.col-offset-2 { margin-left: 16.66%; }
+
+.col-offset-3 { margin-left: 25%; }
+
+.col-offset-4 { margin-left: 33.33%; }
+
+.col-offset-5 { margin-left: 41.66%; }
+
+.col-offset-6 { margin-left: 50%; }
+
+.col-offset-7 { margin-left: 58.33%; }
+
+.col-offset-8 { margin-left: 66.66%; }
+
+.col-offset-9 { margin-left: 75%; }
+
+.col-offset-10 { margin-left: 83.33%; }
+
+.col-offset-11 { margin-left: 91.66%; }
+
+.col-offset-12 { margin-left: 100%; }
+
+.black { background-color: black; }
+
+.white { background-color: white; }
 
 @media only screen and (min-width: 1224px) { .menu-navi ul li a { line-height: 56px; }
   .menu-container { margin: 30px 0px 0px 130px; display: -ms-flexbox; cursor: pointer; -ms-flex-align: center; align-items: center; -ms-flex-pack: center; justify-content: center; position: fixed; } }
@@ -77,7 +116,7 @@
 
 /*KONIEC MOUSE SCROLL MONITOR*/
 /*MOUSE SCROLL LAPTOP*/
-@media only screen and (min-width: 1224px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 295px 0px 0px 140px; position: fixed; } }
+@media only screen and (min-width: 1224px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 200px 0px 0px 140px; position: fixed; } }
 
 @media (max-width: 767px) { .mouse_scroll { display: block; margin: 0 auto; width: 24px; height: 100px; margin: 900px 0px 0px 90px; position: fixed; } }
 
@@ -112,12 +151,12 @@
 @media only screen and (min-width: 1824px) { .mouse_scroll { display: block; width: 24px; height: 100px; margin: 580px 0px 0px 190px; position: fixed; } }
 
 /* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) { .col-8 > .banner { width: 520px; height: 290px; float: left; margin: 100px 0px 0px 100px; }
-  .col-8 > .logo { float: left; width: 125px; height: 115px; margin: 55px 0px 0px 130px; } }
+@media only screen and (min-width: 1224px) { .col-9 > .banner { width: 520px; height: 290px; float: left; margin: 0px 0px 0px 100px; }
+  .col-9 > .logo { float: left; width: 125px; height: 115px; margin: 40px 0px 0px 130px; } }
 
 /* Large screens ----------- */
-@media only screen and (min-width: 1824px) { .col-8 > .banner { width: 600px; height: 330px; float: left; margin: 250px 0px 0px 130px; }
-  .col-8 > .logo { float: left; width: 115px; height: 100px; margin: 50px 0px 0px 140px; } }
+@media only screen and (min-width: 1824px) { .col-9 > .banner { width: 600px; height: 330px; float: left; margin: 150px 0px 0px 130px; }
+  .col-9 > .logo { float: left; width: 115px; height: 100px; margin: 50px 0px 0px 140px; } }
 
 @media (min-width: 992px) and (max-width: 1223px) { .col-8 > .banner { width: 550px; height: 320px; float: left; margin: 500px 0px 0px 30px; }
   .col-8 > .logo { float: left; width: 150px; height: 140px; margin: 75px 0px 0px 30px; width: 520px; height: 270px; float: left; margin: 45px 0px 0px 100px; }
@@ -129,47 +168,47 @@
 @media (max-width: 767px) { .col-8 > .banner { width: 257px; height: 165px; float: left; margin: 0px 0px 0px 0px; }
   .col-8 > .logo { float: left; width: 90px; height: 78px; margin: 10px 0px 0px 50px; } }
 
-@media only screen and (min-width: 1224px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 24px; position: relative; bottom: 150px; padding: 20px 0px 30px 55px; }
-  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; padding: 0px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+@media only screen and (min-width: 1224px) { .paragraf-about-me { color: white; text-align: left; font-size: 24px; padding: 40px 0px 30px 55px; position: relative; bottom: 290px; }
+  .text-about-me { font-size: 32px; color: white; text-align: left; }
+  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; margin-top: 250px; letter-spacing: 12px; font-weight: bold; text-align: left; position: absolute; }
   .me-mobile { display: none; }
-  .me { position: relative; left: 185px; width: 60%; bottom: 350px; }
+  .me { position: relative; width: 110%; right: 48px; bottom: 180px; }
   .mobile-photo { display: none; }
-  .header-before-paragraf > p { color: white; text-align: left; margin: 10px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
-  .what-i-am { color: white; font-variant-caps: small-caps; font-weight: bold; margin-left: 55px; }
-  .what-i-do { color: white; font-variant-caps: small-caps; font-weight: bold; text-align: left; margin-left: 50px; }
-  .what-i-am-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 120px; margin-left: 55px; height: 25vw; }
-  .what-i-do-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 120px; margin-left: 55px; }
-  .section-what-i-am { margin: 0 auto; font-size: 40px; font-variant-caps: small-caps; position: relative; text-align: left; }
+  .header-before-paragraf > p { color: white; text-align: left; margin: 10px 0px 0px 55px; font-size: 40px; }
+  .left { padding-left: 35px; }
+  .what-i-am { color: white; font-weight: bold; text-align: left; }
+  .what-i-do { color: white; font-weight: bold; text-align: left; }
+  .what-i-am-paragraf { font-size: 24px; color: white; text-align: left; }
+  .what-i-do-paragraf { font-size: 24px; color: white; text-align: left; }
+  .section-what-i-am { margin: 0 auto; font-size: 40px; text-align: left; }
   .section-what-i-am > .row > .col-5 > h1 { text-align: left; }
   .section-photo { position: absolute; }
-  .xxx { color: white; text-align: left; font-size: 20px; line-height: 34px; margin-left: 55px; }
+  .xxx { color: white; text-align: left; font-size: 20px; line-height: 34px; position: absolute; }
   .xxx > a { color: white; text-decoration: none; }
   .xxx > h1 { font-weight: bold; }
-  .header { color: white; text-align: left; margin: 40px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
-  .section-contact { position: relative; bottom: 320px; }
-  .header-contact { color: white; font-size: 140px; text-decoration: line-through; padding: 125px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .header { color: white; text-align: left; font-size: 40px; padding-top: 50px; }
+  .header-contact { color: white; font-size: 140px; text-decoration: line-through; margin-top: 170px; letter-spacing: 12px; font-weight: bold; text-align: left; }
   .what { font-size: 19px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 70px; } }
 
-@media only screen and (min-width: 1824px) { .paragraf-about-me { color: white; text-align: left; font-variant-caps: small-caps; font-size: 24px; position: relative; bottom: 150px; padding: 200px 0px 30px 55px; }
-  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; padding: 0px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+@media only screen and (min-width: 1824px) { .paragraf-about-me { color: white; text-align: left; font-size: 24px; padding: 200px 0px 30px 55px; }
+  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; padding: 0px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; margin: 0 auto; text-align: left; }
   .me-mobile { display: none; }
-  .me { left: 130px; width: 60%; bottom: 350px; position: relative; }
+  .me { width: 60%; }
   .mobile-photo { display: none; }
-  .header-before-paragraf > p { color: white; text-align: left; margin: 310px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
-  .what-i-am { color: white; font-variant-caps: small-caps; font-weight: bold; margin-left: 55px; }
-  .what-i-do { color: white; font-variant-caps: small-caps; font-weight: bold; text-align: left; margin-left: 50px; }
-  .what-i-am-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 100px; margin-left: 55px; }
-  .what-i-do-paragraf { font-size: 24px; font-variant-caps: small-caps; color: white; text-align: left; position: relative; bottom: 100px; margin-left: 55px; }
-  .section-what-i-am { margin: 0 auto; font-size: 40px; font-variant-caps: small-caps; position: relative; text-align: left; }
+  .header-before-paragraf > p { color: white; text-align: left; margin: 310px 0px 0px 55px; font-size: 40px; }
+  .what-i-am { color: white; font-weight: bold; }
+  .left { padding-left: 55px; }
+  .what-i-do { color: white; font-weight: bold; text-align: left; }
+  .what-i-am-paragraf { font-size: 24px; color: white; text-align: left; }
+  .what-i-do-paragraf { font-size: 24px; color: white; text-align: left; }
+  .section-what-i-am { margin: 0 auto; font-size: 40px; text-align: left; }
   .section-what-i-am > .row > .col-5 > h1 { text-align: left; }
-  .section-photo { position: absolute; }
   .xxx { color: white; text-align: left; font-size: 20px; line-height: 36px; margin-left: 55px; }
   .xxx > a { color: white; text-decoration: none; }
   .xxx > h1 { font-weight: bold; }
-  .header { color: white; text-align: left; margin: 170px 0px 0px 55px; font-size: 40px; font-variant-caps: small-caps; }
-  .section-contact { position: relative; bottom: 320px; }
-  .header-contact { color: white; font-size: 160px; text-decoration: line-through; padding: 200px 0px 110px 0px; letter-spacing: 12px; font-weight: bold; position: relative; margin: 0 auto; text-align: left; }
+  .header { color: white; text-align: left; margin: 170px 0px 0px 55px; font-size: 40px; }
+  .header-contact { color: white; font-size: 160px; text-decoration: line-through; padding: 200px 0px 110px 0px; letter-spacing: 12px; font-weight: bold; margin: 0 auto; text-align: left; }
   .what { font-size: 19px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 70px; } }
 
@@ -240,6 +279,21 @@
   .what { font-size: 19px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 50px; } }
 
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
 html { text-align: center; font-family: 'Titillium Web', sans-serif; }
 
-body { background: white; margin: 0 auto; height: 100vw; }
+body { background: white; margin: 0 auto; height: 100vw; font-variant-caps: small-caps; }

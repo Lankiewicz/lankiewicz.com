@@ -1,27 +1,27 @@
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
-.col-8>.banner {
+.col-9>.banner {
 width: 520px;
 height: 290px;
 float: left;
-margin: 100px 0px 0px 100px;
+margin: 0px 0px 0px 100px;
 }
-.col-8>.logo {
+.col-9>.logo {
 float: left;
 width: 125px;
 height: 115px;
-margin: 55px 0px 0px 130px;
+margin: 40px 0px 0px 130px;
 }
 }
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
-.col-8>.banner {
+.col-9>.banner {
 width: 600px;
 height: 330px;
 float: left;
-margin: 250px 0px 0px 130px;
+margin: 150px 0px 0px 130px;
 }
-.col-8>.logo {
+.col-9>.logo {
 float: left;
 width: 115px;
 height: 100px;

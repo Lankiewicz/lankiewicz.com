@@ -2,31 +2,34 @@
 .paragraf-about-me {
 color: white;
 text-align: left;
-font-variant-caps: small-caps;
 font-size: 24px;
+padding: 40px 0px 30px 55px;
 position: relative;
-bottom:150px;
-padding: 20px 0px 30px 55px;
+bottom: 290px;
+}
+.text-about-me {
+	font-size: 32px;
+	color: white;
+	text-align: left;
 }
 .header-about-me {
 color: white;
 font-size: 160px;
 text-decoration: line-through;
-padding: 0px 0px 0px 0px;
+margin-top: 250px;
 letter-spacing: 12px;
 font-weight: bold;
-position: relative;
-margin: 0 auto;
 text-align: left;
+position: absolute;
 }
 .me-mobile {
 	display: none;
 }
 .me {
- 	position: relative;
-    left:185px;
-    width: 60%;
-    bottom: 350px;
+  position: relative;
+  width: 110%;
+  right: 48px;
+  bottom: 180px;
 }
 .mobile-photo {
 	display: none;
@@ -37,46 +40,33 @@ text-align: left;
 	text-align: left;
 	margin: 10px 0px 0px 55px;
 	font-size: 40px;
-	font-variant-caps: small-caps;
+}
+.left {
+	padding-left: 35px;
 }
 .what-i-am {
-	
 	color: white;
-    font-variant-caps: small-caps;
     font-weight: bold;
-    margin-left: 55px;
+    text-align: left;
 }
 .what-i-do {
 	color: white;
-    font-variant-caps: small-caps;
     font-weight: bold;
     text-align: left;
-    margin-left: 50px;
 }
 .what-i-am-paragraf {
 	font-size: 24px;
-	font-variant-caps: small-caps;
 	color: white;
 	text-align: left;
-	position: relative;
-	bottom: 120px;
-	margin-left: 55px;
-	height: 25vw;
 }
 .what-i-do-paragraf {
 		font-size: 24px;
-	font-variant-caps: small-caps;
 	color: white;
 	text-align: left;
-	position: relative;
-	bottom: 120px;
-	margin-left: 55px;
 }
 .section-what-i-am {
 	margin: 0 auto;
 	font-size: 40px;
-	font-variant-caps: small-caps;
-	position: relative;
 	text-align: left;
 }
 .section-what-i-am>.row>.col-5>h1 {
@@ -90,8 +80,7 @@ text-align: left;
 	text-align: left;
 	font-size: 20px;
 	line-height: 34px;
-	margin-left: 55px;
-
+	position: absolute;
 }
 .xxx>a {
 	color: white;
@@ -103,23 +92,16 @@ text-align: left;
 .header {
 	color:white;
 	text-align: left;
-	margin: 40px 0px 0px 55px;
 	font-size: 40px;
-	font-variant-caps: small-caps;
-}
-.section-contact {
-	position: relative;
-	bottom: 320px;
+	padding-top: 50px;
 }
 .header-contact {
 	color: white;
 font-size: 140px;
 text-decoration: line-through;
-padding: 125px 0px 0px 0px;
+margin-top: 170px;
 letter-spacing: 12px;
 font-weight: bold;
-position: relative;
-margin: 0 auto;
 text-align: left;
 }
 .what {
@@ -135,10 +117,7 @@ text-align: left;
 .paragraf-about-me {
 color: white;
 text-align: left;
-font-variant-caps: small-caps;
 font-size: 24px;
-position: relative;
-bottom:150px;
 padding: 200px 0px 30px 55px;
 }
 .header-about-me {
@@ -148,7 +127,6 @@ text-decoration: line-through;
 padding: 0px 0px 0px 0px;
 letter-spacing: 12px;
 font-weight: bold;
-position: relative;
 margin: 0 auto;
 text-align: left;
 }
@@ -156,10 +134,7 @@ text-align: left;
 	display: none;
 }
 .me {
-  left:130px;
     width: 60%;
-    bottom: 350px;
-    position: relative;
 }
 .mobile-photo {
 	display: none;
@@ -170,53 +145,38 @@ text-align: left;
 	text-align: left;
 	margin: 310px 0px 0px 55px;
 	font-size: 40px;
-	font-variant-caps: small-caps;
 }
 .what-i-am {
-	
 	color: white;
-    font-variant-caps: small-caps;
     font-weight: bold;
-    margin-left: 55px;
+}
+.left {
+	padding-left: 55px;
 }
 .what-i-do {
 	color: white;
-    font-variant-caps: small-caps;
     font-weight: bold;
     text-align: left;
-    margin-left: 50px;
 }
 .what-i-am-paragraf {
 	font-size: 24px;
-	font-variant-caps: small-caps;
 	color: white;
 	text-align: left;
-	position: relative;
-	bottom: 100px;
-	margin-left: 55px;
 }
 .what-i-do-paragraf {
 		font-size: 24px;
-	font-variant-caps: small-caps;
 	color: white;
 	text-align: left;
-	position: relative;
-	bottom: 100px;
-	margin-left: 55px;
 }
 .section-what-i-am {
 	margin: 0 auto;
 	font-size: 40px;
-	font-variant-caps: small-caps;
-	position: relative;
 	text-align: left;
 }
 .section-what-i-am>.row>.col-5>h1 {
 	text-align: left;
 }
-.section-photo {
-	position: absolute;
-}
+
 .xxx {
 	color: white;
 	text-align: left;
@@ -237,11 +197,6 @@ text-align: left;
 	text-align: left;
 	margin: 170px 0px 0px 55px;
 	font-size: 40px;
-	font-variant-caps: small-caps;
-}
-.section-contact {
-	position: relative;
-	bottom: 320px;
 }
 .header-contact {
 	color: white;
@@ -250,7 +205,6 @@ text-decoration: line-through;
 padding: 200px 0px 110px 0px;
 letter-spacing: 12px;
 font-weight: bold;
-position: relative;
 margin: 0 auto;
 text-align: left;
 }

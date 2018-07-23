@@ -6,7 +6,7 @@
 
 .row:before, .row:after { content: ""; display: table; clear: both; }
 
-[class*="col-"] { float: left; min-height: 1px; height: 350px; padding: 12px; }
+[class*="col-"] { float: left; min-height: 1px; height: 350px; }
 
 .col-1 { width: 8.33%; }
 
@@ -170,9 +170,9 @@
 
 @media only screen and (min-width: 1224px) { .paragraf-about-me { color: white; text-align: left; font-size: 24px; padding: 40px 0px 30px 55px; position: relative; bottom: 290px; }
   .text-about-me { font-size: 32px; color: white; text-align: left; }
-  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; margin-top: 250px; letter-spacing: 12px; font-weight: bold; text-align: left; position: absolute; }
+  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; letter-spacing: 12px; font-weight: bold; text-align: left; position: absolute; }
   .me-mobile { display: none; }
-  .me { position: relative; width: 110%; right: 48px; bottom: 180px; }
+  .me { position: relative; width: 105%; right: 50px; bottom: 180px; }
   .mobile-photo { display: none; }
   .header-before-paragraf > p { color: white; text-align: left; margin: 10px 0px 0px 55px; font-size: 40px; }
   .left { padding-left: 35px; }
@@ -186,29 +186,32 @@
   .xxx { color: white; text-align: left; font-size: 20px; line-height: 34px; position: absolute; }
   .xxx > a { color: white; text-decoration: none; }
   .xxx > h1 { font-weight: bold; }
-  .header { color: white; text-align: left; font-size: 40px; padding-top: 50px; }
-  .header-contact { color: white; font-size: 140px; text-decoration: line-through; margin-top: 170px; letter-spacing: 12px; font-weight: bold; text-align: left; }
+  .header { color: white; text-align: left; font-size: 40px; }
+  .header-contact { color: white; font-size: 140px; text-decoration: line-through; letter-spacing: 12px; font-weight: bold; text-align: left; }
   .what { font-size: 19px; color: #4d4d4d; }
-  .what-i { text-decoration: line-through; font-size: 70px; } }
+  .what-i { text-decoration: line-through; font-size: 70px; }
+  .col-9.black.short-pauza { height: 120px; } }
 
-@media only screen and (min-width: 1824px) { .paragraf-about-me { color: white; text-align: left; font-size: 24px; padding: 200px 0px 30px 55px; }
-  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; padding: 0px 0px 0px 0px; letter-spacing: 12px; font-weight: bold; margin: 0 auto; text-align: left; }
+@media only screen and (min-width: 1824px) { .paragraf-about-me { color: white; text-align: left; font-size: 24px; padding: 0px 0px 70px 55px; position: relative; top: 10px; }
+  .text-about-me { font-size: 32px; color: white; text-align: left; padding-top: 270px; }
+  .header-about-me { color: white; font-size: 160px; text-decoration: line-through; letter-spacing: 12px; font-weight: bold; text-align: left; position: absolute; margin-top: 190px; }
+  .col-9.black.pauza { height: 600px; }
+  .col-9.black.short-pauza { height: 120px; }
   .me-mobile { display: none; }
-  .me { width: 60%; }
+  .me { position: relative; width: 110%; right: 80px; bottom: 0px; }
   .mobile-photo { display: none; }
-  .header-before-paragraf > p { color: white; text-align: left; margin: 310px 0px 0px 55px; font-size: 40px; }
-  .what-i-am { color: white; font-weight: bold; }
+  .what-i-am { color: white; font-weight: bold; text-align: left; }
   .left { padding-left: 55px; }
   .what-i-do { color: white; font-weight: bold; text-align: left; }
   .what-i-am-paragraf { font-size: 24px; color: white; text-align: left; }
   .what-i-do-paragraf { font-size: 24px; color: white; text-align: left; }
   .section-what-i-am { margin: 0 auto; font-size: 40px; text-align: left; }
   .section-what-i-am > .row > .col-5 > h1 { text-align: left; }
-  .xxx { color: white; text-align: left; font-size: 20px; line-height: 36px; margin-left: 55px; }
+  .xxx { color: white; text-align: left; font-size: 20px; line-height: 36px; position: absolute; }
   .xxx > a { color: white; text-decoration: none; }
   .xxx > h1 { font-weight: bold; }
-  .header { color: white; text-align: left; margin: 170px 0px 0px 55px; font-size: 40px; }
-  .header-contact { color: white; font-size: 160px; text-decoration: line-through; padding: 200px 0px 110px 0px; letter-spacing: 12px; font-weight: bold; margin: 0 auto; text-align: left; }
+  .header { color: white; text-align: left; font-size: 40px; }
+  .header-contact { color: white; font-size: 160px; text-decoration: line-through; letter-spacing: 12px; font-weight: bold; text-align: left; margin-top: 125px; }
   .what { font-size: 19px; color: #4d4d4d; }
   .what-i { text-decoration: line-through; font-size: 70px; } }
 

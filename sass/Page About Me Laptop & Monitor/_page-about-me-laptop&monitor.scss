@@ -2,7 +2,7 @@
 .paragraf-about-me {
 color: white;
 text-align: left;
-font-size: 24px;
+font-size: 20px;
 padding: 40px 0px 30px 55px;
 position: relative;
 bottom: 290px;
@@ -20,6 +20,7 @@ letter-spacing: 12px;
 font-weight: bold;
 text-align: left;
 position: absolute;
+padding-top: 200px;
 }
 .me-mobile {
 	display: none;
@@ -30,15 +31,14 @@ position: absolute;
   right: 50px;
   bottom: 180px;
 }
+.contactos {
+height: 250px;
+}
+.short-pauza {
+	height: 120px;
+} 
 .mobile-photo {
 	display: none;
-}
-
-.header-before-paragraf>p {
-	color:white;
-	text-align: left;
-	margin: 10px 0px 0px 55px;
-	font-size: 40px;
 }
 .left {
 	padding-left: 35px;
@@ -57,22 +57,21 @@ position: absolute;
 	font-size: 24px;
 	color: white;
 	text-align: left;
+	font-weight: lighter;
 }
 .what-i-do-paragraf {
 		font-size: 24px;
 	color: white;
 	text-align: left;
+	font-weight: lighter;
 }
-.section-what-i-am {
-	margin: 0 auto;
-	font-size: 40px;
-	text-align: left;
+.what {
+	font-size: 19px;
+	color:  #4d4d4d;
 }
-.section-what-i-am>.row>.col-5>h1 {
-	text-align: left;
-}
-.section-photo {
-	position: absolute;
+.what-i {
+	text-decoration: line-through;
+	font-size: 70px;
 }
 .xxx {
 	color: white;
@@ -100,18 +99,8 @@ text-decoration: line-through;
 letter-spacing: 12px;
 font-weight: bold;
 text-align: left;
+padding-top: 105px;
 }
-.what {
-	font-size: 19px;
-	color:  #4d4d4d;
-}
-.what-i {
-	text-decoration: line-through;
-	font-size: 70px;
-}
-.col-9.black.short-pauza {
-	height: 120px;
-} 
 }
 @media only screen  and (min-width : 1824px) {
 .paragraf-about-me {
@@ -153,6 +142,9 @@ position: relative;
   right: 80px;
   bottom: 0px;
 }
+.contactos {
+height: 250px;
+}
 .mobile-photo {
 	display: none;
 }
@@ -174,11 +166,13 @@ position: relative;
 	font-size: 24px;
 	color: white;
 	text-align: left;
+	font-weight: lighter;
 }
 .what-i-do-paragraf {
 		font-size: 24px;
 	color: white;
 	text-align: left;
+	font-weight: lighter;
 }
 .section-what-i-am {
 	margin: 0 auto;
@@ -216,7 +210,7 @@ text-decoration: line-through;
 letter-spacing: 12px;
 font-weight: bold;
 text-align: left;
-margin-top: 125px;
+padding-top: 105px;
 }
 .what {
 	font-size: 19px;

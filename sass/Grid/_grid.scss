@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
-
 /* grids */
 .container {
 	width: 100%;
@@ -14,11 +13,10 @@
 	display: table ;
 	clear: both;
  }
-
 [class*="col-"]{
 	float: left;
 	min-height: 1px;
-	height: 350px; 
+	height: 325px; 
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}

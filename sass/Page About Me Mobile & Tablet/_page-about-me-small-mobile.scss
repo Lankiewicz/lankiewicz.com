@@ -5,102 +5,90 @@ text-align: left;
 font-variant-caps: small-caps;
 font-size: 18px;
 position: relative;
-margin-top: -35px;
-margin-left: 10px;
+bottom: 240px;
+}
+.mobile-absolute {
+position: absolute;
 }
 .text-about-me {
   color: white;
   font-size: 24px;
+  text-align: left;
 }
 .header-about-me {
 color: white;
 font-size: 45px;
 text-decoration: line-through;
-padding: 0px 0px 0px 0px;
 letter-spacing: 5px;
 font-weight: bold;
-position: relative;
-margin: 0 auto;
+position: absolute;
 text-align: left;
+padding-top: 180px;
 }
 .me-mobile {
      position: relative;
-    
     right:35px;
     width: 99%;
 }
 .me {
 display: none;
 }
+.contactos {
+height: 250px;
+}
+.pauza {
+	height: 175px;
+}
+.short-pauza {
+	height: 120px;
+} 
 .mobile-photo {
 	display: none;
 }
-
-.header-before-paragraf>p {
-	color:white;
-	text-align: left;
-	margin: 150px 0px 0px 10px;
-	font-size: 25.5px;
-	font-variant-caps: small-caps;
+.left {
+	padding-left: 10px;
+}
+.left-second {
+padding-left: 40px;
 }
 .what-i-am {
-	
 	color: white;
-    font-variant-caps: small-caps;
     font-weight: bold;
-    margin-left: 10px;
-    width: 150px;
+    text-align: left;
 }
 .what-i-do {
 	color: white;
-    font-variant-caps: small-caps;
     font-weight: bold;
     text-align: left;
-    margin-left: 60px;
-    width: 150px;
+    width: 120px;
 }
 .what-i-am-paragraf {
-	font-size: 17px;
+	font-size: 15px;
 	font-variant-caps: small-caps;
 	color: white;
 	text-align: left;
-	position: relative;
-	margin-left: 10px;
-	bottom: 210px;
-	width: 150px;
+	width: 100px;
 }
 .what-i-do-paragraf {
-		font-size: 17px;
-	font-variant-caps: small-caps;
+		font-size: 15px;
+	font-weight: lighter;
 	color: white;
 	text-align: left;
-	position: relative;
-	margin-left: 60px;
-	width: 150px;
-	bottom: 210px;
 }
-.section-what-i-am {
-	margin: 0 auto;
+.what {
+	font-size: 16px;
+	color:  #4d4d4d;
+}
+.what-i {
+	text-decoration: line-through;
 	font-size: 40px;
-	font-variant-caps: small-caps;
-	position: relative;
-	text-align: left;
-	bottom: 70px;
-}
-.section-what-i-am>.row>.col-5>h1 {
-	text-align: left;
-}
-.section-photo {
-	position: absolute;
 }
 .xxx {
 	color: white;
 	text-align: left;
 	font-size: 20px;
 	line-height: 34px;
-	margin-left: 10px;
-	position: relative;
-
+	position: absolute;
 }
 .xxx>a {
 	color: white;
@@ -112,31 +100,57 @@ display: none;
 .header {
 	color:white;
 	text-align: left;
-	margin: 0px 0px 0px 10px;
 	font-size: 40px;
-	font-variant-caps: small-caps;
-}
-.section-contact {
-	position: relative;
-	bottom: 320px;
 }
 .header-contact {
 	color: white;
 font-size: 45px;
 text-decoration: line-through;
-padding: 30px 0px 0px 0px;
 letter-spacing: 5px;
 font-weight: bold;
-position: relative;
-margin: 0 auto;
 text-align: left;
+padding-top: 200px;
+position: relative;
 }
-.what {
-	font-size: 19px;
-	color:  #4d4d4d;
 }
-.what-i {
-	text-decoration: line-through;
-	font-size: 50px;
+@media (max-width: 767px) and (orientation:landscape){
+.paragraf-about-me {
+color: white;
+text-align: left;
+font-variant-caps: small-caps;
+font-size: 18px;
+line-height: 19px;
+position: relative;
+bottom: 90px;
+}
+.text-about-me {
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  top: 160px;
+  position: relative;
+  width: 300px;
+}
+.header-contact {
+	color: white;
+font-size: 75px;
+text-decoration: line-through;
+letter-spacing: 5px;
+font-weight: bold;
+text-align: left;
+padding-top: 10px;
+position: relative;
+}
+.xxx {
+	line-height: 26px;
+}
+.contactos {
+	height: 90px;
+}
+.header {
+	padding-bottom: 10px;
+}
+.header-about-me {
+	font-size: 75px;
 }
 }

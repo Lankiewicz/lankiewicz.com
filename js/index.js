@@ -33,11 +33,11 @@
        duration: 3000
     });
          sr.reveal('.what-i-am-paragraf', {
-        distance: '50px', 
+        distance: '30px', 
        duration: 5000
     });
           sr.reveal('.what-i-do-paragraf', {
-        distance: '50px', 
+        distance: '30px', 
        duration: 5000
     });
 

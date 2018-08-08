@@ -170,7 +170,7 @@
 
 @media (max-width: 767px) and (orientation: landscape) { .col-9 > .banner { width: 257px; height: 165px; float: left; margin-top: 0px; position: relative; bottom: 90px; } }
 
-@media only screen and (min-width: 1224px) { .paragraf-about-me { color: white; text-align: left; font-size: 20px; padding: 40px 0px 30px 55px; position: relative; bottom: 290px; }
+@media only screen and (min-width: 1224px) { .paragraf-about-me { color: white; text-align: left; font-size: 20px; padding: 40px 460px 30px 55px; position: relative; bottom: 290px; }
   .text-about-me { font-size: 32px; color: white; text-align: left; }
   .header-about-me { color: white; font-size: 160px; text-decoration: line-through; letter-spacing: 12px; font-weight: bold; text-align: left; position: absolute; padding-top: 200px; }
   .me-mobile { display: none; }
@@ -191,7 +191,7 @@
   .header { color: white; text-align: left; font-size: 40px; }
   .header-contact { color: white; font-size: 140px; text-decoration: line-through; letter-spacing: 12px; font-weight: bold; text-align: left; padding-top: 105px; } }
 
-@media only screen and (min-width: 1824px) { .paragraf-about-me { color: white; text-align: left; font-size: 24px; padding: 0px 0px 70px 55px; position: relative; top: 10px; }
+@media only screen and (min-width: 1824px) { .paragraf-about-me { color: white; text-align: left; font-size: 24px; padding: 40px 460px 30px 55px; position: relative; top: 10px; }
   .text-about-me { font-size: 32px; color: white; text-align: left; padding-top: 270px; }
   .header-about-me { color: white; font-size: 160px; text-decoration: line-through; letter-spacing: 12px; font-weight: bold; text-align: left; position: absolute; margin-top: 190px; }
   .col-9.black.pauza { height: 600px; }
